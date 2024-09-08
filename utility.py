@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-def missing_index_adder(df, start_time, end_time):
+def add_missing_index(df, start_time, end_time):
     all_time_buckets = pd.date_range(start_time, end_time, freq='h')
     missing_timestamps = all_time_buckets.difference(df.index)
     missing_df = pd.DataFrame(index=missing_timestamps, columns=df.columns)
@@ -27,5 +27,5 @@ def load_one_sites_dataframes(site):
 def add_missing_datetimes_to_load_df(load_df):
     load_df['time_bucket'] = pd.to_datetime(load_df['time_bucket'])
     load_df = load_df.set_index('time_bucket')
-    load_df = missing_index_adder(load_df, load_df.index.min(), load_df.index.max())
+    load_df = add_missing_index(load_df, load_df.index.min(), load_df.index.max())
     return load_df
