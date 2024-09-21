@@ -1,5 +1,8 @@
 import pandas as pd
+from dotenv import load_dotenv
 import os
+
+load_dotenv()
 
 def add_missing_index(df, start_time, end_time):
     all_time_buckets = pd.date_range(start_time, end_time, freq='h')
