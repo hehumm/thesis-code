@@ -11,6 +11,10 @@ def add_missing_index(df, start_time, end_time):
     df = pd.concat([df, missing_df])
     return df.sort_index()
 
+def drop_redundant_merged_df_columns(merged_df):
+    merged_df = merged_df.drop(columns=['zoned_start_time', 'router_id', 'end_time', 'created_at', 'created_by', 'updated_at', 'updated_by'])
+    return merged_df
+
 def merge_one_sites_dataframes(load_df, price_df, weather_df):
     merged_df = pd.merge(load_df, price_df, left_index=True, right_on='start_time', how='inner')
     merged_df = pd.merge(merged_df, weather_df, left_on='start_time', right_on='start_time', how='inner')
