@@ -36,3 +36,16 @@ def add_missing_datetimes_to_load_df(load_df):
     load_df = load_df.set_index('time_bucket')
     load_df = add_missing_index(load_df, load_df.index.min(), load_df.index.max())
     return load_df
+
+def wide_to_long(sites_with_data_wide):
+    sites_with_data_long = {}
+    for site_id, df in sites_with_data_wide.items():
+        df = df.reset_index()
+        df = pd.melt(
+            df, 
+            id_vars=['start_time'], 
+            value_vars=['load_energy_sum', 'buy_price_kwh', 'sell_price_kwh', 
+                        'temp', 'feels_like', 'pop', 'clouds', 'sun_percentage'])
+        df = df.rename(columns={'start_time': 'timestamp', 'variable': 'item_id', 'value': 'target'})
+        sites_with_data_long[site_id] = df
+    return sites_with_data_long

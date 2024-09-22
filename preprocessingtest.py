@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import unittest
 import utility
+import preprocessing
 
 class PreProcessingTest(unittest.TestCase):
 
@@ -69,6 +70,19 @@ class PreProcessingTest(unittest.TestCase):
         for merged_df in merged_dfs:
             # Then
             self.assertEqual(len(merged_df), len(pd.date_range(merged_df.index.min(), merged_df.index.max(), freq='h')))
+
+    def test_that_long_dataframes_have_correct_rows(self):
+        # Given
+        wide_data = preprocessing.get_sites_with_data_wide()
+        long_data = preprocessing.get_sites_with_data_long()
+
+        # When
+        for site_id, wide_df in wide_data.items():
+            long_df = long_data[site_id]
+            for index, long_row in long_df.iterrows():
+                wide_row = wide_df.loc[long_row['timestamp']]
+                # Then
+                self.assertEqual(long_row['target'], wide_row[long_row['item_id']])
 
 if __name__ == '__main__':
     unittest.main()
