@@ -2,8 +2,12 @@
 
 This is the repository containing my thesis' code
 
+The files containing my experiments come with the `script_` prefix. Each one contains a brief summary of the experiment
+together with accuracy metrics of the trained model(s). For AutoGluon models, more information can be found [here](https://auto.gluon.ai/stable/tutorials/timeseries/forecasting-indepth.html).
+
 # Requirements for running the code
 
+## Providing input data
 Create a `.env` file and add the location of the folder containing the testing data as `ROOT_DATA_FOLDER_PATH`.
 The project expects the root folder to contain the folders `load_energy_sum`, `prices` and `weather`.
 The files inside the folders should be named `{site_id}.json`. Provide a separate file for every site you want to use.
@@ -78,3 +82,8 @@ The files inside the folders should be named `{site_id}.json`. Provide a separat
   },
 ]
 ```
+
+## IDE setup
+I installed [Spyder](https://www.spyder-ide.org/). Then I used [PyEnv](https://github.com/pyenv/pyenv) to install [Miniconda](https://docs.anaconda.com/miniconda/).
+I created a new Miniconda environment, installed [AutoGluon](https://auto.gluon.ai/stable/index.html) and configured Spyder to work with my Miniconda environment by following
+the answer to '[How do I install Python packages to use withing Spyder if I downloaded Spyder from the standalon installers?](https://docs.spyder-ide.org/5/faq.html#using-spyder)'.
