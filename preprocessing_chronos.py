@@ -1,4 +1,5 @@
 import preprocessing_general
+import pandas as pd
 
 def _set_chronos_compatible_column_names(sites_dictionary):
     new_dictionary = {}
@@ -14,3 +15,6 @@ def get_chronos_compatible_sites():
     sites_with_chronos_compatible_column_names = _set_chronos_compatible_column_names(sites_with_added_site_id_column)
     sites_with_timezone_removed_from_timestamp = {site_id: df.assign(timestamp=df['timestamp'].dt.tz_localize(None)) for site_id, df in sites_with_chronos_compatible_column_names.items()}
     return sites_with_timezone_removed_from_timestamp
+
+def get_chronos_compatible_unified_df():
+    return pd.concat(get_chronos_compatible_sites().values(), ignore_index=True)
