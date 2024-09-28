@@ -3,7 +3,10 @@
 This is the repository containing my thesis' code
 
 The files containing my experiments come with the `script_` prefix. Each one contains a brief summary of the experiment
-together with accuracy metrics of the trained model(s). For AutoGluon models, more information can be found [here](https://auto.gluon.ai/stable/tutorials/timeseries/forecasting-indepth.html).
+together with accuracy metrics of the trained model(s).
+For AutoGluon models, more information can be found [here](https://auto.gluon.ai/stable/tutorials/timeseries/forecasting-indepth.html).
+
+Running the scripts generated plots for each model which I added to the `plots` directory.
 
 # Requirements for running the code
 
