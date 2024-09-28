@@ -25,7 +25,7 @@ train_data, test_data = data.train_test_split(prediction_length)
 
 predictor = TimeSeriesPredictor(
     prediction_length=prediction_length,
-    path='./models/chronos_2',
+    path='./models/separate',
     target='target',
     eval_metric='WAPE',
 )
