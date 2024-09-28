@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import unittest
 import utility
-import preprocessing
+import preprocessing_general
 
 class PreProcessingTest(unittest.TestCase):
 
@@ -73,8 +73,8 @@ class PreProcessingTest(unittest.TestCase):
 
     def test_that_long_dataframes_have_correct_rows(self):
         # Given
-        wide_data = preprocessing.get_sites_with_data_wide()
-        long_data = preprocessing.get_sites_with_data_long()
+        wide_data = preprocessing_general.get_sites_with_data_wide()
+        long_data = preprocessing_general.get_sites_with_data_long()
 
         # When
         for site_id, wide_df in wide_data.items():
