@@ -2,6 +2,8 @@
 I created separate models for each site and backtested them using multiple time windows
 The results show notable variance in estimation WAPEs: from ~0.23 (site 12, window 0) to 
 ~0.69 (site 6, window 0)
+
+WAPEs with chronos_tiny
 {
  2: {
      0: {'WAPE': np.float64(-0.4628316560864566)},
@@ -40,6 +42,45 @@ The results show notable variance in estimation WAPEs: from ~0.23 (site 12, wind
       }
  }
 
+WAPEs with chronos_mini
+{
+ 2: {
+     0: {'WAPE': -0.39485211327630276}, 
+     1: {'WAPE': -0.3593843067884765}, 
+     2: {'WAPE': -0.26267977697731715}, 
+     3: {'WAPE': -0.41554697243082234}, 
+     4: {'WAPE': -0.3487389683801465}
+     }, 
+ 4: {
+     0: {'WAPE': -0.22793120433365574}, 
+     1: {'WAPE': -0.36581420374790774}, 
+     2: {'WAPE': -0.2763004893888049}, 
+     3: {'WAPE': -0.4070776455831521}, 
+     4: {'WAPE': -0.3428553626714468}
+     }, 
+ 5: {
+     0: {'WAPE': -0.3505179903685374}, 
+     1: {'WAPE': -0.5457038982906093}, 
+     2: {'WAPE': -0.22357590798978774}, 
+     3: {'WAPE': -0.39777968336790737}, 
+     4: {'WAPE': -0.36318221248277693}
+     }, 
+ 6: {
+     0: {'WAPE': -0.6775921167347463}, 
+     1: {'WAPE': -0.6328198539666542}, 
+     2: {'WAPE': -0.6284492466066144}, 
+     3: {'WAPE': -0.4595557864135366}, 
+     4: {'WAPE': -0.6278947014162803}
+     }, 
+ 12: {
+      0: {'WAPE': -0.15606781560304633}, 
+      1: {'WAPE': -0.34543980842175837}, 
+      2: {'WAPE': -0.5386716810789659}, 
+      3: {'WAPE': -0.4072431714112839}, 
+      4: {'WAPE': -0.5040945808761603}
+      }
+ }
+
 I tried using covariates (a.k.a features/exogenous variables)
 but found out later that they are not yet supported for Chronos.
 
@@ -70,7 +111,7 @@ for site_id in sites_ids:
         eval_metric='WAPE',
     )
     
-    predictor.fit(train_data, presets="chronos_tiny")
+    predictor.fit(train_data, presets="chronos_mini")
     predictions = predictor.predict(train_data)
     
     predictor.plot(test_data, predictions, quantile_levels=[0.1, 0.9], max_history_length=100)
