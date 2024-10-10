@@ -1,8 +1,5 @@
 import pandas as pd
-from dotenv import load_dotenv
 import os
-
-load_dotenv()
 
 def add_missing_index(df, start_time, end_time):
     all_time_buckets = pd.date_range(start_time, end_time, freq='h')
@@ -21,8 +18,14 @@ def merge_one_sites_dataframes(load_df, price_df, weather_df):
     merged_df.set_index('start_time', inplace=True)
     return merged_df
 
+def get_root_data_path():
+    current_file_path = os.path.abspath(__file__)
+    current_dir = os.path.dirname(current_file_path)
+    repo_root = os.path.abspath(os.path.join(current_dir, '..'))
+    return os.path.join(repo_root, 'data')
+
 def load_one_sites_dataframes(site):
-    root_data_path = os.environ['ROOT_DATA_FOLDER_PATH']
+    root_data_path = get_root_data_path()
     load_energy_sum_folder_path = '/load_energy_sum'
     prices_path = '/prices'
     weather_path = '/weather'
