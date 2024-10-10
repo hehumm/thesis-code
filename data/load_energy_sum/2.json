@@ -1,0 +1,5854 @@
+[
+  {
+    "time_bucket": "2024-06-20 00:00:00+00",
+    "load_energy_sum": "1417177218"
+  },
+  {
+    "time_bucket": "2024-06-20 01:00:00+00",
+    "load_energy_sum": "1341781923"
+  },
+  {
+    "time_bucket": "2024-06-20 02:00:00+00",
+    "load_energy_sum": "3128805115"
+  },
+  {
+    "time_bucket": "2024-06-20 03:00:00+00",
+    "load_energy_sum": "1412682535"
+  },
+  {
+    "time_bucket": "2024-06-20 04:00:00+00",
+    "load_energy_sum": "941120377"
+  },
+  {
+    "time_bucket": "2024-06-20 05:00:00+00",
+    "load_energy_sum": "743606422"
+  },
+  {
+    "time_bucket": "2024-06-20 06:00:00+00",
+    "load_energy_sum": "1706015793"
+  },
+  {
+    "time_bucket": "2024-06-20 07:00:00+00",
+    "load_energy_sum": "883151515"
+  },
+  {
+    "time_bucket": "2024-06-20 08:00:00+00",
+    "load_energy_sum": "1235710773"
+  },
+  {
+    "time_bucket": "2024-06-20 09:00:00+00",
+    "load_energy_sum": "3872718773"
+  },
+  {
+    "time_bucket": "2024-06-20 10:00:00+00",
+    "load_energy_sum": "4304548204"
+  },
+  {
+    "time_bucket": "2024-06-20 11:00:00+00",
+    "load_energy_sum": "3717513957"
+  },
+  {
+    "time_bucket": "2024-06-20 12:00:00+00",
+    "load_energy_sum": "3231772190"
+  },
+  {
+    "time_bucket": "2024-06-20 13:00:00+00",
+    "load_energy_sum": "2184420758"
+  },
+  {
+    "time_bucket": "2024-06-20 14:00:00+00",
+    "load_energy_sum": "756975337"
+  },
+  {
+    "time_bucket": "2024-06-20 15:00:00+00",
+    "load_energy_sum": "814479102"
+  },
+  {
+    "time_bucket": "2024-06-20 16:00:00+00",
+    "load_energy_sum": "730189200"
+  },
+  {
+    "time_bucket": "2024-06-20 17:00:00+00",
+    "load_energy_sum": "807641082"
+  },
+  {
+    "time_bucket": "2024-06-20 18:00:00+00",
+    "load_energy_sum": "931758909"
+  },
+  {
+    "time_bucket": "2024-06-20 19:00:00+00",
+    "load_energy_sum": "1278088694"
+  },
+  {
+    "time_bucket": "2024-06-20 20:00:00+00",
+    "load_energy_sum": "1555330209"
+  },
+  {
+    "time_bucket": "2024-06-20 21:00:00+00",
+    "load_energy_sum": "1936706024"
+  },
+  {
+    "time_bucket": "2024-06-20 22:00:00+00",
+    "load_energy_sum": "1275288073"
+  },
+  {
+    "time_bucket": "2024-06-20 23:00:00+00",
+    "load_energy_sum": "1647450773"
+  },
+  {
+    "time_bucket": "2024-06-21 00:00:00+00",
+    "load_energy_sum": "1409427239"
+  },
+  {
+    "time_bucket": "2024-06-21 01:00:00+00",
+    "load_energy_sum": "1117666781"
+  },
+  {
+    "time_bucket": "2024-06-21 02:00:00+00",
+    "load_energy_sum": "1352414809"
+  },
+  {
+    "time_bucket": "2024-06-21 03:00:00+00",
+    "load_energy_sum": "1766635856"
+  },
+  {
+    "time_bucket": "2024-06-21 04:00:00+00",
+    "load_energy_sum": "977749572"
+  },
+  {
+    "time_bucket": "2024-06-21 05:00:00+00",
+    "load_energy_sum": "1046478005"
+  },
+  {
+    "time_bucket": "2024-06-21 06:00:00+00",
+    "load_energy_sum": "2422077793"
+  },
+  {
+    "time_bucket": "2024-06-21 07:00:00+00",
+    "load_energy_sum": "1300085008"
+  },
+  {
+    "time_bucket": "2024-06-21 08:00:00+00",
+    "load_energy_sum": "1686270599"
+  },
+  {
+    "time_bucket": "2024-06-21 09:00:00+00",
+    "load_energy_sum": "1593711144"
+  },
+  {
+    "time_bucket": "2024-06-21 10:00:00+00",
+    "load_energy_sum": "1434045136"
+  },
+  {
+    "time_bucket": "2024-06-21 11:00:00+00",
+    "load_energy_sum": "1866806004"
+  },
+  {
+    "time_bucket": "2024-06-21 12:00:00+00",
+    "load_energy_sum": "2890199979"
+  },
+  {
+    "time_bucket": "2024-06-21 13:00:00+00",
+    "load_energy_sum": "3227429031"
+  },
+  {
+    "time_bucket": "2024-06-21 14:00:00+00",
+    "load_energy_sum": "2772918891"
+  },
+  {
+    "time_bucket": "2024-06-21 15:00:00+00",
+    "load_energy_sum": "1440123318"
+  },
+  {
+    "time_bucket": "2024-06-21 16:00:00+00",
+    "load_energy_sum": "798898112"
+  },
+  {
+    "time_bucket": "2024-06-21 17:00:00+00",
+    "load_energy_sum": "1067512523"
+  },
+  {
+    "time_bucket": "2024-06-21 18:00:00+00",
+    "load_energy_sum": "1044004807"
+  },
+  {
+    "time_bucket": "2024-06-21 19:00:00+00",
+    "load_energy_sum": "1341931755"
+  },
+  {
+    "time_bucket": "2024-06-21 20:00:00+00",
+    "load_energy_sum": "1554842850"
+  },
+  {
+    "time_bucket": "2024-06-21 21:00:00+00",
+    "load_energy_sum": "1182500168"
+  },
+  {
+    "time_bucket": "2024-06-21 22:00:00+00",
+    "load_energy_sum": "1165560221"
+  },
+  {
+    "time_bucket": "2024-06-21 23:00:00+00",
+    "load_energy_sum": "1130709787"
+  },
+  {
+    "time_bucket": "2024-06-22 00:00:00+00",
+    "load_energy_sum": "1976738658"
+  },
+  {
+    "time_bucket": "2024-06-22 01:00:00+00",
+    "load_energy_sum": "979440697"
+  },
+  {
+    "time_bucket": "2024-06-22 02:00:00+00",
+    "load_energy_sum": "970681793"
+  },
+  {
+    "time_bucket": "2024-06-22 03:00:00+00",
+    "load_energy_sum": "1390685986"
+  },
+  {
+    "time_bucket": "2024-06-22 04:00:00+00",
+    "load_energy_sum": "1309197515"
+  },
+  {
+    "time_bucket": "2024-06-22 05:00:00+00",
+    "load_energy_sum": "1831013246"
+  },
+  {
+    "time_bucket": "2024-06-22 06:00:00+00",
+    "load_energy_sum": "2140217612"
+  },
+  {
+    "time_bucket": "2024-06-22 07:00:00+00",
+    "load_energy_sum": "1346313469"
+  },
+  {
+    "time_bucket": "2024-06-22 08:00:00+00",
+    "load_energy_sum": "788659167"
+  },
+  {
+    "time_bucket": "2024-06-22 09:00:00+00",
+    "load_energy_sum": "1091762017"
+  },
+  {
+    "time_bucket": "2024-06-22 10:00:00+00",
+    "load_energy_sum": "2116350179"
+  },
+  {
+    "time_bucket": "2024-06-22 11:00:00+00",
+    "load_energy_sum": "3828619591"
+  },
+  {
+    "time_bucket": "2024-06-22 12:00:00+00",
+    "load_energy_sum": "3841721280"
+  },
+  {
+    "time_bucket": "2024-06-22 13:00:00+00",
+    "load_energy_sum": "3417022199"
+  },
+  {
+    "time_bucket": "2024-06-22 14:00:00+00",
+    "load_energy_sum": "2578620093"
+  },
+  {
+    "time_bucket": "2024-06-22 15:00:00+00",
+    "load_energy_sum": "2786854535"
+  },
+  {
+    "time_bucket": "2024-06-22 16:00:00+00",
+    "load_energy_sum": "1060480652"
+  },
+  {
+    "time_bucket": "2024-06-22 17:00:00+00",
+    "load_energy_sum": "1167673288"
+  },
+  {
+    "time_bucket": "2024-06-22 18:00:00+00",
+    "load_energy_sum": "1122187761"
+  },
+  {
+    "time_bucket": "2024-06-22 19:00:00+00",
+    "load_energy_sum": "1397999398"
+  },
+  {
+    "time_bucket": "2024-06-22 20:00:00+00",
+    "load_energy_sum": "1553005684"
+  },
+  {
+    "time_bucket": "2024-06-22 21:00:00+00",
+    "load_energy_sum": "1092610446"
+  },
+  {
+    "time_bucket": "2024-06-22 22:00:00+00",
+    "load_energy_sum": "1082728300"
+  },
+  {
+    "time_bucket": "2024-06-22 23:00:00+00",
+    "load_energy_sum": "1265372170"
+  },
+  {
+    "time_bucket": "2024-06-23 00:00:00+00",
+    "load_energy_sum": "1425851927"
+  },
+  {
+    "time_bucket": "2024-06-23 01:00:00+00",
+    "load_energy_sum": "862695177"
+  },
+  {
+    "time_bucket": "2024-06-23 02:00:00+00",
+    "load_energy_sum": "2225162384"
+  },
+  {
+    "time_bucket": "2024-06-23 03:00:00+00",
+    "load_energy_sum": "1118704730"
+  },
+  {
+    "time_bucket": "2024-06-23 04:00:00+00",
+    "load_energy_sum": "906587426"
+  },
+  {
+    "time_bucket": "2024-06-23 05:00:00+00",
+    "load_energy_sum": "957023198"
+  },
+  {
+    "time_bucket": "2024-06-23 06:00:00+00",
+    "load_energy_sum": "3339494516"
+  },
+  {
+    "time_bucket": "2024-06-23 07:00:00+00",
+    "load_energy_sum": "1801929221"
+  },
+  {
+    "time_bucket": "2024-06-23 08:00:00+00",
+    "load_energy_sum": "740977741"
+  },
+  {
+    "time_bucket": "2024-06-23 09:00:00+00",
+    "load_energy_sum": "4003178063"
+  },
+  {
+    "time_bucket": "2024-06-23 10:00:00+00",
+    "load_energy_sum": "2721198264"
+  },
+  {
+    "time_bucket": "2024-06-23 11:00:00+00",
+    "load_energy_sum": "3042037888"
+  },
+  {
+    "time_bucket": "2024-06-23 12:00:00+00",
+    "load_energy_sum": "3005370953"
+  },
+  {
+    "time_bucket": "2024-06-23 13:00:00+00",
+    "load_energy_sum": "3641226161"
+  },
+  {
+    "time_bucket": "2024-06-23 14:00:00+00",
+    "load_energy_sum": "1409721799"
+  },
+  {
+    "time_bucket": "2024-06-23 15:00:00+00",
+    "load_energy_sum": "666742164"
+  },
+  {
+    "time_bucket": "2024-06-23 16:00:00+00",
+    "load_energy_sum": "638419387"
+  },
+  {
+    "time_bucket": "2024-06-23 17:00:00+00",
+    "load_energy_sum": "699507626"
+  },
+  {
+    "time_bucket": "2024-06-23 18:00:00+00",
+    "load_energy_sum": "766621932"
+  },
+  {
+    "time_bucket": "2024-06-23 19:00:00+00",
+    "load_energy_sum": "757551825"
+  },
+  {
+    "time_bucket": "2024-06-23 20:00:00+00",
+    "load_energy_sum": "810893973"
+  },
+  {
+    "time_bucket": "2024-06-23 21:00:00+00",
+    "load_energy_sum": "1295338660"
+  },
+  {
+    "time_bucket": "2024-06-23 22:00:00+00",
+    "load_energy_sum": "1192609022"
+  },
+  {
+    "time_bucket": "2024-06-23 23:00:00+00",
+    "load_energy_sum": "1639989633"
+  },
+  {
+    "time_bucket": "2024-06-24 00:00:00+00",
+    "load_energy_sum": "1576926294"
+  },
+  {
+    "time_bucket": "2024-06-24 01:00:00+00",
+    "load_energy_sum": "6775927388"
+  },
+  {
+    "time_bucket": "2024-06-24 02:00:00+00",
+    "load_energy_sum": "1031620214"
+  },
+  {
+    "time_bucket": "2024-06-24 03:00:00+00",
+    "load_energy_sum": "1386182361"
+  },
+  {
+    "time_bucket": "2024-06-24 04:00:00+00",
+    "load_energy_sum": "1118376645"
+  },
+  {
+    "time_bucket": "2024-06-24 05:00:00+00",
+    "load_energy_sum": "1179650489"
+  },
+  {
+    "time_bucket": "2024-06-24 06:00:00+00",
+    "load_energy_sum": "1778139359"
+  },
+  {
+    "time_bucket": "2024-06-24 07:00:00+00",
+    "load_energy_sum": "1219867905"
+  },
+  {
+    "time_bucket": "2024-06-24 08:00:00+00",
+    "load_energy_sum": "929475523"
+  },
+  {
+    "time_bucket": "2024-06-24 09:00:00+00",
+    "load_energy_sum": "1916087952"
+  },
+  {
+    "time_bucket": "2024-06-24 10:00:00+00",
+    "load_energy_sum": "1299002972"
+  },
+  {
+    "time_bucket": "2024-06-24 11:00:00+00",
+    "load_energy_sum": "1116860879"
+  },
+  {
+    "time_bucket": "2024-06-24 12:00:00+00",
+    "load_energy_sum": "1111512987"
+  },
+  {
+    "time_bucket": "2024-06-24 13:00:00+00",
+    "load_energy_sum": "1086535786"
+  },
+  {
+    "time_bucket": "2024-06-24 14:00:00+00",
+    "load_energy_sum": "2564839996"
+  },
+  {
+    "time_bucket": "2024-06-24 15:00:00+00",
+    "load_energy_sum": "2210907569"
+  },
+  {
+    "time_bucket": "2024-06-24 16:00:00+00",
+    "load_energy_sum": "1575717158"
+  },
+  {
+    "time_bucket": "2024-06-24 17:00:00+00",
+    "load_energy_sum": "1143348173"
+  },
+  {
+    "time_bucket": "2024-06-24 18:00:00+00",
+    "load_energy_sum": "1069113170"
+  },
+  {
+    "time_bucket": "2024-06-24 19:00:00+00",
+    "load_energy_sum": "1386572248"
+  },
+  {
+    "time_bucket": "2024-06-24 20:00:00+00",
+    "load_energy_sum": "2285697364"
+  },
+  {
+    "time_bucket": "2024-06-24 21:00:00+00",
+    "load_energy_sum": "1421453810"
+  },
+  {
+    "time_bucket": "2024-06-24 22:00:00+00",
+    "load_energy_sum": "1235667144"
+  },
+  {
+    "time_bucket": "2024-06-24 23:00:00+00",
+    "load_energy_sum": "2004705826"
+  },
+  {
+    "time_bucket": "2024-06-25 00:00:00+00",
+    "load_energy_sum": "1026153334"
+  },
+  {
+    "time_bucket": "2024-06-25 01:00:00+00",
+    "load_energy_sum": "1010248156"
+  },
+  {
+    "time_bucket": "2024-06-25 02:00:00+00",
+    "load_energy_sum": "1678258348"
+  },
+  {
+    "time_bucket": "2024-06-25 03:00:00+00",
+    "load_energy_sum": "956966639"
+  },
+  {
+    "time_bucket": "2024-06-25 04:00:00+00",
+    "load_energy_sum": "1090152473"
+  },
+  {
+    "time_bucket": "2024-06-25 05:00:00+00",
+    "load_energy_sum": "2269165931"
+  },
+  {
+    "time_bucket": "2024-06-25 06:00:00+00",
+    "load_energy_sum": "1703475230"
+  },
+  {
+    "time_bucket": "2024-06-25 07:00:00+00",
+    "load_energy_sum": "1168412771"
+  },
+  {
+    "time_bucket": "2024-06-25 08:00:00+00",
+    "load_energy_sum": "768831747"
+  },
+  {
+    "time_bucket": "2024-06-25 09:00:00+00",
+    "load_energy_sum": "2117346848"
+  },
+  {
+    "time_bucket": "2024-06-25 10:00:00+00",
+    "load_energy_sum": "3150655236"
+  },
+  {
+    "time_bucket": "2024-06-25 11:00:00+00",
+    "load_energy_sum": "4336142549"
+  },
+  {
+    "time_bucket": "2024-06-25 12:00:00+00",
+    "load_energy_sum": "3018321036"
+  },
+  {
+    "time_bucket": "2024-06-25 13:00:00+00",
+    "load_energy_sum": "1094589502"
+  },
+  {
+    "time_bucket": "2024-06-25 14:00:00+00",
+    "load_energy_sum": "862947536"
+  },
+  {
+    "time_bucket": "2024-06-25 15:00:00+00",
+    "load_energy_sum": "1443789542"
+  },
+  {
+    "time_bucket": "2024-06-25 16:00:00+00",
+    "load_energy_sum": "1195583018"
+  },
+  {
+    "time_bucket": "2024-06-25 17:00:00+00",
+    "load_energy_sum": "842404167"
+  },
+  {
+    "time_bucket": "2024-06-25 18:00:00+00",
+    "load_energy_sum": "1120322502"
+  },
+  {
+    "time_bucket": "2024-06-25 19:00:00+00",
+    "load_energy_sum": "1585743552"
+  },
+  {
+    "time_bucket": "2024-06-25 20:00:00+00",
+    "load_energy_sum": "1794955906"
+  },
+  {
+    "time_bucket": "2024-06-25 21:00:00+00",
+    "load_energy_sum": "2177891787"
+  },
+  {
+    "time_bucket": "2024-06-25 22:00:00+00",
+    "load_energy_sum": "1206205456"
+  },
+  {
+    "time_bucket": "2024-06-25 23:00:00+00",
+    "load_energy_sum": "1193826615"
+  },
+  {
+    "time_bucket": "2024-06-26 00:00:00+00",
+    "load_energy_sum": "1612579456"
+  },
+  {
+    "time_bucket": "2024-06-26 01:00:00+00",
+    "load_energy_sum": "1205199724"
+  },
+  {
+    "time_bucket": "2024-06-26 02:00:00+00",
+    "load_energy_sum": "947825664"
+  },
+  {
+    "time_bucket": "2024-06-26 03:00:00+00",
+    "load_energy_sum": "1759178341"
+  },
+  {
+    "time_bucket": "2024-06-26 04:00:00+00",
+    "load_energy_sum": "1198556342"
+  },
+  {
+    "time_bucket": "2024-06-26 05:00:00+00",
+    "load_energy_sum": "1118606589"
+  },
+  {
+    "time_bucket": "2024-06-26 06:00:00+00",
+    "load_energy_sum": "1580240397"
+  },
+  {
+    "time_bucket": "2024-06-26 07:00:00+00",
+    "load_energy_sum": "2465936021"
+  },
+  {
+    "time_bucket": "2024-06-26 08:00:00+00",
+    "load_energy_sum": "886231132"
+  },
+  {
+    "time_bucket": "2024-06-26 09:00:00+00",
+    "load_energy_sum": "4836387390"
+  },
+  {
+    "time_bucket": "2024-06-26 10:00:00+00",
+    "load_energy_sum": "3341183065"
+  },
+  {
+    "time_bucket": "2024-06-26 11:00:00+00",
+    "load_energy_sum": "755539721"
+  },
+  {
+    "time_bucket": "2024-06-26 12:00:00+00",
+    "load_energy_sum": "755397413"
+  },
+  {
+    "time_bucket": "2024-06-26 13:00:00+00",
+    "load_energy_sum": "1523007478"
+  },
+  {
+    "time_bucket": "2024-06-26 14:00:00+00",
+    "load_energy_sum": "919767783"
+  },
+  {
+    "time_bucket": "2024-06-26 15:00:00+00",
+    "load_energy_sum": "905749794"
+  },
+  {
+    "time_bucket": "2024-06-26 16:00:00+00",
+    "load_energy_sum": "956892496"
+  },
+  {
+    "time_bucket": "2024-06-26 17:00:00+00",
+    "load_energy_sum": "925445049"
+  },
+  {
+    "time_bucket": "2024-06-26 18:00:00+00",
+    "load_energy_sum": "1020225955"
+  },
+  {
+    "time_bucket": "2024-06-26 19:00:00+00",
+    "load_energy_sum": "1536802571"
+  },
+  {
+    "time_bucket": "2024-06-26 20:00:00+00",
+    "load_energy_sum": "2317889415"
+  },
+  {
+    "time_bucket": "2024-06-26 21:00:00+00",
+    "load_energy_sum": "1321212789"
+  },
+  {
+    "time_bucket": "2024-06-26 22:00:00+00",
+    "load_energy_sum": "1665383289"
+  },
+  {
+    "time_bucket": "2024-06-26 23:00:00+00",
+    "load_energy_sum": "1464879572"
+  },
+  {
+    "time_bucket": "2024-06-27 00:00:00+00",
+    "load_energy_sum": "2096757408"
+  },
+  {
+    "time_bucket": "2024-06-27 01:00:00+00",
+    "load_energy_sum": "959345007"
+  },
+  {
+    "time_bucket": "2024-06-27 02:00:00+00",
+    "load_energy_sum": "2830827642"
+  },
+  {
+    "time_bucket": "2024-06-27 03:00:00+00",
+    "load_energy_sum": "1056234220"
+  },
+  {
+    "time_bucket": "2024-06-27 04:00:00+00",
+    "load_energy_sum": "1174144821"
+  },
+  {
+    "time_bucket": "2024-06-27 05:00:00+00",
+    "load_energy_sum": "1123973933"
+  },
+  {
+    "time_bucket": "2024-06-27 06:00:00+00",
+    "load_energy_sum": "1689082937"
+  },
+  {
+    "time_bucket": "2024-06-27 07:00:00+00",
+    "load_energy_sum": "1215057191"
+  },
+  {
+    "time_bucket": "2024-06-27 08:00:00+00",
+    "load_energy_sum": "1085176929"
+  },
+  {
+    "time_bucket": "2024-06-27 09:00:00+00",
+    "load_energy_sum": "3335658910"
+  },
+  {
+    "time_bucket": "2024-06-27 10:00:00+00",
+    "load_energy_sum": "790036220"
+  },
+  {
+    "time_bucket": "2024-06-27 11:00:00+00",
+    "load_energy_sum": "1139061033"
+  },
+  {
+    "time_bucket": "2024-06-27 12:00:00+00",
+    "load_energy_sum": "1016322205"
+  },
+  {
+    "time_bucket": "2024-06-27 13:00:00+00",
+    "load_energy_sum": "1055481314"
+  },
+  {
+    "time_bucket": "2024-06-27 14:00:00+00",
+    "load_energy_sum": "2426287811"
+  },
+  {
+    "time_bucket": "2024-06-27 15:00:00+00",
+    "load_energy_sum": "1026457401"
+  },
+  {
+    "time_bucket": "2024-06-27 16:00:00+00",
+    "load_energy_sum": "1005600858"
+  },
+  {
+    "time_bucket": "2024-06-27 17:00:00+00",
+    "load_energy_sum": "913503824"
+  },
+  {
+    "time_bucket": "2024-06-27 18:00:00+00",
+    "load_energy_sum": "1034287503"
+  },
+  {
+    "time_bucket": "2024-06-27 19:00:00+00",
+    "load_energy_sum": "1451911324"
+  },
+  {
+    "time_bucket": "2024-06-27 20:00:00+00",
+    "load_energy_sum": "1475641489"
+  },
+  {
+    "time_bucket": "2024-06-27 21:00:00+00",
+    "load_energy_sum": "2667179001"
+  },
+  {
+    "time_bucket": "2024-06-27 22:00:00+00",
+    "load_energy_sum": "1572709090"
+  },
+  {
+    "time_bucket": "2024-06-27 23:00:00+00",
+    "load_energy_sum": "1404554321"
+  },
+  {
+    "time_bucket": "2024-06-28 00:00:00+00",
+    "load_energy_sum": "1500845126"
+  },
+  {
+    "time_bucket": "2024-06-28 01:00:00+00",
+    "load_energy_sum": "1295824620"
+  },
+  {
+    "time_bucket": "2024-06-28 02:00:00+00",
+    "load_energy_sum": "1307429336"
+  },
+  {
+    "time_bucket": "2024-06-28 03:00:00+00",
+    "load_energy_sum": "1380198322"
+  },
+  {
+    "time_bucket": "2024-06-28 04:00:00+00",
+    "load_energy_sum": "1107552881"
+  },
+  {
+    "time_bucket": "2024-06-28 05:00:00+00",
+    "load_energy_sum": "1247752288"
+  },
+  {
+    "time_bucket": "2024-06-28 06:00:00+00",
+    "load_energy_sum": "2163666776"
+  },
+  {
+    "time_bucket": "2024-06-28 07:00:00+00",
+    "load_energy_sum": "2067612171"
+  },
+  {
+    "time_bucket": "2024-06-28 08:00:00+00",
+    "load_energy_sum": "1757032849"
+  },
+  {
+    "time_bucket": "2024-06-28 09:00:00+00",
+    "load_energy_sum": "3448595354"
+  },
+  {
+    "time_bucket": "2024-06-28 10:00:00+00",
+    "load_energy_sum": "1469309145"
+  },
+  {
+    "time_bucket": "2024-06-28 11:00:00+00",
+    "load_energy_sum": "1676702296"
+  },
+  {
+    "time_bucket": "2024-06-28 12:00:00+00",
+    "load_energy_sum": "659221171"
+  },
+  {
+    "time_bucket": "2024-06-28 13:00:00+00",
+    "load_energy_sum": "877561751"
+  },
+  {
+    "time_bucket": "2024-06-28 14:00:00+00",
+    "load_energy_sum": "989963110"
+  },
+  {
+    "time_bucket": "2024-06-28 15:00:00+00",
+    "load_energy_sum": "743692853"
+  },
+  {
+    "time_bucket": "2024-06-28 16:00:00+00",
+    "load_energy_sum": "777887467"
+  },
+  {
+    "time_bucket": "2024-06-28 17:00:00+00",
+    "load_energy_sum": "834084387"
+  },
+  {
+    "time_bucket": "2024-06-28 18:00:00+00",
+    "load_energy_sum": "804101198"
+  },
+  {
+    "time_bucket": "2024-06-28 19:00:00+00",
+    "load_energy_sum": "801615020"
+  },
+  {
+    "time_bucket": "2024-06-28 20:00:00+00",
+    "load_energy_sum": "1493824402"
+  },
+  {
+    "time_bucket": "2024-06-28 21:00:00+00",
+    "load_energy_sum": "929906289"
+  },
+  {
+    "time_bucket": "2024-06-28 22:00:00+00",
+    "load_energy_sum": "981240367"
+  },
+  {
+    "time_bucket": "2024-06-28 23:00:00+00",
+    "load_energy_sum": "883323813"
+  },
+  {
+    "time_bucket": "2024-06-29 00:00:00+00",
+    "load_energy_sum": "843193754"
+  },
+  {
+    "time_bucket": "2024-06-29 01:00:00+00",
+    "load_energy_sum": "1170615096"
+  },
+  {
+    "time_bucket": "2024-06-29 02:00:00+00",
+    "load_energy_sum": "1339394395"
+  },
+  {
+    "time_bucket": "2024-06-29 03:00:00+00",
+    "load_energy_sum": "1421667539"
+  },
+  {
+    "time_bucket": "2024-06-29 04:00:00+00",
+    "load_energy_sum": "1416211127"
+  },
+  {
+    "time_bucket": "2024-06-29 05:00:00+00",
+    "load_energy_sum": "688700016"
+  },
+  {
+    "time_bucket": "2024-06-29 06:00:00+00",
+    "load_energy_sum": "1262786900"
+  },
+  {
+    "time_bucket": "2024-06-29 07:00:00+00",
+    "load_energy_sum": "792700078"
+  },
+  {
+    "time_bucket": "2024-06-29 08:00:00+00",
+    "load_energy_sum": "1022243028"
+  },
+  {
+    "time_bucket": "2024-06-29 09:00:00+00",
+    "load_energy_sum": "1794922236"
+  },
+  {
+    "time_bucket": "2024-06-29 10:00:00+00",
+    "load_energy_sum": "634758552"
+  },
+  {
+    "time_bucket": "2024-06-29 11:00:00+00",
+    "load_energy_sum": "2443157221"
+  },
+  {
+    "time_bucket": "2024-06-29 12:00:00+00",
+    "load_energy_sum": "762196196"
+  },
+  {
+    "time_bucket": "2024-06-29 13:00:00+00",
+    "load_energy_sum": "656077379"
+  },
+  {
+    "time_bucket": "2024-06-29 14:00:00+00",
+    "load_energy_sum": "731010294"
+  },
+  {
+    "time_bucket": "2024-06-29 15:00:00+00",
+    "load_energy_sum": "760573858"
+  },
+  {
+    "time_bucket": "2024-06-29 16:00:00+00",
+    "load_energy_sum": "835034472"
+  },
+  {
+    "time_bucket": "2024-06-29 17:00:00+00",
+    "load_energy_sum": "822392962"
+  },
+  {
+    "time_bucket": "2024-06-29 18:00:00+00",
+    "load_energy_sum": "782716327"
+  },
+  {
+    "time_bucket": "2024-06-29 19:00:00+00",
+    "load_energy_sum": "817662605"
+  },
+  {
+    "time_bucket": "2024-06-29 20:00:00+00",
+    "load_energy_sum": "1377962282"
+  },
+  {
+    "time_bucket": "2024-06-29 21:00:00+00",
+    "load_energy_sum": "945842154"
+  },
+  {
+    "time_bucket": "2024-06-29 22:00:00+00",
+    "load_energy_sum": "891491826"
+  },
+  {
+    "time_bucket": "2024-06-29 23:00:00+00",
+    "load_energy_sum": "907170973"
+  },
+  {
+    "time_bucket": "2024-06-30 00:00:00+00",
+    "load_energy_sum": "1621623977"
+  },
+  {
+    "time_bucket": "2024-06-30 01:00:00+00",
+    "load_energy_sum": "684637479"
+  },
+  {
+    "time_bucket": "2024-06-30 02:00:00+00",
+    "load_energy_sum": "852256920"
+  },
+  {
+    "time_bucket": "2024-06-30 03:00:00+00",
+    "load_energy_sum": "672460563"
+  },
+  {
+    "time_bucket": "2024-06-30 04:00:00+00",
+    "load_energy_sum": "1574951904"
+  },
+  {
+    "time_bucket": "2024-06-30 05:00:00+00",
+    "load_energy_sum": "1133886375"
+  },
+  {
+    "time_bucket": "2024-06-30 06:00:00+00",
+    "load_energy_sum": "817840834"
+  },
+  {
+    "time_bucket": "2024-06-30 07:00:00+00",
+    "load_energy_sum": "1134070908"
+  },
+  {
+    "time_bucket": "2024-06-30 08:00:00+00",
+    "load_energy_sum": "647053305"
+  },
+  {
+    "time_bucket": "2024-06-30 09:00:00+00",
+    "load_energy_sum": "702229003"
+  },
+  {
+    "time_bucket": "2024-06-30 10:00:00+00",
+    "load_energy_sum": "813141506"
+  },
+  {
+    "time_bucket": "2024-06-30 11:00:00+00",
+    "load_energy_sum": "1347734829"
+  },
+  {
+    "time_bucket": "2024-06-30 12:00:00+00",
+    "load_energy_sum": "834414065"
+  },
+  {
+    "time_bucket": "2024-06-30 13:00:00+00",
+    "load_energy_sum": "1034622102"
+  },
+  {
+    "time_bucket": "2024-06-30 14:00:00+00",
+    "load_energy_sum": "2317461892"
+  },
+  {
+    "time_bucket": "2024-06-30 15:00:00+00",
+    "load_energy_sum": "940685351"
+  },
+  {
+    "time_bucket": "2024-06-30 16:00:00+00",
+    "load_energy_sum": "652468138"
+  },
+  {
+    "time_bucket": "2024-06-30 17:00:00+00",
+    "load_energy_sum": "740952141"
+  },
+  {
+    "time_bucket": "2024-06-30 18:00:00+00",
+    "load_energy_sum": "719227711"
+  },
+  {
+    "time_bucket": "2024-06-30 19:00:00+00",
+    "load_energy_sum": "697222808"
+  },
+  {
+    "time_bucket": "2024-06-30 20:00:00+00",
+    "load_energy_sum": "1326909569"
+  },
+  {
+    "time_bucket": "2024-06-30 21:00:00+00",
+    "load_energy_sum": "1682487465"
+  },
+  {
+    "time_bucket": "2024-06-30 22:00:00+00",
+    "load_energy_sum": "1405899473"
+  },
+  {
+    "time_bucket": "2024-06-30 23:00:00+00",
+    "load_energy_sum": "802342897"
+  },
+  {
+    "time_bucket": "2024-07-01 00:00:00+00",
+    "load_energy_sum": "966230545"
+  },
+  {
+    "time_bucket": "2024-07-01 01:00:00+00",
+    "load_energy_sum": "1225312148"
+  },
+  {
+    "time_bucket": "2024-07-01 02:00:00+00",
+    "load_energy_sum": "3680152748"
+  },
+  {
+    "time_bucket": "2024-07-01 03:00:00+00",
+    "load_energy_sum": "648938990"
+  },
+  {
+    "time_bucket": "2024-07-01 04:00:00+00",
+    "load_energy_sum": "677819514"
+  },
+  {
+    "time_bucket": "2024-07-01 05:00:00+00",
+    "load_energy_sum": "1250190627"
+  },
+  {
+    "time_bucket": "2024-07-01 06:00:00+00",
+    "load_energy_sum": "716422714"
+  },
+  {
+    "time_bucket": "2024-07-01 07:00:00+00",
+    "load_energy_sum": "1060616243"
+  },
+  {
+    "time_bucket": "2024-07-01 08:00:00+00",
+    "load_energy_sum": "936383853"
+  },
+  {
+    "time_bucket": "2024-07-01 09:00:00+00",
+    "load_energy_sum": "845176253"
+  },
+  {
+    "time_bucket": "2024-07-01 10:00:00+00",
+    "load_energy_sum": "1104504825"
+  },
+  {
+    "time_bucket": "2024-07-01 11:00:00+00",
+    "load_energy_sum": "2333263008"
+  },
+  {
+    "time_bucket": "2024-07-01 12:00:00+00",
+    "load_energy_sum": "1437808998"
+  },
+  {
+    "time_bucket": "2024-07-01 13:00:00+00",
+    "load_energy_sum": "666141870"
+  },
+  {
+    "time_bucket": "2024-07-01 14:00:00+00",
+    "load_energy_sum": "1540314334"
+  },
+  {
+    "time_bucket": "2024-07-01 15:00:00+00",
+    "load_energy_sum": "817936569"
+  },
+  {
+    "time_bucket": "2024-07-01 16:00:00+00",
+    "load_energy_sum": "731421935"
+  },
+  {
+    "time_bucket": "2024-07-01 17:00:00+00",
+    "load_energy_sum": "871129274"
+  },
+  {
+    "time_bucket": "2024-07-01 18:00:00+00",
+    "load_energy_sum": "1508609871"
+  },
+  {
+    "time_bucket": "2024-07-01 19:00:00+00",
+    "load_energy_sum": "1632924612"
+  },
+  {
+    "time_bucket": "2024-07-01 20:00:00+00",
+    "load_energy_sum": "1434739198"
+  },
+  {
+    "time_bucket": "2024-07-01 21:00:00+00",
+    "load_energy_sum": "1685280265"
+  },
+  {
+    "time_bucket": "2024-07-01 22:00:00+00",
+    "load_energy_sum": "1653459241"
+  },
+  {
+    "time_bucket": "2024-07-01 23:00:00+00",
+    "load_energy_sum": "1569317228"
+  },
+  {
+    "time_bucket": "2024-07-02 00:00:00+00",
+    "load_energy_sum": "1429216972"
+  },
+  {
+    "time_bucket": "2024-07-02 01:00:00+00",
+    "load_energy_sum": "1948636043"
+  },
+  {
+    "time_bucket": "2024-07-02 02:00:00+00",
+    "load_energy_sum": "1707709800"
+  },
+  {
+    "time_bucket": "2024-07-02 03:00:00+00",
+    "load_energy_sum": "986657431"
+  },
+  {
+    "time_bucket": "2024-07-02 04:00:00+00",
+    "load_energy_sum": "1491006298"
+  },
+  {
+    "time_bucket": "2024-07-02 05:00:00+00",
+    "load_energy_sum": "1118967301"
+  },
+  {
+    "time_bucket": "2024-07-02 06:00:00+00",
+    "load_energy_sum": "1019372696"
+  },
+  {
+    "time_bucket": "2024-07-02 07:00:00+00",
+    "load_energy_sum": "1463671313"
+  },
+  {
+    "time_bucket": "2024-07-02 08:00:00+00",
+    "load_energy_sum": "1828040268"
+  },
+  {
+    "time_bucket": "2024-07-02 09:00:00+00",
+    "load_energy_sum": "1462315951"
+  },
+  {
+    "time_bucket": "2024-07-02 10:00:00+00",
+    "load_energy_sum": "950477930"
+  },
+  {
+    "time_bucket": "2024-07-02 11:00:00+00",
+    "load_energy_sum": "1716124822"
+  },
+  {
+    "time_bucket": "2024-07-02 12:00:00+00",
+    "load_energy_sum": "2076524348"
+  },
+  {
+    "time_bucket": "2024-07-02 13:00:00+00",
+    "load_energy_sum": "839234798"
+  },
+  {
+    "time_bucket": "2024-07-02 14:00:00+00",
+    "load_energy_sum": "762309336"
+  },
+  {
+    "time_bucket": "2024-07-02 15:00:00+00",
+    "load_energy_sum": "1282947715"
+  },
+  {
+    "time_bucket": "2024-07-02 16:00:00+00",
+    "load_energy_sum": "818367146"
+  },
+  {
+    "time_bucket": "2024-07-02 17:00:00+00",
+    "load_energy_sum": "1258100569"
+  },
+  {
+    "time_bucket": "2024-07-02 18:00:00+00",
+    "load_energy_sum": "1936562292"
+  },
+  {
+    "time_bucket": "2024-07-02 19:00:00+00",
+    "load_energy_sum": "1750329788"
+  },
+  {
+    "time_bucket": "2024-07-02 20:00:00+00",
+    "load_energy_sum": "1416554282"
+  },
+  {
+    "time_bucket": "2024-07-02 21:00:00+00",
+    "load_energy_sum": "1213332155"
+  },
+  {
+    "time_bucket": "2024-07-02 22:00:00+00",
+    "load_energy_sum": "1225079608"
+  },
+  {
+    "time_bucket": "2024-07-02 23:00:00+00",
+    "load_energy_sum": "1076830606"
+  },
+  {
+    "time_bucket": "2024-07-03 00:00:00+00",
+    "load_energy_sum": "2012549592"
+  },
+  {
+    "time_bucket": "2024-07-03 01:00:00+00",
+    "load_energy_sum": "4348020203"
+  },
+  {
+    "time_bucket": "2024-07-03 02:00:00+00",
+    "load_energy_sum": "1065211713"
+  },
+  {
+    "time_bucket": "2024-07-03 03:00:00+00",
+    "load_energy_sum": "1214312400"
+  },
+  {
+    "time_bucket": "2024-07-03 04:00:00+00",
+    "load_energy_sum": "1159037567"
+  },
+  {
+    "time_bucket": "2024-07-03 05:00:00+00",
+    "load_energy_sum": "920713160"
+  },
+  {
+    "time_bucket": "2024-07-03 06:00:00+00",
+    "load_energy_sum": "1821160929"
+  },
+  {
+    "time_bucket": "2024-07-03 07:00:00+00",
+    "load_energy_sum": "1096262546"
+  },
+  {
+    "time_bucket": "2024-07-03 08:00:00+00",
+    "load_energy_sum": "2323116872"
+  },
+  {
+    "time_bucket": "2024-07-03 09:00:00+00",
+    "load_energy_sum": "827761652"
+  },
+  {
+    "time_bucket": "2024-07-03 10:00:00+00",
+    "load_energy_sum": "1395111632"
+  },
+  {
+    "time_bucket": "2024-07-03 11:00:00+00",
+    "load_energy_sum": "761904267"
+  },
+  {
+    "time_bucket": "2024-07-03 12:00:00+00",
+    "load_energy_sum": "2841826521"
+  },
+  {
+    "time_bucket": "2024-07-03 13:00:00+00",
+    "load_energy_sum": "1617647877"
+  },
+  {
+    "time_bucket": "2024-07-03 14:00:00+00",
+    "load_energy_sum": "1464463577"
+  },
+  {
+    "time_bucket": "2024-07-03 15:00:00+00",
+    "load_energy_sum": "769185562"
+  },
+  {
+    "time_bucket": "2024-07-03 16:00:00+00",
+    "load_energy_sum": "703340157"
+  },
+  {
+    "time_bucket": "2024-07-03 17:00:00+00",
+    "load_energy_sum": "733961812"
+  },
+  {
+    "time_bucket": "2024-07-03 18:00:00+00",
+    "load_energy_sum": "1013400118"
+  },
+  {
+    "time_bucket": "2024-07-03 19:00:00+00",
+    "load_energy_sum": "1392571671"
+  },
+  {
+    "time_bucket": "2024-07-03 20:00:00+00",
+    "load_energy_sum": "2154785055"
+  },
+  {
+    "time_bucket": "2024-07-03 21:00:00+00",
+    "load_energy_sum": "1811775728"
+  },
+  {
+    "time_bucket": "2024-07-03 22:00:00+00",
+    "load_energy_sum": "1660890900"
+  },
+  {
+    "time_bucket": "2024-07-03 23:00:00+00",
+    "load_energy_sum": "1389428236"
+  },
+  {
+    "time_bucket": "2024-07-04 00:00:00+00",
+    "load_energy_sum": "1219617919"
+  },
+  {
+    "time_bucket": "2024-07-04 01:00:00+00",
+    "load_energy_sum": "8452932051"
+  },
+  {
+    "time_bucket": "2024-07-04 02:00:00+00",
+    "load_energy_sum": "4305133009"
+  },
+  {
+    "time_bucket": "2024-07-04 03:00:00+00",
+    "load_energy_sum": "1066731691"
+  },
+  {
+    "time_bucket": "2024-07-04 04:00:00+00",
+    "load_energy_sum": "1002941489"
+  },
+  {
+    "time_bucket": "2024-07-04 05:00:00+00",
+    "load_energy_sum": "1083515402"
+  },
+  {
+    "time_bucket": "2024-07-04 06:00:00+00",
+    "load_energy_sum": "1101013275"
+  },
+  {
+    "time_bucket": "2024-07-04 07:00:00+00",
+    "load_energy_sum": "1120116531"
+  },
+  {
+    "time_bucket": "2024-07-04 08:00:00+00",
+    "load_energy_sum": "1123546295"
+  },
+  {
+    "time_bucket": "2024-07-04 09:00:00+00",
+    "load_energy_sum": "1078348318"
+  },
+  {
+    "time_bucket": "2024-07-04 10:00:00+00",
+    "load_energy_sum": "1739000405"
+  },
+  {
+    "time_bucket": "2024-07-04 11:00:00+00",
+    "load_energy_sum": "2115631254"
+  },
+  {
+    "time_bucket": "2024-07-04 12:00:00+00",
+    "load_energy_sum": "1661623719"
+  },
+  {
+    "time_bucket": "2024-07-04 13:00:00+00",
+    "load_energy_sum": "1414898198"
+  },
+  {
+    "time_bucket": "2024-07-04 14:00:00+00",
+    "load_energy_sum": "1557385437"
+  },
+  {
+    "time_bucket": "2024-07-04 15:00:00+00",
+    "load_energy_sum": "1538799150"
+  },
+  {
+    "time_bucket": "2024-07-04 16:00:00+00",
+    "load_energy_sum": "1913463788"
+  },
+  {
+    "time_bucket": "2024-07-04 17:00:00+00",
+    "load_energy_sum": "1033319463"
+  },
+  {
+    "time_bucket": "2024-07-04 18:00:00+00",
+    "load_energy_sum": "1319351483"
+  },
+  {
+    "time_bucket": "2024-07-04 19:00:00+00",
+    "load_energy_sum": "1475595512"
+  },
+  {
+    "time_bucket": "2024-07-04 20:00:00+00",
+    "load_energy_sum": "2157977345"
+  },
+  {
+    "time_bucket": "2024-07-04 21:00:00+00",
+    "load_energy_sum": "2162976169"
+  },
+  {
+    "time_bucket": "2024-07-04 22:00:00+00",
+    "load_energy_sum": "1185199877"
+  },
+  {
+    "time_bucket": "2024-07-04 23:00:00+00",
+    "load_energy_sum": "3454385437"
+  },
+  {
+    "time_bucket": "2024-07-05 00:00:00+00",
+    "load_energy_sum": "1575819311"
+  },
+  {
+    "time_bucket": "2024-07-05 01:00:00+00",
+    "load_energy_sum": "1417778493"
+  },
+  {
+    "time_bucket": "2024-07-05 02:00:00+00",
+    "load_energy_sum": "1178203178"
+  },
+  {
+    "time_bucket": "2024-07-05 03:00:00+00",
+    "load_energy_sum": "1002001131"
+  },
+  {
+    "time_bucket": "2024-07-05 04:00:00+00",
+    "load_energy_sum": "986175468"
+  },
+  {
+    "time_bucket": "2024-07-05 05:00:00+00",
+    "load_energy_sum": "1055053004"
+  },
+  {
+    "time_bucket": "2024-07-05 06:00:00+00",
+    "load_energy_sum": "1838661306"
+  },
+  {
+    "time_bucket": "2024-07-05 07:00:00+00",
+    "load_energy_sum": "1150898564"
+  },
+  {
+    "time_bucket": "2024-07-05 08:00:00+00",
+    "load_energy_sum": "1421154977"
+  },
+  {
+    "time_bucket": "2024-07-05 09:00:00+00",
+    "load_energy_sum": "1348311405"
+  },
+  {
+    "time_bucket": "2024-07-05 10:00:00+00",
+    "load_energy_sum": "2641122134"
+  },
+  {
+    "time_bucket": "2024-07-05 11:00:00+00",
+    "load_energy_sum": "1701584976"
+  },
+  {
+    "time_bucket": "2024-07-05 12:00:00+00",
+    "load_energy_sum": "3398048190"
+  },
+  {
+    "time_bucket": "2024-07-05 13:00:00+00",
+    "load_energy_sum": "1687219317"
+  },
+  {
+    "time_bucket": "2024-07-05 14:00:00+00",
+    "load_energy_sum": "2835101483"
+  },
+  {
+    "time_bucket": "2024-07-05 15:00:00+00",
+    "load_energy_sum": "1682323195"
+  },
+  {
+    "time_bucket": "2024-07-05 16:00:00+00",
+    "load_energy_sum": "1285181887"
+  },
+  {
+    "time_bucket": "2024-07-05 17:00:00+00",
+    "load_energy_sum": "1140367245"
+  },
+  {
+    "time_bucket": "2024-07-05 18:00:00+00",
+    "load_energy_sum": "1310567101"
+  },
+  {
+    "time_bucket": "2024-07-05 19:00:00+00",
+    "load_energy_sum": "1429923585"
+  },
+  {
+    "time_bucket": "2024-07-05 20:00:00+00",
+    "load_energy_sum": "1605968557"
+  },
+  {
+    "time_bucket": "2024-07-05 21:00:00+00",
+    "load_energy_sum": "1969761364"
+  },
+  {
+    "time_bucket": "2024-07-05 22:00:00+00",
+    "load_energy_sum": "1721841151"
+  },
+  {
+    "time_bucket": "2024-07-05 23:00:00+00",
+    "load_energy_sum": "2969918336"
+  },
+  {
+    "time_bucket": "2024-07-06 00:00:00+00",
+    "load_energy_sum": "1048501412"
+  },
+  {
+    "time_bucket": "2024-07-06 01:00:00+00",
+    "load_energy_sum": "1222395901"
+  },
+  {
+    "time_bucket": "2024-07-06 02:00:00+00",
+    "load_energy_sum": "876677877"
+  },
+  {
+    "time_bucket": "2024-07-06 03:00:00+00",
+    "load_energy_sum": "1723551686"
+  },
+  {
+    "time_bucket": "2024-07-06 04:00:00+00",
+    "load_energy_sum": "890020963"
+  },
+  {
+    "time_bucket": "2024-07-06 05:00:00+00",
+    "load_energy_sum": "1387368795"
+  },
+  {
+    "time_bucket": "2024-07-06 06:00:00+00",
+    "load_energy_sum": "1212232041"
+  },
+  {
+    "time_bucket": "2024-07-06 07:00:00+00",
+    "load_energy_sum": "1426370935"
+  },
+  {
+    "time_bucket": "2024-07-06 08:00:00+00",
+    "load_energy_sum": "1573719988"
+  },
+  {
+    "time_bucket": "2024-07-06 09:00:00+00",
+    "load_energy_sum": "2985521705"
+  },
+  {
+    "time_bucket": "2024-07-06 10:00:00+00",
+    "load_energy_sum": "2013586435"
+  },
+  {
+    "time_bucket": "2024-07-06 11:00:00+00",
+    "load_energy_sum": "2434688709"
+  },
+  {
+    "time_bucket": "2024-07-06 12:00:00+00",
+    "load_energy_sum": "1894840329"
+  },
+  {
+    "time_bucket": "2024-07-06 13:00:00+00",
+    "load_energy_sum": "1350323036"
+  },
+  {
+    "time_bucket": "2024-07-06 14:00:00+00",
+    "load_energy_sum": "1271631696"
+  },
+  {
+    "time_bucket": "2024-07-06 15:00:00+00",
+    "load_energy_sum": "3011236658"
+  },
+  {
+    "time_bucket": "2024-07-06 16:00:00+00",
+    "load_energy_sum": "2126527280"
+  },
+  {
+    "time_bucket": "2024-07-06 17:00:00+00",
+    "load_energy_sum": "985434804"
+  },
+  {
+    "time_bucket": "2024-07-06 18:00:00+00",
+    "load_energy_sum": "1076170964"
+  },
+  {
+    "time_bucket": "2024-07-06 19:00:00+00",
+    "load_energy_sum": "1421084521"
+  },
+  {
+    "time_bucket": "2024-07-06 20:00:00+00",
+    "load_energy_sum": "2595836051"
+  },
+  {
+    "time_bucket": "2024-07-06 21:00:00+00",
+    "load_energy_sum": "1169173881"
+  },
+  {
+    "time_bucket": "2024-07-06 22:00:00+00",
+    "load_energy_sum": "3100058474"
+  },
+  {
+    "time_bucket": "2024-07-06 23:00:00+00",
+    "load_energy_sum": "1907393577"
+  },
+  {
+    "time_bucket": "2024-07-07 00:00:00+00",
+    "load_energy_sum": "1344555060"
+  },
+  {
+    "time_bucket": "2024-07-07 01:00:00+00",
+    "load_energy_sum": "1006011521"
+  },
+  {
+    "time_bucket": "2024-07-07 02:00:00+00",
+    "load_energy_sum": "841314946"
+  },
+  {
+    "time_bucket": "2024-07-07 03:00:00+00",
+    "load_energy_sum": "894576586"
+  },
+  {
+    "time_bucket": "2024-07-07 04:00:00+00",
+    "load_energy_sum": "1394643005"
+  },
+  {
+    "time_bucket": "2024-07-07 05:00:00+00",
+    "load_energy_sum": "1335358119"
+  },
+  {
+    "time_bucket": "2024-07-07 06:00:00+00",
+    "load_energy_sum": "1139895024"
+  },
+  {
+    "time_bucket": "2024-07-07 07:00:00+00",
+    "load_energy_sum": "1018031759"
+  },
+  {
+    "time_bucket": "2024-07-07 08:00:00+00",
+    "load_energy_sum": "1858133530"
+  },
+  {
+    "time_bucket": "2024-07-07 09:00:00+00",
+    "load_energy_sum": "1138343455"
+  },
+  {
+    "time_bucket": "2024-07-07 10:00:00+00",
+    "load_energy_sum": "3452515590"
+  },
+  {
+    "time_bucket": "2024-07-07 11:00:00+00",
+    "load_energy_sum": "1740384590"
+  },
+  {
+    "time_bucket": "2024-07-07 12:00:00+00",
+    "load_energy_sum": "1723489645"
+  },
+  {
+    "time_bucket": "2024-07-07 13:00:00+00",
+    "load_energy_sum": "1264981723"
+  },
+  {
+    "time_bucket": "2024-07-07 14:00:00+00",
+    "load_energy_sum": "1300097186"
+  },
+  {
+    "time_bucket": "2024-07-07 15:00:00+00",
+    "load_energy_sum": "2000680677"
+  },
+  {
+    "time_bucket": "2024-07-07 16:00:00+00",
+    "load_energy_sum": "1170251331"
+  },
+  {
+    "time_bucket": "2024-07-07 17:00:00+00",
+    "load_energy_sum": "1612785818"
+  },
+  {
+    "time_bucket": "2024-07-07 18:00:00+00",
+    "load_energy_sum": "1096454374"
+  },
+  {
+    "time_bucket": "2024-07-07 19:00:00+00",
+    "load_energy_sum": "2420549372"
+  },
+  {
+    "time_bucket": "2024-07-07 20:00:00+00",
+    "load_energy_sum": "1362959274"
+  },
+  {
+    "time_bucket": "2024-07-07 21:00:00+00",
+    "load_energy_sum": "1721218510"
+  },
+  {
+    "time_bucket": "2024-07-07 22:00:00+00",
+    "load_energy_sum": "1263039451"
+  },
+  {
+    "time_bucket": "2024-07-07 23:00:00+00",
+    "load_energy_sum": "1444797439"
+  },
+  {
+    "time_bucket": "2024-07-08 00:00:00+00",
+    "load_energy_sum": "3245474939"
+  },
+  {
+    "time_bucket": "2024-07-08 01:00:00+00",
+    "load_energy_sum": "1783096359"
+  },
+  {
+    "time_bucket": "2024-07-08 02:00:00+00",
+    "load_energy_sum": "1615454864"
+  },
+  {
+    "time_bucket": "2024-07-08 03:00:00+00",
+    "load_energy_sum": "861334727"
+  },
+  {
+    "time_bucket": "2024-07-08 04:00:00+00",
+    "load_energy_sum": "1297529223"
+  },
+  {
+    "time_bucket": "2024-07-08 05:00:00+00",
+    "load_energy_sum": "863857082"
+  },
+  {
+    "time_bucket": "2024-07-08 06:00:00+00",
+    "load_energy_sum": "1647741221"
+  },
+  {
+    "time_bucket": "2024-07-08 07:00:00+00",
+    "load_energy_sum": "2306493515"
+  },
+  {
+    "time_bucket": "2024-07-08 08:00:00+00",
+    "load_energy_sum": "2812851419"
+  },
+  {
+    "time_bucket": "2024-07-08 09:00:00+00",
+    "load_energy_sum": "758218092"
+  },
+  {
+    "time_bucket": "2024-07-08 10:00:00+00",
+    "load_energy_sum": "920675553"
+  },
+  {
+    "time_bucket": "2024-07-08 11:00:00+00",
+    "load_energy_sum": "1408293763"
+  },
+  {
+    "time_bucket": "2024-07-08 12:00:00+00",
+    "load_energy_sum": "769080278"
+  },
+  {
+    "time_bucket": "2024-07-08 13:00:00+00",
+    "load_energy_sum": "969396481"
+  },
+  {
+    "time_bucket": "2024-07-08 14:00:00+00",
+    "load_energy_sum": "1608884670"
+  },
+  {
+    "time_bucket": "2024-07-08 15:00:00+00",
+    "load_energy_sum": "1930175575"
+  },
+  {
+    "time_bucket": "2024-07-08 16:00:00+00",
+    "load_energy_sum": "2078268417"
+  },
+  {
+    "time_bucket": "2024-07-08 17:00:00+00",
+    "load_energy_sum": "887192983"
+  },
+  {
+    "time_bucket": "2024-07-08 18:00:00+00",
+    "load_energy_sum": "1116054119"
+  },
+  {
+    "time_bucket": "2024-07-08 19:00:00+00",
+    "load_energy_sum": "1234654307"
+  },
+  {
+    "time_bucket": "2024-07-08 20:00:00+00",
+    "load_energy_sum": "1472363732"
+  },
+  {
+    "time_bucket": "2024-07-08 21:00:00+00",
+    "load_energy_sum": "1035970841"
+  },
+  {
+    "time_bucket": "2024-07-08 22:00:00+00",
+    "load_energy_sum": "1088272461"
+  },
+  {
+    "time_bucket": "2024-07-08 23:00:00+00",
+    "load_energy_sum": "2013301505"
+  },
+  {
+    "time_bucket": "2024-07-09 00:00:00+00",
+    "load_energy_sum": "1114473575"
+  },
+  {
+    "time_bucket": "2024-07-09 01:00:00+00",
+    "load_energy_sum": "1155194658"
+  },
+  {
+    "time_bucket": "2024-07-09 02:00:00+00",
+    "load_energy_sum": "1369149526"
+  },
+  {
+    "time_bucket": "2024-07-09 03:00:00+00",
+    "load_energy_sum": "983939475"
+  },
+  {
+    "time_bucket": "2024-07-09 04:00:00+00",
+    "load_energy_sum": "820211201"
+  },
+  {
+    "time_bucket": "2024-07-09 05:00:00+00",
+    "load_energy_sum": "2137112374"
+  },
+  {
+    "time_bucket": "2024-07-09 06:00:00+00",
+    "load_energy_sum": "928441312"
+  },
+  {
+    "time_bucket": "2024-07-09 07:00:00+00",
+    "load_energy_sum": "1463139285"
+  },
+  {
+    "time_bucket": "2024-07-09 08:00:00+00",
+    "load_energy_sum": "1502803127"
+  },
+  {
+    "time_bucket": "2024-07-09 09:00:00+00",
+    "load_energy_sum": "2905486474"
+  },
+  {
+    "time_bucket": "2024-07-09 10:00:00+00",
+    "load_energy_sum": "2139744993"
+  },
+  {
+    "time_bucket": "2024-07-09 11:00:00+00",
+    "load_energy_sum": "1867359091"
+  },
+  {
+    "time_bucket": "2024-07-09 12:00:00+00",
+    "load_energy_sum": "1927227188"
+  },
+  {
+    "time_bucket": "2024-07-09 13:00:00+00",
+    "load_energy_sum": "1399794839"
+  },
+  {
+    "time_bucket": "2024-07-09 14:00:00+00",
+    "load_energy_sum": "1518151149"
+  },
+  {
+    "time_bucket": "2024-07-09 15:00:00+00",
+    "load_energy_sum": "676753094"
+  },
+  {
+    "time_bucket": "2024-07-09 16:00:00+00",
+    "load_energy_sum": "1197255858"
+  },
+  {
+    "time_bucket": "2024-07-09 17:00:00+00",
+    "load_energy_sum": "1554669388"
+  },
+  {
+    "time_bucket": "2024-07-09 18:00:00+00",
+    "load_energy_sum": "1233612169"
+  },
+  {
+    "time_bucket": "2024-07-09 19:00:00+00",
+    "load_energy_sum": "1173996931"
+  },
+  {
+    "time_bucket": "2024-07-09 20:00:00+00",
+    "load_energy_sum": "1401188688"
+  },
+  {
+    "time_bucket": "2024-07-09 21:00:00+00",
+    "load_energy_sum": "2717823606"
+  },
+  {
+    "time_bucket": "2024-07-09 22:00:00+00",
+    "load_energy_sum": "1171001972"
+  },
+  {
+    "time_bucket": "2024-07-09 23:00:00+00",
+    "load_energy_sum": "1021489089"
+  },
+  {
+    "time_bucket": "2024-07-10 00:00:00+00",
+    "load_energy_sum": "1185015745"
+  },
+  {
+    "time_bucket": "2024-07-10 01:00:00+00",
+    "load_energy_sum": "2835134988"
+  },
+  {
+    "time_bucket": "2024-07-10 02:00:00+00",
+    "load_energy_sum": "1713726374"
+  },
+  {
+    "time_bucket": "2024-07-10 03:00:00+00",
+    "load_energy_sum": "861032015"
+  },
+  {
+    "time_bucket": "2024-07-10 04:00:00+00",
+    "load_energy_sum": "859552747"
+  },
+  {
+    "time_bucket": "2024-07-10 05:00:00+00",
+    "load_energy_sum": "1261862340"
+  },
+  {
+    "time_bucket": "2024-07-10 06:00:00+00",
+    "load_energy_sum": "1033965947"
+  },
+  {
+    "time_bucket": "2024-07-10 07:00:00+00",
+    "load_energy_sum": "967051716"
+  },
+  {
+    "time_bucket": "2024-07-10 08:00:00+00",
+    "load_energy_sum": "951766448"
+  },
+  {
+    "time_bucket": "2024-07-10 09:00:00+00",
+    "load_energy_sum": "767631767"
+  },
+  {
+    "time_bucket": "2024-07-10 10:00:00+00",
+    "load_energy_sum": "3815532408"
+  },
+  {
+    "time_bucket": "2024-07-10 11:00:00+00",
+    "load_energy_sum": "5182970990"
+  },
+  {
+    "time_bucket": "2024-07-10 12:00:00+00",
+    "load_energy_sum": "4131479285"
+  },
+  {
+    "time_bucket": "2024-07-10 13:00:00+00",
+    "load_energy_sum": "694088227"
+  },
+  {
+    "time_bucket": "2024-07-10 14:00:00+00",
+    "load_energy_sum": "750573618"
+  },
+  {
+    "time_bucket": "2024-07-10 15:00:00+00",
+    "load_energy_sum": "807054362"
+  },
+  {
+    "time_bucket": "2024-07-10 16:00:00+00",
+    "load_energy_sum": "1320501497"
+  },
+  {
+    "time_bucket": "2024-07-10 17:00:00+00",
+    "load_energy_sum": "968295299"
+  },
+  {
+    "time_bucket": "2024-07-10 18:00:00+00",
+    "load_energy_sum": "1088166893"
+  },
+  {
+    "time_bucket": "2024-07-10 19:00:00+00",
+    "load_energy_sum": "1222524359"
+  },
+  {
+    "time_bucket": "2024-07-10 20:00:00+00",
+    "load_energy_sum": "1260779180"
+  },
+  {
+    "time_bucket": "2024-07-10 21:00:00+00",
+    "load_energy_sum": "1090639316"
+  },
+  {
+    "time_bucket": "2024-07-10 22:00:00+00",
+    "load_energy_sum": "1676903978"
+  },
+  {
+    "time_bucket": "2024-07-10 23:00:00+00",
+    "load_energy_sum": "1332496127"
+  },
+  {
+    "time_bucket": "2024-07-11 00:00:00+00",
+    "load_energy_sum": "1390401084"
+  },
+  {
+    "time_bucket": "2024-07-11 01:00:00+00",
+    "load_energy_sum": "1268582855"
+  },
+  {
+    "time_bucket": "2024-07-11 02:00:00+00",
+    "load_energy_sum": "1037499715"
+  },
+  {
+    "time_bucket": "2024-07-11 03:00:00+00",
+    "load_energy_sum": "1358633149"
+  },
+  {
+    "time_bucket": "2024-07-11 04:00:00+00",
+    "load_energy_sum": "917022835"
+  },
+  {
+    "time_bucket": "2024-07-11 05:00:00+00",
+    "load_energy_sum": "1577341949"
+  },
+  {
+    "time_bucket": "2024-07-11 06:00:00+00",
+    "load_energy_sum": "1924624810"
+  },
+  {
+    "time_bucket": "2024-07-11 07:00:00+00",
+    "load_energy_sum": "1352942623"
+  },
+  {
+    "time_bucket": "2024-07-11 08:00:00+00",
+    "load_energy_sum": "1050341735"
+  },
+  {
+    "time_bucket": "2024-07-11 09:00:00+00",
+    "load_energy_sum": "2792274151"
+  },
+  {
+    "time_bucket": "2024-07-11 10:00:00+00",
+    "load_energy_sum": "1907989845"
+  },
+  {
+    "time_bucket": "2024-07-11 11:00:00+00",
+    "load_energy_sum": "1003919740"
+  },
+  {
+    "time_bucket": "2024-07-11 12:00:00+00",
+    "load_energy_sum": "634929238"
+  },
+  {
+    "time_bucket": "2024-07-11 13:00:00+00",
+    "load_energy_sum": "513964061"
+  },
+  {
+    "time_bucket": "2024-07-11 14:00:00+00",
+    "load_energy_sum": "677898863"
+  },
+  {
+    "time_bucket": "2024-07-11 15:00:00+00",
+    "load_energy_sum": "1516834098"
+  },
+  {
+    "time_bucket": "2024-07-11 16:00:00+00",
+    "load_energy_sum": "224208375"
+  },
+  {
+    "time_bucket": "2024-07-11 17:00:00+00",
+    "load_energy_sum": "988042951"
+  },
+  {
+    "time_bucket": "2024-07-11 18:00:00+00",
+    "load_energy_sum": "1099755063"
+  },
+  {
+    "time_bucket": "2024-07-11 19:00:00+00",
+    "load_energy_sum": "2065389423"
+  },
+  {
+    "time_bucket": "2024-07-11 20:00:00+00",
+    "load_energy_sum": "1587040582"
+  },
+  {
+    "time_bucket": "2024-07-11 21:00:00+00",
+    "load_energy_sum": "1210282627"
+  },
+  {
+    "time_bucket": "2024-07-11 22:00:00+00",
+    "load_energy_sum": "1216034856"
+  },
+  {
+    "time_bucket": "2024-07-11 23:00:00+00",
+    "load_energy_sum": "1976855505"
+  },
+  {
+    "time_bucket": "2024-07-12 00:00:00+00",
+    "load_energy_sum": "1741710525"
+  },
+  {
+    "time_bucket": "2024-07-12 01:00:00+00",
+    "load_energy_sum": "1487072281"
+  },
+  {
+    "time_bucket": "2024-07-12 02:00:00+00",
+    "load_energy_sum": "1571509684"
+  },
+  {
+    "time_bucket": "2024-07-12 03:00:00+00",
+    "load_energy_sum": "1446441624"
+  },
+  {
+    "time_bucket": "2024-07-12 04:00:00+00",
+    "load_energy_sum": "1292116492"
+  },
+  {
+    "time_bucket": "2024-07-12 05:00:00+00",
+    "load_energy_sum": "1854185029"
+  },
+  {
+    "time_bucket": "2024-07-12 06:00:00+00",
+    "load_energy_sum": "2489831853"
+  },
+  {
+    "time_bucket": "2024-07-12 07:00:00+00",
+    "load_energy_sum": "1135558569"
+  },
+  {
+    "time_bucket": "2024-07-12 08:00:00+00",
+    "load_energy_sum": "1786680858"
+  },
+  {
+    "time_bucket": "2024-07-12 09:00:00+00",
+    "load_energy_sum": "2556601687"
+  },
+  {
+    "time_bucket": "2024-07-12 10:00:00+00",
+    "load_energy_sum": "1976816699"
+  },
+  {
+    "time_bucket": "2024-07-12 11:00:00+00",
+    "load_energy_sum": "1000069568"
+  },
+  {
+    "time_bucket": "2024-07-12 12:00:00+00",
+    "load_energy_sum": "1317822138"
+  },
+  {
+    "time_bucket": "2024-07-12 13:00:00+00",
+    "load_energy_sum": "2472020360"
+  },
+  {
+    "time_bucket": "2024-07-12 14:00:00+00",
+    "load_energy_sum": "1230825614"
+  },
+  {
+    "time_bucket": "2024-07-12 15:00:00+00",
+    "load_energy_sum": "1079587533"
+  },
+  {
+    "time_bucket": "2024-07-12 16:00:00+00",
+    "load_energy_sum": "1224856467"
+  },
+  {
+    "time_bucket": "2024-07-12 17:00:00+00",
+    "load_energy_sum": "718883808"
+  },
+  {
+    "time_bucket": "2024-07-12 18:00:00+00",
+    "load_energy_sum": "1052221229"
+  },
+  {
+    "time_bucket": "2024-07-12 19:00:00+00",
+    "load_energy_sum": "1683919092"
+  },
+  {
+    "time_bucket": "2024-07-12 20:00:00+00",
+    "load_energy_sum": "1846243567"
+  },
+  {
+    "time_bucket": "2024-07-12 21:00:00+00",
+    "load_energy_sum": "1384868248"
+  },
+  {
+    "time_bucket": "2024-07-12 22:00:00+00",
+    "load_energy_sum": "1114955533"
+  },
+  {
+    "time_bucket": "2024-07-12 23:00:00+00",
+    "load_energy_sum": "1796622521"
+  },
+  {
+    "time_bucket": "2024-07-13 00:00:00+00",
+    "load_energy_sum": "3136695106"
+  },
+  {
+    "time_bucket": "2024-07-13 01:00:00+00",
+    "load_energy_sum": "1715449060"
+  },
+  {
+    "time_bucket": "2024-07-13 02:00:00+00",
+    "load_energy_sum": "1150410483"
+  },
+  {
+    "time_bucket": "2024-07-13 03:00:00+00",
+    "load_energy_sum": "833605181"
+  },
+  {
+    "time_bucket": "2024-07-13 04:00:00+00",
+    "load_energy_sum": "1538313157"
+  },
+  {
+    "time_bucket": "2024-07-13 05:00:00+00",
+    "load_energy_sum": "1013559202"
+  },
+  {
+    "time_bucket": "2024-07-13 06:00:00+00",
+    "load_energy_sum": "1661455250"
+  },
+  {
+    "time_bucket": "2024-07-13 07:00:00+00",
+    "load_energy_sum": "1229482208"
+  },
+  {
+    "time_bucket": "2024-07-13 08:00:00+00",
+    "load_energy_sum": "1040913098"
+  },
+  {
+    "time_bucket": "2024-07-13 09:00:00+00",
+    "load_energy_sum": "3084762804"
+  },
+  {
+    "time_bucket": "2024-07-13 10:00:00+00",
+    "load_energy_sum": "1713534909"
+  },
+  {
+    "time_bucket": "2024-07-13 11:00:00+00",
+    "load_energy_sum": "1371960963"
+  },
+  {
+    "time_bucket": "2024-07-13 12:00:00+00",
+    "load_energy_sum": "1065366068"
+  },
+  {
+    "time_bucket": "2024-07-13 13:00:00+00",
+    "load_energy_sum": "904872492"
+  },
+  {
+    "time_bucket": "2024-07-13 14:00:00+00",
+    "load_energy_sum": "961319177"
+  },
+  {
+    "time_bucket": "2024-07-13 15:00:00+00",
+    "load_energy_sum": "965648965"
+  },
+  {
+    "time_bucket": "2024-07-13 16:00:00+00",
+    "load_energy_sum": "664287166"
+  },
+  {
+    "time_bucket": "2024-07-13 17:00:00+00",
+    "load_energy_sum": "786249867"
+  },
+  {
+    "time_bucket": "2024-07-13 18:00:00+00",
+    "load_energy_sum": "810924955"
+  },
+  {
+    "time_bucket": "2024-07-13 19:00:00+00",
+    "load_energy_sum": "790969228"
+  },
+  {
+    "time_bucket": "2024-07-13 20:00:00+00",
+    "load_energy_sum": "830909790"
+  },
+  {
+    "time_bucket": "2024-07-13 21:00:00+00",
+    "load_energy_sum": "868201420"
+  },
+  {
+    "time_bucket": "2024-07-13 22:00:00+00",
+    "load_energy_sum": "868775279"
+  },
+  {
+    "time_bucket": "2024-07-13 23:00:00+00",
+    "load_energy_sum": "1120219925"
+  },
+  {
+    "time_bucket": "2024-07-14 00:00:00+00",
+    "load_energy_sum": "1546662563"
+  },
+  {
+    "time_bucket": "2024-07-14 01:00:00+00",
+    "load_energy_sum": "9952175660"
+  },
+  {
+    "time_bucket": "2024-07-14 02:00:00+00",
+    "load_energy_sum": "2180804488"
+  },
+  {
+    "time_bucket": "2024-07-14 03:00:00+00",
+    "load_energy_sum": "1059874049"
+  },
+  {
+    "time_bucket": "2024-07-14 04:00:00+00",
+    "load_energy_sum": "980013888"
+  },
+  {
+    "time_bucket": "2024-07-14 05:00:00+00",
+    "load_energy_sum": "1096801689"
+  },
+  {
+    "time_bucket": "2024-07-14 06:00:00+00",
+    "load_energy_sum": "892664020"
+  },
+  {
+    "time_bucket": "2024-07-14 07:00:00+00",
+    "load_energy_sum": "1051797859"
+  },
+  {
+    "time_bucket": "2024-07-14 08:00:00+00",
+    "load_energy_sum": "891413322"
+  },
+  {
+    "time_bucket": "2024-07-14 09:00:00+00",
+    "load_energy_sum": "1032269975"
+  },
+  {
+    "time_bucket": "2024-07-14 10:00:00+00",
+    "load_energy_sum": "862228660"
+  },
+  {
+    "time_bucket": "2024-07-14 11:00:00+00",
+    "load_energy_sum": "1008316049"
+  },
+  {
+    "time_bucket": "2024-07-14 12:00:00+00",
+    "load_energy_sum": "885637593"
+  },
+  {
+    "time_bucket": "2024-07-14 13:00:00+00",
+    "load_energy_sum": "1041807760"
+  },
+  {
+    "time_bucket": "2024-07-14 14:00:00+00",
+    "load_energy_sum": "807910894"
+  },
+  {
+    "time_bucket": "2024-07-14 15:00:00+00",
+    "load_energy_sum": "1014150435"
+  },
+  {
+    "time_bucket": "2024-07-14 16:00:00+00",
+    "load_energy_sum": "708989876"
+  },
+  {
+    "time_bucket": "2024-07-14 17:00:00+00",
+    "load_energy_sum": "716432341"
+  },
+  {
+    "time_bucket": "2024-07-14 18:00:00+00",
+    "load_energy_sum": "668589550"
+  },
+  {
+    "time_bucket": "2024-07-14 19:00:00+00",
+    "load_energy_sum": "757893289"
+  },
+  {
+    "time_bucket": "2024-07-14 20:00:00+00",
+    "load_energy_sum": "867944011"
+  },
+  {
+    "time_bucket": "2024-07-14 21:00:00+00",
+    "load_energy_sum": "1821551721"
+  },
+  {
+    "time_bucket": "2024-07-14 22:00:00+00",
+    "load_energy_sum": "1214072755"
+  },
+  {
+    "time_bucket": "2024-07-14 23:00:00+00",
+    "load_energy_sum": "1158474793"
+  },
+  {
+    "time_bucket": "2024-07-15 00:00:00+00",
+    "load_energy_sum": "1503282025"
+  },
+  {
+    "time_bucket": "2024-07-15 01:00:00+00",
+    "load_energy_sum": "753403930"
+  },
+  {
+    "time_bucket": "2024-07-15 02:00:00+00",
+    "load_energy_sum": "1259712612"
+  },
+  {
+    "time_bucket": "2024-07-15 03:00:00+00",
+    "load_energy_sum": "830235530"
+  },
+  {
+    "time_bucket": "2024-07-15 04:00:00+00",
+    "load_energy_sum": "730419756"
+  },
+  {
+    "time_bucket": "2024-07-15 05:00:00+00",
+    "load_energy_sum": "724292081"
+  },
+  {
+    "time_bucket": "2024-07-15 06:00:00+00",
+    "load_energy_sum": "717552556"
+  },
+  {
+    "time_bucket": "2024-07-15 07:00:00+00",
+    "load_energy_sum": "1367190329"
+  },
+  {
+    "time_bucket": "2024-07-15 08:00:00+00",
+    "load_energy_sum": "1047920609"
+  },
+  {
+    "time_bucket": "2024-07-15 09:00:00+00",
+    "load_energy_sum": "988009738"
+  },
+  {
+    "time_bucket": "2024-07-15 10:00:00+00",
+    "load_energy_sum": "1122196972"
+  },
+  {
+    "time_bucket": "2024-07-15 11:00:00+00",
+    "load_energy_sum": "1157846433"
+  },
+  {
+    "time_bucket": "2024-07-15 12:00:00+00",
+    "load_energy_sum": "1082433378"
+  },
+  {
+    "time_bucket": "2024-07-15 13:00:00+00",
+    "load_energy_sum": "885837060"
+  },
+  {
+    "time_bucket": "2024-07-15 14:00:00+00",
+    "load_energy_sum": "1281600589"
+  },
+  {
+    "time_bucket": "2024-07-15 15:00:00+00",
+    "load_energy_sum": "720064437"
+  },
+  {
+    "time_bucket": "2024-07-15 16:00:00+00",
+    "load_energy_sum": "796838989"
+  },
+  {
+    "time_bucket": "2024-07-15 17:00:00+00",
+    "load_energy_sum": "793756870"
+  },
+  {
+    "time_bucket": "2024-07-15 18:00:00+00",
+    "load_energy_sum": "791064359"
+  },
+  {
+    "time_bucket": "2024-07-15 19:00:00+00",
+    "load_energy_sum": "803870338"
+  },
+  {
+    "time_bucket": "2024-07-15 20:00:00+00",
+    "load_energy_sum": "1597338637"
+  },
+  {
+    "time_bucket": "2024-07-15 21:00:00+00",
+    "load_energy_sum": "1209025300"
+  },
+  {
+    "time_bucket": "2024-07-15 22:00:00+00",
+    "load_energy_sum": "1154133641"
+  },
+  {
+    "time_bucket": "2024-07-15 23:00:00+00",
+    "load_energy_sum": "1485440085"
+  },
+  {
+    "time_bucket": "2024-07-16 00:00:00+00",
+    "load_energy_sum": "884896152"
+  },
+  {
+    "time_bucket": "2024-07-16 01:00:00+00",
+    "load_energy_sum": "1402346295"
+  },
+  {
+    "time_bucket": "2024-07-16 02:00:00+00",
+    "load_energy_sum": "771649677"
+  },
+  {
+    "time_bucket": "2024-07-16 03:00:00+00",
+    "load_energy_sum": "1218488160"
+  },
+  {
+    "time_bucket": "2024-07-16 04:00:00+00",
+    "load_energy_sum": "681106449"
+  },
+  {
+    "time_bucket": "2024-07-16 05:00:00+00",
+    "load_energy_sum": "715847856"
+  },
+  {
+    "time_bucket": "2024-07-16 06:00:00+00",
+    "load_energy_sum": "1177191748"
+  },
+  {
+    "time_bucket": "2024-07-16 07:00:00+00",
+    "load_energy_sum": "1104060112"
+  },
+  {
+    "time_bucket": "2024-07-16 08:00:00+00",
+    "load_energy_sum": "654047646"
+  },
+  {
+    "time_bucket": "2024-07-16 09:00:00+00",
+    "load_energy_sum": "1310092107"
+  },
+  {
+    "time_bucket": "2024-07-16 10:00:00+00",
+    "load_energy_sum": "755803399"
+  },
+  {
+    "time_bucket": "2024-07-16 11:00:00+00",
+    "load_energy_sum": "839555470"
+  },
+  {
+    "time_bucket": "2024-07-16 12:00:00+00",
+    "load_energy_sum": "1054954608"
+  },
+  {
+    "time_bucket": "2024-07-16 13:00:00+00",
+    "load_energy_sum": "734452219"
+  },
+  {
+    "time_bucket": "2024-07-16 14:00:00+00",
+    "load_energy_sum": "871091428"
+  },
+  {
+    "time_bucket": "2024-07-16 15:00:00+00",
+    "load_energy_sum": "686528835"
+  },
+  {
+    "time_bucket": "2024-07-16 16:00:00+00",
+    "load_energy_sum": "811318760"
+  },
+  {
+    "time_bucket": "2024-07-16 17:00:00+00",
+    "load_energy_sum": "797215025"
+  },
+  {
+    "time_bucket": "2024-07-16 18:00:00+00",
+    "load_energy_sum": "754721591"
+  },
+  {
+    "time_bucket": "2024-07-16 19:00:00+00",
+    "load_energy_sum": "1479062848"
+  },
+  {
+    "time_bucket": "2024-07-16 20:00:00+00",
+    "load_energy_sum": "876827888"
+  },
+  {
+    "time_bucket": "2024-07-16 21:00:00+00",
+    "load_energy_sum": "1508620287"
+  },
+  {
+    "time_bucket": "2024-07-16 22:00:00+00",
+    "load_energy_sum": "843834389"
+  },
+  {
+    "time_bucket": "2024-07-16 23:00:00+00",
+    "load_energy_sum": "1541879658"
+  },
+  {
+    "time_bucket": "2024-07-17 00:00:00+00",
+    "load_energy_sum": "993745229"
+  },
+  {
+    "time_bucket": "2024-07-17 01:00:00+00",
+    "load_energy_sum": "995330339"
+  },
+  {
+    "time_bucket": "2024-07-17 02:00:00+00",
+    "load_energy_sum": "1117517210"
+  },
+  {
+    "time_bucket": "2024-07-17 03:00:00+00",
+    "load_energy_sum": "812618499"
+  },
+  {
+    "time_bucket": "2024-07-17 04:00:00+00",
+    "load_energy_sum": "717645480"
+  },
+  {
+    "time_bucket": "2024-07-17 05:00:00+00",
+    "load_energy_sum": "723574735"
+  },
+  {
+    "time_bucket": "2024-07-17 06:00:00+00",
+    "load_energy_sum": "1442343305"
+  },
+  {
+    "time_bucket": "2024-07-17 07:00:00+00",
+    "load_energy_sum": "1063593306"
+  },
+  {
+    "time_bucket": "2024-07-17 08:00:00+00",
+    "load_energy_sum": "1303954415"
+  },
+  {
+    "time_bucket": "2024-07-17 09:00:00+00",
+    "load_energy_sum": "1459466264"
+  },
+  {
+    "time_bucket": "2024-07-17 10:00:00+00",
+    "load_energy_sum": "2255673959"
+  },
+  {
+    "time_bucket": "2024-07-17 11:00:00+00",
+    "load_energy_sum": "871612466"
+  },
+  {
+    "time_bucket": "2024-07-17 12:00:00+00",
+    "load_energy_sum": "656460156"
+  },
+  {
+    "time_bucket": "2024-07-17 13:00:00+00",
+    "load_energy_sum": "1266878274"
+  },
+  {
+    "time_bucket": "2024-07-17 14:00:00+00",
+    "load_energy_sum": "743781630"
+  },
+  {
+    "time_bucket": "2024-07-17 15:00:00+00",
+    "load_energy_sum": "1249135298"
+  },
+  {
+    "time_bucket": "2024-07-17 16:00:00+00",
+    "load_energy_sum": "723558062"
+  },
+  {
+    "time_bucket": "2024-07-17 17:00:00+00",
+    "load_energy_sum": "706374775"
+  },
+  {
+    "time_bucket": "2024-07-17 18:00:00+00",
+    "load_energy_sum": "801830681"
+  },
+  {
+    "time_bucket": "2024-07-17 19:00:00+00",
+    "load_energy_sum": "787354816"
+  },
+  {
+    "time_bucket": "2024-07-17 20:00:00+00",
+    "load_energy_sum": "833191801"
+  },
+  {
+    "time_bucket": "2024-07-17 21:00:00+00",
+    "load_energy_sum": "928643008"
+  },
+  {
+    "time_bucket": "2024-07-17 22:00:00+00",
+    "load_energy_sum": "875487955"
+  },
+  {
+    "time_bucket": "2024-07-17 23:00:00+00",
+    "load_energy_sum": "1762682589"
+  },
+  {
+    "time_bucket": "2024-07-18 00:00:00+00",
+    "load_energy_sum": "1131322512"
+  },
+  {
+    "time_bucket": "2024-07-18 01:00:00+00",
+    "load_energy_sum": "998984680"
+  },
+  {
+    "time_bucket": "2024-07-18 02:00:00+00",
+    "load_energy_sum": "1082844923"
+  },
+  {
+    "time_bucket": "2024-07-18 03:00:00+00",
+    "load_energy_sum": "791018530"
+  },
+  {
+    "time_bucket": "2024-07-18 04:00:00+00",
+    "load_energy_sum": "669660916"
+  },
+  {
+    "time_bucket": "2024-07-18 05:00:00+00",
+    "load_energy_sum": "712620159"
+  },
+  {
+    "time_bucket": "2024-07-18 06:00:00+00",
+    "load_energy_sum": "1248713558"
+  },
+  {
+    "time_bucket": "2024-07-18 07:00:00+00",
+    "load_energy_sum": "1093316975"
+  },
+  {
+    "time_bucket": "2024-07-18 08:00:00+00",
+    "load_energy_sum": "756018227"
+  },
+  {
+    "time_bucket": "2024-07-18 09:00:00+00",
+    "load_energy_sum": "1188609960"
+  },
+  {
+    "time_bucket": "2024-07-18 10:00:00+00",
+    "load_energy_sum": "3513942533"
+  },
+  {
+    "time_bucket": "2024-07-18 11:00:00+00",
+    "load_energy_sum": "1752032310"
+  },
+  {
+    "time_bucket": "2024-07-18 12:00:00+00",
+    "load_energy_sum": "3000226914"
+  },
+  {
+    "time_bucket": "2024-07-18 13:00:00+00",
+    "load_energy_sum": "2834038583"
+  },
+  {
+    "time_bucket": "2024-07-18 14:00:00+00",
+    "load_energy_sum": "2388503966"
+  },
+  {
+    "time_bucket": "2024-07-18 15:00:00+00",
+    "load_energy_sum": "1689862663"
+  },
+  {
+    "time_bucket": "2024-07-18 16:00:00+00",
+    "load_energy_sum": "1431680769"
+  },
+  {
+    "time_bucket": "2024-07-18 17:00:00+00",
+    "load_energy_sum": "1431468006"
+  },
+  {
+    "time_bucket": "2024-07-18 18:00:00+00",
+    "load_energy_sum": "1382166846"
+  },
+  {
+    "time_bucket": "2024-07-18 19:00:00+00",
+    "load_energy_sum": "1434491469"
+  },
+  {
+    "time_bucket": "2024-07-18 20:00:00+00",
+    "load_energy_sum": "1503515683"
+  },
+  {
+    "time_bucket": "2024-07-18 21:00:00+00",
+    "load_energy_sum": "1834387329"
+  },
+  {
+    "time_bucket": "2024-07-18 22:00:00+00",
+    "load_energy_sum": "1239841587"
+  },
+  {
+    "time_bucket": "2024-07-18 23:00:00+00",
+    "load_energy_sum": "1243830116"
+  },
+  {
+    "time_bucket": "2024-07-19 00:00:00+00",
+    "load_energy_sum": "2153697222"
+  },
+  {
+    "time_bucket": "2024-07-19 01:00:00+00",
+    "load_energy_sum": "1421667513"
+  },
+  {
+    "time_bucket": "2024-07-19 02:00:00+00",
+    "load_energy_sum": "1577175750"
+  },
+  {
+    "time_bucket": "2024-07-19 03:00:00+00",
+    "load_energy_sum": "1236602613"
+  },
+  {
+    "time_bucket": "2024-07-19 04:00:00+00",
+    "load_energy_sum": "1090867784"
+  },
+  {
+    "time_bucket": "2024-07-19 05:00:00+00",
+    "load_energy_sum": "1955682513"
+  },
+  {
+    "time_bucket": "2024-07-19 06:00:00+00",
+    "load_energy_sum": "2365628563"
+  },
+  {
+    "time_bucket": "2024-07-19 07:00:00+00",
+    "load_energy_sum": "705312013"
+  },
+  {
+    "time_bucket": "2024-07-19 08:00:00+00",
+    "load_energy_sum": "1331484027"
+  },
+  {
+    "time_bucket": "2024-07-19 09:00:00+00",
+    "load_energy_sum": "1178401023"
+  },
+  {
+    "time_bucket": "2024-07-19 10:00:00+00",
+    "load_energy_sum": "2330448238"
+  },
+  {
+    "time_bucket": "2024-07-19 11:00:00+00",
+    "load_energy_sum": "1449086319"
+  },
+  {
+    "time_bucket": "2024-07-19 12:00:00+00",
+    "load_energy_sum": "1527821284"
+  },
+  {
+    "time_bucket": "2024-07-19 13:00:00+00",
+    "load_energy_sum": "944845118"
+  },
+  {
+    "time_bucket": "2024-07-19 14:00:00+00",
+    "load_energy_sum": "716613112"
+  },
+  {
+    "time_bucket": "2024-07-19 15:00:00+00",
+    "load_energy_sum": "1964111912"
+  },
+  {
+    "time_bucket": "2024-07-19 16:00:00+00",
+    "load_energy_sum": "1087702498"
+  },
+  {
+    "time_bucket": "2024-07-19 17:00:00+00",
+    "load_energy_sum": "999258168"
+  },
+  {
+    "time_bucket": "2024-07-19 18:00:00+00",
+    "load_energy_sum": "1191243763"
+  },
+  {
+    "time_bucket": "2024-07-19 19:00:00+00",
+    "load_energy_sum": "1334073551"
+  },
+  {
+    "time_bucket": "2024-07-19 20:00:00+00",
+    "load_energy_sum": "1500346739"
+  },
+  {
+    "time_bucket": "2024-07-19 21:00:00+00",
+    "load_energy_sum": "643752012"
+  },
+  {
+    "time_bucket": "2024-07-19 22:00:00+00",
+    "load_energy_sum": "745186244"
+  },
+  {
+    "time_bucket": "2024-07-19 23:00:00+00",
+    "load_energy_sum": "1037843285"
+  },
+  {
+    "time_bucket": "2024-07-20 00:00:00+00",
+    "load_energy_sum": "1568480478"
+  },
+  {
+    "time_bucket": "2024-07-20 01:00:00+00",
+    "load_energy_sum": "796964215"
+  },
+  {
+    "time_bucket": "2024-07-20 02:00:00+00",
+    "load_energy_sum": "133911633"
+  },
+  {
+    "time_bucket": "2024-07-20 03:00:00+00",
+    "load_energy_sum": "1571632419"
+  },
+  {
+    "time_bucket": "2024-07-20 04:00:00+00",
+    "load_energy_sum": "1040081493"
+  },
+  {
+    "time_bucket": "2024-07-20 05:00:00+00",
+    "load_energy_sum": "1525418394"
+  },
+  {
+    "time_bucket": "2024-07-20 06:00:00+00",
+    "load_energy_sum": "1174876702"
+  },
+  {
+    "time_bucket": "2024-07-20 07:00:00+00",
+    "load_energy_sum": "2278468089"
+  },
+  {
+    "time_bucket": "2024-07-20 08:00:00+00",
+    "load_energy_sum": "2908797386"
+  },
+  {
+    "time_bucket": "2024-07-20 09:00:00+00",
+    "load_energy_sum": "1618808504"
+  },
+  {
+    "time_bucket": "2024-07-20 10:00:00+00",
+    "load_energy_sum": "3317420985"
+  },
+  {
+    "time_bucket": "2024-07-20 11:00:00+00",
+    "load_energy_sum": "625628985"
+  },
+  {
+    "time_bucket": "2024-07-20 12:00:00+00",
+    "load_energy_sum": "1083417550"
+  },
+  {
+    "time_bucket": "2024-07-20 13:00:00+00",
+    "load_energy_sum": "1058517662"
+  },
+  {
+    "time_bucket": "2024-07-20 14:00:00+00",
+    "load_energy_sum": "1157644407"
+  },
+  {
+    "time_bucket": "2024-07-20 15:00:00+00",
+    "load_energy_sum": "1820634480"
+  },
+  {
+    "time_bucket": "2024-07-20 16:00:00+00",
+    "load_energy_sum": "1311382148"
+  },
+  {
+    "time_bucket": "2024-07-20 17:00:00+00",
+    "load_energy_sum": "1138403619"
+  },
+  {
+    "time_bucket": "2024-07-20 18:00:00+00",
+    "load_energy_sum": "1241510349"
+  },
+  {
+    "time_bucket": "2024-07-20 19:00:00+00",
+    "load_energy_sum": "1254997340"
+  },
+  {
+    "time_bucket": "2024-07-20 20:00:00+00",
+    "load_energy_sum": "2415546217"
+  },
+  {
+    "time_bucket": "2024-07-20 21:00:00+00",
+    "load_energy_sum": "1320444790"
+  },
+  {
+    "time_bucket": "2024-07-20 22:00:00+00",
+    "load_energy_sum": "1847683920"
+  },
+  {
+    "time_bucket": "2024-07-20 23:00:00+00",
+    "load_energy_sum": "1597836144"
+  },
+  {
+    "time_bucket": "2024-07-21 00:00:00+00",
+    "load_energy_sum": "1183858436"
+  },
+  {
+    "time_bucket": "2024-07-21 01:00:00+00",
+    "load_energy_sum": "1978816124"
+  },
+  {
+    "time_bucket": "2024-07-21 02:00:00+00",
+    "load_energy_sum": "1103558407"
+  },
+  {
+    "time_bucket": "2024-07-21 03:00:00+00",
+    "load_energy_sum": "1641814030"
+  },
+  {
+    "time_bucket": "2024-07-21 04:00:00+00",
+    "load_energy_sum": "1245981089"
+  },
+  {
+    "time_bucket": "2024-07-21 05:00:00+00",
+    "load_energy_sum": "1450343231"
+  },
+  {
+    "time_bucket": "2024-07-21 06:00:00+00",
+    "load_energy_sum": "2474192541"
+  },
+  {
+    "time_bucket": "2024-07-21 07:00:00+00",
+    "load_energy_sum": "879525692"
+  },
+  {
+    "time_bucket": "2024-07-21 08:00:00+00",
+    "load_energy_sum": "936195025"
+  },
+  {
+    "time_bucket": "2024-07-21 09:00:00+00",
+    "load_energy_sum": "1468714929"
+  },
+  {
+    "time_bucket": "2024-07-21 10:00:00+00",
+    "load_energy_sum": "1283017369"
+  },
+  {
+    "time_bucket": "2024-07-21 11:00:00+00",
+    "load_energy_sum": "4880918479"
+  },
+  {
+    "time_bucket": "2024-07-21 12:00:00+00",
+    "load_energy_sum": "1470621717"
+  },
+  {
+    "time_bucket": "2024-07-21 13:00:00+00",
+    "load_energy_sum": "1192513412"
+  },
+  {
+    "time_bucket": "2024-07-21 14:00:00+00",
+    "load_energy_sum": "2002633240"
+  },
+  {
+    "time_bucket": "2024-07-21 15:00:00+00",
+    "load_energy_sum": "1957337822"
+  },
+  {
+    "time_bucket": "2024-07-21 16:00:00+00",
+    "load_energy_sum": "1016661243"
+  },
+  {
+    "time_bucket": "2024-07-21 17:00:00+00",
+    "load_energy_sum": "945723109"
+  },
+  {
+    "time_bucket": "2024-07-21 18:00:00+00",
+    "load_energy_sum": "1816543494"
+  },
+  {
+    "time_bucket": "2024-07-21 19:00:00+00",
+    "load_energy_sum": "1415269296"
+  },
+  {
+    "time_bucket": "2024-07-21 20:00:00+00",
+    "load_energy_sum": "1748225429"
+  },
+  {
+    "time_bucket": "2024-07-21 21:00:00+00",
+    "load_energy_sum": "1354247459"
+  },
+  {
+    "time_bucket": "2024-07-21 22:00:00+00",
+    "load_energy_sum": "1820228051"
+  },
+  {
+    "time_bucket": "2024-07-21 23:00:00+00",
+    "load_energy_sum": "1984648062"
+  },
+  {
+    "time_bucket": "2024-07-22 00:00:00+00",
+    "load_energy_sum": "1330405561"
+  },
+  {
+    "time_bucket": "2024-07-22 01:00:00+00",
+    "load_energy_sum": "2023502357"
+  },
+  {
+    "time_bucket": "2024-07-22 02:00:00+00",
+    "load_energy_sum": "1880186210"
+  },
+  {
+    "time_bucket": "2024-07-22 03:00:00+00",
+    "load_energy_sum": "1693905627"
+  },
+  {
+    "time_bucket": "2024-07-22 04:00:00+00",
+    "load_energy_sum": "1095442423"
+  },
+  {
+    "time_bucket": "2024-07-22 05:00:00+00",
+    "load_energy_sum": "999831061"
+  },
+  {
+    "time_bucket": "2024-07-22 06:00:00+00",
+    "load_energy_sum": "2281229659"
+  },
+  {
+    "time_bucket": "2024-07-22 07:00:00+00",
+    "load_energy_sum": "1643490079"
+  },
+  {
+    "time_bucket": "2024-07-22 08:00:00+00",
+    "load_energy_sum": "3072710705"
+  },
+  {
+    "time_bucket": "2024-07-22 09:00:00+00",
+    "load_energy_sum": "1523547561"
+  },
+  {
+    "time_bucket": "2024-07-22 10:00:00+00",
+    "load_energy_sum": "1816818621"
+  },
+  {
+    "time_bucket": "2024-07-22 11:00:00+00",
+    "load_energy_sum": "2115851760"
+  },
+  {
+    "time_bucket": "2024-07-22 12:00:00+00",
+    "load_energy_sum": "1316254387"
+  },
+  {
+    "time_bucket": "2024-07-22 13:00:00+00",
+    "load_energy_sum": "1234004392"
+  },
+  {
+    "time_bucket": "2024-07-22 14:00:00+00",
+    "load_energy_sum": "1494756178"
+  },
+  {
+    "time_bucket": "2024-07-22 15:00:00+00",
+    "load_energy_sum": "1032762106"
+  },
+  {
+    "time_bucket": "2024-07-22 16:00:00+00",
+    "load_energy_sum": "959848783"
+  },
+  {
+    "time_bucket": "2024-07-22 17:00:00+00",
+    "load_energy_sum": "1131297795"
+  },
+  {
+    "time_bucket": "2024-07-22 18:00:00+00",
+    "load_energy_sum": "1310374082"
+  },
+  {
+    "time_bucket": "2024-07-22 19:00:00+00",
+    "load_energy_sum": "1425684587"
+  },
+  {
+    "time_bucket": "2024-07-22 20:00:00+00",
+    "load_energy_sum": "2991698196"
+  },
+  {
+    "time_bucket": "2024-07-22 21:00:00+00",
+    "load_energy_sum": "2048996071"
+  },
+  {
+    "time_bucket": "2024-07-22 22:00:00+00",
+    "load_energy_sum": "1196608061"
+  },
+  {
+    "time_bucket": "2024-07-22 23:00:00+00",
+    "load_energy_sum": "1833806208"
+  },
+  {
+    "time_bucket": "2024-07-23 00:00:00+00",
+    "load_energy_sum": "1144430701"
+  },
+  {
+    "time_bucket": "2024-07-23 01:00:00+00",
+    "load_energy_sum": "2889674546"
+  },
+  {
+    "time_bucket": "2024-07-23 02:00:00+00",
+    "load_energy_sum": "1035217698"
+  },
+  {
+    "time_bucket": "2024-07-23 03:00:00+00",
+    "load_energy_sum": "1196829883"
+  },
+  {
+    "time_bucket": "2024-07-23 04:00:00+00",
+    "load_energy_sum": "1285950401"
+  },
+  {
+    "time_bucket": "2024-07-23 05:00:00+00",
+    "load_energy_sum": "1120709062"
+  },
+  {
+    "time_bucket": "2024-07-23 06:00:00+00",
+    "load_energy_sum": "1414169513"
+  },
+  {
+    "time_bucket": "2024-07-23 07:00:00+00",
+    "load_energy_sum": "1402549333"
+  },
+  {
+    "time_bucket": "2024-07-23 08:00:00+00",
+    "load_energy_sum": "948807556"
+  },
+  {
+    "time_bucket": "2024-07-23 09:00:00+00",
+    "load_energy_sum": "1558124981"
+  },
+  {
+    "time_bucket": "2024-07-23 10:00:00+00",
+    "load_energy_sum": "3379523145"
+  },
+  {
+    "time_bucket": "2024-07-23 11:00:00+00",
+    "load_energy_sum": "1858122354"
+  },
+  {
+    "time_bucket": "2024-07-23 12:00:00+00",
+    "load_energy_sum": "800334746"
+  },
+  {
+    "time_bucket": "2024-07-23 13:00:00+00",
+    "load_energy_sum": "753092014"
+  },
+  {
+    "time_bucket": "2024-07-23 14:00:00+00",
+    "load_energy_sum": "1179885912"
+  },
+  {
+    "time_bucket": "2024-07-23 15:00:00+00",
+    "load_energy_sum": "960307361"
+  },
+  {
+    "time_bucket": "2024-07-23 16:00:00+00",
+    "load_energy_sum": "932794121"
+  },
+  {
+    "time_bucket": "2024-07-23 17:00:00+00",
+    "load_energy_sum": "1028153230"
+  },
+  {
+    "time_bucket": "2024-07-23 18:00:00+00",
+    "load_energy_sum": "1450419745"
+  },
+  {
+    "time_bucket": "2024-07-23 19:00:00+00",
+    "load_energy_sum": "1577084465"
+  },
+  {
+    "time_bucket": "2024-07-23 20:00:00+00",
+    "load_energy_sum": "1434249277"
+  },
+  {
+    "time_bucket": "2024-07-23 21:00:00+00",
+    "load_energy_sum": "2954232287"
+  },
+  {
+    "time_bucket": "2024-07-23 22:00:00+00",
+    "load_energy_sum": "1819862578"
+  },
+  {
+    "time_bucket": "2024-07-23 23:00:00+00",
+    "load_energy_sum": "1364918759"
+  },
+  {
+    "time_bucket": "2024-07-24 00:00:00+00",
+    "load_energy_sum": "1903006289"
+  },
+  {
+    "time_bucket": "2024-07-24 01:00:00+00",
+    "load_energy_sum": "9560603777"
+  },
+  {
+    "time_bucket": "2024-07-24 02:00:00+00",
+    "load_energy_sum": "3078926584"
+  },
+  {
+    "time_bucket": "2024-07-24 03:00:00+00",
+    "load_energy_sum": "1772005199"
+  },
+  {
+    "time_bucket": "2024-07-24 04:00:00+00",
+    "load_energy_sum": "918216229"
+  },
+  {
+    "time_bucket": "2024-07-24 05:00:00+00",
+    "load_energy_sum": "1125572481"
+  },
+  {
+    "time_bucket": "2024-07-24 06:00:00+00",
+    "load_energy_sum": "1281407922"
+  },
+  {
+    "time_bucket": "2024-07-24 07:00:00+00",
+    "load_energy_sum": "1638176935"
+  },
+  {
+    "time_bucket": "2024-07-24 08:00:00+00",
+    "load_energy_sum": "1194513890"
+  },
+  {
+    "time_bucket": "2024-07-24 09:00:00+00",
+    "load_energy_sum": "1768545921"
+  },
+  {
+    "time_bucket": "2024-07-24 10:00:00+00",
+    "load_energy_sum": "1208671213"
+  },
+  {
+    "time_bucket": "2024-07-24 11:00:00+00",
+    "load_energy_sum": "1599623856"
+  },
+  {
+    "time_bucket": "2024-07-24 12:00:00+00",
+    "load_energy_sum": "1190117869"
+  },
+  {
+    "time_bucket": "2024-07-24 13:00:00+00",
+    "load_energy_sum": "109214981"
+  },
+  {
+    "time_bucket": "2024-07-24 14:00:00+00",
+    "load_energy_sum": "184766016"
+  },
+  {
+    "time_bucket": "2024-07-24 15:00:00+00",
+    "load_energy_sum": "1515339354"
+  },
+  {
+    "time_bucket": "2024-07-24 16:00:00+00",
+    "load_energy_sum": "1176451046"
+  },
+  {
+    "time_bucket": "2024-07-24 17:00:00+00",
+    "load_energy_sum": "953691158"
+  },
+  {
+    "time_bucket": "2024-07-24 18:00:00+00",
+    "load_energy_sum": "1278921476"
+  },
+  {
+    "time_bucket": "2024-07-24 19:00:00+00",
+    "load_energy_sum": "1389752795"
+  },
+  {
+    "time_bucket": "2024-07-24 20:00:00+00",
+    "load_energy_sum": "2277290771"
+  },
+  {
+    "time_bucket": "2024-07-24 21:00:00+00",
+    "load_energy_sum": "1336942502"
+  },
+  {
+    "time_bucket": "2024-07-24 22:00:00+00",
+    "load_energy_sum": "1143428250"
+  },
+  {
+    "time_bucket": "2024-07-24 23:00:00+00",
+    "load_energy_sum": "1125872113"
+  },
+  {
+    "time_bucket": "2024-07-25 00:00:00+00",
+    "load_energy_sum": "1079671884"
+  },
+  {
+    "time_bucket": "2024-07-25 01:00:00+00",
+    "load_energy_sum": "937591655"
+  },
+  {
+    "time_bucket": "2024-07-25 02:00:00+00",
+    "load_energy_sum": "929314882"
+  },
+  {
+    "time_bucket": "2024-07-25 03:00:00+00",
+    "load_energy_sum": "1055785809"
+  },
+  {
+    "time_bucket": "2024-07-25 04:00:00+00",
+    "load_energy_sum": "1092801466"
+  },
+  {
+    "time_bucket": "2024-07-25 05:00:00+00",
+    "load_energy_sum": "1213169300"
+  },
+  {
+    "time_bucket": "2024-07-25 06:00:00+00",
+    "load_energy_sum": "1279642843"
+  },
+  {
+    "time_bucket": "2024-07-25 07:00:00+00",
+    "load_energy_sum": "2119541868"
+  },
+  {
+    "time_bucket": "2024-07-25 08:00:00+00",
+    "load_energy_sum": "1385775033"
+  },
+  {
+    "time_bucket": "2024-07-25 09:00:00+00",
+    "load_energy_sum": "2345569814"
+  },
+  {
+    "time_bucket": "2024-07-25 10:00:00+00",
+    "load_energy_sum": "2298256389"
+  },
+  {
+    "time_bucket": "2024-07-25 11:00:00+00",
+    "load_energy_sum": "1607070293"
+  },
+  {
+    "time_bucket": "2024-07-25 12:00:00+00",
+    "load_energy_sum": "772890058"
+  },
+  {
+    "time_bucket": "2024-07-25 13:00:00+00",
+    "load_energy_sum": "1335433868"
+  },
+  {
+    "time_bucket": "2024-07-25 14:00:00+00",
+    "load_energy_sum": "883045621"
+  },
+  {
+    "time_bucket": "2024-07-25 15:00:00+00",
+    "load_energy_sum": "1360626043"
+  },
+  {
+    "time_bucket": "2024-07-25 16:00:00+00",
+    "load_energy_sum": "669621222"
+  },
+  {
+    "time_bucket": "2024-07-25 17:00:00+00",
+    "load_energy_sum": "675100778"
+  },
+  {
+    "time_bucket": "2024-07-25 18:00:00+00",
+    "load_energy_sum": "681345175"
+  },
+  {
+    "time_bucket": "2024-07-25 19:00:00+00",
+    "load_energy_sum": "1542569683"
+  },
+  {
+    "time_bucket": "2024-07-25 20:00:00+00",
+    "load_energy_sum": "856382135"
+  },
+  {
+    "time_bucket": "2024-07-25 21:00:00+00",
+    "load_energy_sum": "851070436"
+  },
+  {
+    "time_bucket": "2024-07-25 22:00:00+00",
+    "load_energy_sum": "940397809"
+  },
+  {
+    "time_bucket": "2024-07-25 23:00:00+00",
+    "load_energy_sum": "1496491011"
+  },
+  {
+    "time_bucket": "2024-07-26 00:00:00+00",
+    "load_energy_sum": "1762900108"
+  },
+  {
+    "time_bucket": "2024-07-26 01:00:00+00",
+    "load_energy_sum": "1155932123"
+  },
+  {
+    "time_bucket": "2024-07-26 02:00:00+00",
+    "load_energy_sum": "1648109330"
+  },
+  {
+    "time_bucket": "2024-07-26 03:00:00+00",
+    "load_energy_sum": "911354150"
+  },
+  {
+    "time_bucket": "2024-07-26 04:00:00+00",
+    "load_energy_sum": "676625996"
+  },
+  {
+    "time_bucket": "2024-07-26 05:00:00+00",
+    "load_energy_sum": "676406117"
+  },
+  {
+    "time_bucket": "2024-07-26 06:00:00+00",
+    "load_energy_sum": "1221038738"
+  },
+  {
+    "time_bucket": "2024-07-26 07:00:00+00",
+    "load_energy_sum": "1406575503"
+  },
+  {
+    "time_bucket": "2024-07-26 08:00:00+00",
+    "load_energy_sum": "850457494"
+  },
+  {
+    "time_bucket": "2024-07-26 09:00:00+00",
+    "load_energy_sum": "1732800032"
+  },
+  {
+    "time_bucket": "2024-07-26 10:00:00+00",
+    "load_energy_sum": "1943439652"
+  },
+  {
+    "time_bucket": "2024-07-26 11:00:00+00",
+    "load_energy_sum": "1395265799"
+  },
+  {
+    "time_bucket": "2024-07-26 12:00:00+00",
+    "load_energy_sum": "1408667329"
+  },
+  {
+    "time_bucket": "2024-07-26 13:00:00+00",
+    "load_energy_sum": "1370799771"
+  },
+  {
+    "time_bucket": "2024-07-26 14:00:00+00",
+    "load_energy_sum": "1444215326"
+  },
+  {
+    "time_bucket": "2024-07-26 15:00:00+00",
+    "load_energy_sum": "772832106"
+  },
+  {
+    "time_bucket": "2024-07-26 16:00:00+00",
+    "load_energy_sum": "656801221"
+  },
+  {
+    "time_bucket": "2024-07-26 17:00:00+00",
+    "load_energy_sum": "732703740"
+  },
+  {
+    "time_bucket": "2024-07-26 18:00:00+00",
+    "load_energy_sum": "749067098"
+  },
+  {
+    "time_bucket": "2024-07-26 19:00:00+00",
+    "load_energy_sum": "794207511"
+  },
+  {
+    "time_bucket": "2024-07-26 20:00:00+00",
+    "load_energy_sum": "989961558"
+  },
+  {
+    "time_bucket": "2024-07-26 21:00:00+00",
+    "load_energy_sum": "867703419"
+  },
+  {
+    "time_bucket": "2024-07-26 22:00:00+00",
+    "load_energy_sum": "928195645"
+  },
+  {
+    "time_bucket": "2024-07-26 23:00:00+00",
+    "load_energy_sum": "1067951293"
+  },
+  {
+    "time_bucket": "2024-07-27 00:00:00+00",
+    "load_energy_sum": "1555566650"
+  },
+  {
+    "time_bucket": "2024-07-27 01:00:00+00",
+    "load_energy_sum": "1014281125"
+  },
+  {
+    "time_bucket": "2024-07-27 02:00:00+00",
+    "load_energy_sum": "1107511329"
+  },
+  {
+    "time_bucket": "2024-07-27 03:00:00+00",
+    "load_energy_sum": "920628260"
+  },
+  {
+    "time_bucket": "2024-07-27 04:00:00+00",
+    "load_energy_sum": "1465622717"
+  },
+  {
+    "time_bucket": "2024-07-27 05:00:00+00",
+    "load_energy_sum": "1239246665"
+  },
+  {
+    "time_bucket": "2024-07-27 06:00:00+00",
+    "load_energy_sum": "873737239"
+  },
+  {
+    "time_bucket": "2024-07-27 07:00:00+00",
+    "load_energy_sum": "986112262"
+  },
+  {
+    "time_bucket": "2024-07-27 08:00:00+00",
+    "load_energy_sum": "2348459075"
+  },
+  {
+    "time_bucket": "2024-07-27 09:00:00+00",
+    "load_energy_sum": "1381556142"
+  },
+  {
+    "time_bucket": "2024-07-27 10:00:00+00",
+    "load_energy_sum": "923347593"
+  },
+  {
+    "time_bucket": "2024-07-27 11:00:00+00",
+    "load_energy_sum": "602842997"
+  },
+  {
+    "time_bucket": "2024-07-27 12:00:00+00",
+    "load_energy_sum": "1199852273"
+  },
+  {
+    "time_bucket": "2024-07-27 13:00:00+00",
+    "load_energy_sum": "620234600"
+  },
+  {
+    "time_bucket": "2024-07-27 14:00:00+00",
+    "load_energy_sum": "1503257998"
+  },
+  {
+    "time_bucket": "2024-07-27 15:00:00+00",
+    "load_energy_sum": "1099635419"
+  },
+  {
+    "time_bucket": "2024-07-27 16:00:00+00",
+    "load_energy_sum": "810775213"
+  },
+  {
+    "time_bucket": "2024-07-27 17:00:00+00",
+    "load_energy_sum": "891667478"
+  },
+  {
+    "time_bucket": "2024-07-27 18:00:00+00",
+    "load_energy_sum": "1080739978"
+  },
+  {
+    "time_bucket": "2024-07-27 19:00:00+00",
+    "load_energy_sum": "1639072430"
+  },
+  {
+    "time_bucket": "2024-07-27 20:00:00+00",
+    "load_energy_sum": "1924203852"
+  },
+  {
+    "time_bucket": "2024-07-27 21:00:00+00",
+    "load_energy_sum": "2173076159"
+  },
+  {
+    "time_bucket": "2024-07-27 22:00:00+00",
+    "load_energy_sum": "1189078778"
+  },
+  {
+    "time_bucket": "2024-07-27 23:00:00+00",
+    "load_energy_sum": "1151684643"
+  },
+  {
+    "time_bucket": "2024-07-28 00:00:00+00",
+    "load_energy_sum": "1198332225"
+  },
+  {
+    "time_bucket": "2024-07-28 01:00:00+00",
+    "load_energy_sum": "1714598880"
+  },
+  {
+    "time_bucket": "2024-07-28 02:00:00+00",
+    "load_energy_sum": "1624636569"
+  },
+  {
+    "time_bucket": "2024-07-28 03:00:00+00",
+    "load_energy_sum": "1042251439"
+  },
+  {
+    "time_bucket": "2024-07-28 04:00:00+00",
+    "load_energy_sum": "1555763329"
+  },
+  {
+    "time_bucket": "2024-07-28 05:00:00+00",
+    "load_energy_sum": "1264424799"
+  },
+  {
+    "time_bucket": "2024-07-28 06:00:00+00",
+    "load_energy_sum": "3684846495"
+  },
+  {
+    "time_bucket": "2024-07-28 07:00:00+00",
+    "load_energy_sum": "786395282"
+  },
+  {
+    "time_bucket": "2024-07-28 08:00:00+00",
+    "load_energy_sum": "1393291309"
+  },
+  {
+    "time_bucket": "2024-07-28 09:00:00+00",
+    "load_energy_sum": "1568439676"
+  },
+  {
+    "time_bucket": "2024-07-28 10:00:00+00",
+    "load_energy_sum": "938701070"
+  },
+  {
+    "time_bucket": "2024-07-28 11:00:00+00",
+    "load_energy_sum": "1743999488"
+  },
+  {
+    "time_bucket": "2024-07-28 12:00:00+00",
+    "load_energy_sum": "1597012236"
+  },
+  {
+    "time_bucket": "2024-07-28 13:00:00+00",
+    "load_energy_sum": "1624150531"
+  },
+  {
+    "time_bucket": "2024-07-28 14:00:00+00",
+    "load_energy_sum": "3544661635"
+  },
+  {
+    "time_bucket": "2024-07-28 15:00:00+00",
+    "load_energy_sum": "4413173494"
+  },
+  {
+    "time_bucket": "2024-07-28 16:00:00+00",
+    "load_energy_sum": "3702650854"
+  },
+  {
+    "time_bucket": "2024-07-28 17:00:00+00",
+    "load_energy_sum": "1354753853"
+  },
+  {
+    "time_bucket": "2024-07-28 18:00:00+00",
+    "load_energy_sum": "1193716207"
+  },
+  {
+    "time_bucket": "2024-07-28 19:00:00+00",
+    "load_energy_sum": "1500059058"
+  },
+  {
+    "time_bucket": "2024-07-28 20:00:00+00",
+    "load_energy_sum": "1529632327"
+  },
+  {
+    "time_bucket": "2024-07-28 21:00:00+00",
+    "load_energy_sum": "1901972451"
+  },
+  {
+    "time_bucket": "2024-07-28 22:00:00+00",
+    "load_energy_sum": "1288148797"
+  },
+  {
+    "time_bucket": "2024-07-28 23:00:00+00",
+    "load_energy_sum": "1264301274"
+  },
+  {
+    "time_bucket": "2024-07-29 00:00:00+00",
+    "load_energy_sum": "2802275615"
+  },
+  {
+    "time_bucket": "2024-07-29 01:00:00+00",
+    "load_energy_sum": "1434664311"
+  },
+  {
+    "time_bucket": "2024-07-29 02:00:00+00",
+    "load_energy_sum": "1092602781"
+  },
+  {
+    "time_bucket": "2024-07-29 03:00:00+00",
+    "load_energy_sum": "1361528891"
+  },
+  {
+    "time_bucket": "2024-07-29 04:00:00+00",
+    "load_energy_sum": "953951905"
+  },
+  {
+    "time_bucket": "2024-07-29 05:00:00+00",
+    "load_energy_sum": "1256468666"
+  },
+  {
+    "time_bucket": "2024-07-29 06:00:00+00",
+    "load_energy_sum": "1804283149"
+  },
+  {
+    "time_bucket": "2024-07-29 07:00:00+00",
+    "load_energy_sum": "1015650883"
+  },
+  {
+    "time_bucket": "2024-07-29 08:00:00+00",
+    "load_energy_sum": "1566943144"
+  },
+  {
+    "time_bucket": "2024-07-29 09:00:00+00",
+    "load_energy_sum": "3658404602"
+  },
+  {
+    "time_bucket": "2024-07-29 10:00:00+00",
+    "load_energy_sum": "4033347792"
+  },
+  {
+    "time_bucket": "2024-07-29 11:00:00+00",
+    "load_energy_sum": "939608689"
+  },
+  {
+    "time_bucket": "2024-07-29 12:00:00+00",
+    "load_energy_sum": "815534037"
+  },
+  {
+    "time_bucket": "2024-07-29 13:00:00+00",
+    "load_energy_sum": "960511455"
+  },
+  {
+    "time_bucket": "2024-07-29 14:00:00+00",
+    "load_energy_sum": "1516308448"
+  },
+  {
+    "time_bucket": "2024-07-29 15:00:00+00",
+    "load_energy_sum": "2147036130"
+  },
+  {
+    "time_bucket": "2024-07-29 16:00:00+00",
+    "load_energy_sum": "1220210208"
+  },
+  {
+    "time_bucket": "2024-07-29 17:00:00+00",
+    "load_energy_sum": "1138482403"
+  },
+  {
+    "time_bucket": "2024-07-29 18:00:00+00",
+    "load_energy_sum": "1089652267"
+  },
+  {
+    "time_bucket": "2024-07-29 19:00:00+00",
+    "load_energy_sum": "1591525346"
+  },
+  {
+    "time_bucket": "2024-07-29 20:00:00+00",
+    "load_energy_sum": "1490798178"
+  },
+  {
+    "time_bucket": "2024-07-29 21:00:00+00",
+    "load_energy_sum": "1291432670"
+  },
+  {
+    "time_bucket": "2024-07-29 22:00:00+00",
+    "load_energy_sum": "1262275778"
+  },
+  {
+    "time_bucket": "2024-07-29 23:00:00+00",
+    "load_energy_sum": "1260028477"
+  },
+  {
+    "time_bucket": "2024-07-30 00:00:00+00",
+    "load_energy_sum": "1254580098"
+  },
+  {
+    "time_bucket": "2024-07-30 01:00:00+00",
+    "load_energy_sum": "1258314071"
+  },
+  {
+    "time_bucket": "2024-07-30 02:00:00+00",
+    "load_energy_sum": "999411336"
+  },
+  {
+    "time_bucket": "2024-07-30 03:00:00+00",
+    "load_energy_sum": "1020995724"
+  },
+  {
+    "time_bucket": "2024-07-30 04:00:00+00",
+    "load_energy_sum": "1004786560"
+  },
+  {
+    "time_bucket": "2024-07-30 05:00:00+00",
+    "load_energy_sum": "2224018476"
+  },
+  {
+    "time_bucket": "2024-07-30 06:00:00+00",
+    "load_energy_sum": "1225018025"
+  },
+  {
+    "time_bucket": "2024-07-30 07:00:00+00",
+    "load_energy_sum": "1062957400"
+  },
+  {
+    "time_bucket": "2024-07-30 08:00:00+00",
+    "load_energy_sum": "1599404483"
+  },
+  {
+    "time_bucket": "2024-07-30 09:00:00+00",
+    "load_energy_sum": "2094532841"
+  },
+  {
+    "time_bucket": "2024-07-30 10:00:00+00",
+    "load_energy_sum": "3645805269"
+  },
+  {
+    "time_bucket": "2024-07-30 11:00:00+00",
+    "load_energy_sum": "1257400917"
+  },
+  {
+    "time_bucket": "2024-07-30 12:00:00+00",
+    "load_energy_sum": "987035510"
+  },
+  {
+    "time_bucket": "2024-07-30 13:00:00+00",
+    "load_energy_sum": "2310872695"
+  },
+  {
+    "time_bucket": "2024-07-30 14:00:00+00",
+    "load_energy_sum": "1010753790"
+  },
+  {
+    "time_bucket": "2024-07-30 15:00:00+00",
+    "load_energy_sum": "806592150"
+  },
+  {
+    "time_bucket": "2024-07-30 16:00:00+00",
+    "load_energy_sum": "774353655"
+  },
+  {
+    "time_bucket": "2024-07-30 17:00:00+00",
+    "load_energy_sum": "862695645"
+  },
+  {
+    "time_bucket": "2024-07-30 18:00:00+00",
+    "load_energy_sum": "949202096"
+  },
+  {
+    "time_bucket": "2024-07-30 19:00:00+00",
+    "load_energy_sum": "1314470937"
+  },
+  {
+    "time_bucket": "2024-07-30 20:00:00+00",
+    "load_energy_sum": "1452635520"
+  },
+  {
+    "time_bucket": "2024-07-30 21:00:00+00",
+    "load_energy_sum": "2291744924"
+  },
+  {
+    "time_bucket": "2024-07-30 22:00:00+00",
+    "load_energy_sum": "1549133700"
+  },
+  {
+    "time_bucket": "2024-07-30 23:00:00+00",
+    "load_energy_sum": "1464559537"
+  },
+  {
+    "time_bucket": "2024-07-31 00:00:00+00",
+    "load_energy_sum": "1620318221"
+  },
+  {
+    "time_bucket": "2024-07-31 01:00:00+00",
+    "load_energy_sum": "1199957103"
+  },
+  {
+    "time_bucket": "2024-07-31 02:00:00+00",
+    "load_energy_sum": "2268762834"
+  },
+  {
+    "time_bucket": "2024-07-31 03:00:00+00",
+    "load_energy_sum": "1035317624"
+  },
+  {
+    "time_bucket": "2024-07-31 04:00:00+00",
+    "load_energy_sum": "1041374319"
+  },
+  {
+    "time_bucket": "2024-07-31 05:00:00+00",
+    "load_energy_sum": "1095491362"
+  },
+  {
+    "time_bucket": "2024-07-31 06:00:00+00",
+    "load_energy_sum": "1899069856"
+  },
+  {
+    "time_bucket": "2024-07-31 07:00:00+00",
+    "load_energy_sum": "1848681177"
+  },
+  {
+    "time_bucket": "2024-07-31 08:00:00+00",
+    "load_energy_sum": "778711814"
+  },
+  {
+    "time_bucket": "2024-07-31 09:00:00+00",
+    "load_energy_sum": "1197843915"
+  },
+  {
+    "time_bucket": "2024-07-31 10:00:00+00",
+    "load_energy_sum": "3555565234"
+  },
+  {
+    "time_bucket": "2024-07-31 11:00:00+00",
+    "load_energy_sum": "1695250014"
+  },
+  {
+    "time_bucket": "2024-07-31 12:00:00+00",
+    "load_energy_sum": "1448710281"
+  },
+  {
+    "time_bucket": "2024-07-31 13:00:00+00",
+    "load_energy_sum": "979307766"
+  },
+  {
+    "time_bucket": "2024-07-31 14:00:00+00",
+    "load_energy_sum": "1284548900"
+  },
+  {
+    "time_bucket": "2024-07-31 15:00:00+00",
+    "load_energy_sum": "1983011138"
+  },
+  {
+    "time_bucket": "2024-07-31 16:00:00+00",
+    "load_energy_sum": "1231922621"
+  },
+  {
+    "time_bucket": "2024-07-31 17:00:00+00",
+    "load_energy_sum": "1233943886"
+  },
+  {
+    "time_bucket": "2024-07-31 18:00:00+00",
+    "load_energy_sum": "1144015380"
+  },
+  {
+    "time_bucket": "2024-07-31 19:00:00+00",
+    "load_energy_sum": "2730664603"
+  },
+  {
+    "time_bucket": "2024-07-31 20:00:00+00",
+    "load_energy_sum": "1517936568"
+  },
+  {
+    "time_bucket": "2024-07-31 21:00:00+00",
+    "load_energy_sum": "2342809876"
+  },
+  {
+    "time_bucket": "2024-07-31 22:00:00+00",
+    "load_energy_sum": "1400275785"
+  },
+  {
+    "time_bucket": "2024-07-31 23:00:00+00",
+    "load_energy_sum": "1628492190"
+  },
+  {
+    "time_bucket": "2024-08-01 00:00:00+00",
+    "load_energy_sum": "1410348443"
+  },
+  {
+    "time_bucket": "2024-08-01 01:00:00+00",
+    "load_energy_sum": "4295175364"
+  },
+  {
+    "time_bucket": "2024-08-01 02:00:00+00",
+    "load_energy_sum": "1085642571"
+  },
+  {
+    "time_bucket": "2024-08-01 03:00:00+00",
+    "load_energy_sum": "425078645"
+  },
+  {
+    "time_bucket": "2024-08-01 04:00:00+00",
+    "load_energy_sum": "505503726"
+  },
+  {
+    "time_bucket": "2024-08-01 05:00:00+00",
+    "load_energy_sum": "1061059429"
+  },
+  {
+    "time_bucket": "2024-08-01 06:00:00+00",
+    "load_energy_sum": "974491305"
+  },
+  {
+    "time_bucket": "2024-08-01 07:00:00+00",
+    "load_energy_sum": "704340017"
+  },
+  {
+    "time_bucket": "2024-08-01 08:00:00+00",
+    "load_energy_sum": "526293508"
+  },
+  {
+    "time_bucket": "2024-08-01 09:00:00+00",
+    "load_energy_sum": "3094345806"
+  },
+  {
+    "time_bucket": "2024-08-01 10:00:00+00",
+    "load_energy_sum": "1052481095"
+  },
+  {
+    "time_bucket": "2024-08-01 11:00:00+00",
+    "load_energy_sum": "1928480756"
+  },
+  {
+    "time_bucket": "2024-08-01 12:00:00+00",
+    "load_energy_sum": "1071758517"
+  },
+  {
+    "time_bucket": "2024-08-01 13:00:00+00",
+    "load_energy_sum": "1395145150"
+  },
+  {
+    "time_bucket": "2024-08-01 14:00:00+00",
+    "load_energy_sum": "1773521097"
+  },
+  {
+    "time_bucket": "2024-08-01 15:00:00+00",
+    "load_energy_sum": "1918911691"
+  },
+  {
+    "time_bucket": "2024-08-01 16:00:00+00",
+    "load_energy_sum": "693293802"
+  },
+  {
+    "time_bucket": "2024-08-01 17:00:00+00",
+    "load_energy_sum": "690715120"
+  },
+  {
+    "time_bucket": "2024-08-01 18:00:00+00",
+    "load_energy_sum": "678018880"
+  },
+  {
+    "time_bucket": "2024-08-01 19:00:00+00",
+    "load_energy_sum": "1653207765"
+  },
+  {
+    "time_bucket": "2024-08-01 20:00:00+00",
+    "load_energy_sum": "856384770"
+  },
+  {
+    "time_bucket": "2024-08-01 21:00:00+00",
+    "load_energy_sum": "1614690116"
+  },
+  {
+    "time_bucket": "2024-08-01 22:00:00+00",
+    "load_energy_sum": "886094529"
+  },
+  {
+    "time_bucket": "2024-08-01 23:00:00+00",
+    "load_energy_sum": "1610947172"
+  },
+  {
+    "time_bucket": "2024-08-02 00:00:00+00",
+    "load_energy_sum": "798195595"
+  },
+  {
+    "time_bucket": "2024-08-02 01:00:00+00",
+    "load_energy_sum": "2966133872"
+  },
+  {
+    "time_bucket": "2024-08-02 02:00:00+00",
+    "load_energy_sum": "1655752330"
+  },
+  {
+    "time_bucket": "2024-08-02 03:00:00+00",
+    "load_energy_sum": "1473603164"
+  },
+  {
+    "time_bucket": "2024-08-02 04:00:00+00",
+    "load_energy_sum": "697456006"
+  },
+  {
+    "time_bucket": "2024-08-02 05:00:00+00",
+    "load_energy_sum": "767807358"
+  },
+  {
+    "time_bucket": "2024-08-02 06:00:00+00",
+    "load_energy_sum": "1085756006"
+  },
+  {
+    "time_bucket": "2024-08-02 07:00:00+00",
+    "load_energy_sum": "1029004624"
+  },
+  {
+    "time_bucket": "2024-08-02 08:00:00+00",
+    "load_energy_sum": "2181809018"
+  },
+  {
+    "time_bucket": "2024-08-02 09:00:00+00",
+    "load_energy_sum": "927865592"
+  },
+  {
+    "time_bucket": "2024-08-02 10:00:00+00",
+    "load_energy_sum": "2597209237"
+  },
+  {
+    "time_bucket": "2024-08-02 11:00:00+00",
+    "load_energy_sum": "938056461"
+  },
+  {
+    "time_bucket": "2024-08-02 12:00:00+00",
+    "load_energy_sum": "620805055"
+  },
+  {
+    "time_bucket": "2024-08-02 13:00:00+00",
+    "load_energy_sum": "1172071006"
+  },
+  {
+    "time_bucket": "2024-08-02 14:00:00+00",
+    "load_energy_sum": "781517029"
+  },
+  {
+    "time_bucket": "2024-08-02 15:00:00+00",
+    "load_energy_sum": "1100526342"
+  },
+  {
+    "time_bucket": "2024-08-02 16:00:00+00",
+    "load_energy_sum": "1087726679"
+  },
+  {
+    "time_bucket": "2024-08-02 17:00:00+00",
+    "load_energy_sum": "739434657"
+  },
+  {
+    "time_bucket": "2024-08-02 18:00:00+00",
+    "load_energy_sum": "790614463"
+  },
+  {
+    "time_bucket": "2024-08-02 19:00:00+00",
+    "load_energy_sum": "909278335"
+  },
+  {
+    "time_bucket": "2024-08-02 20:00:00+00",
+    "load_energy_sum": "1000150766"
+  },
+  {
+    "time_bucket": "2024-08-02 21:00:00+00",
+    "load_energy_sum": "803412661"
+  },
+  {
+    "time_bucket": "2024-08-02 22:00:00+00",
+    "load_energy_sum": "849232966"
+  },
+  {
+    "time_bucket": "2024-08-02 23:00:00+00",
+    "load_energy_sum": "840351168"
+  },
+  {
+    "time_bucket": "2024-08-03 00:00:00+00",
+    "load_energy_sum": "1527730133"
+  },
+  {
+    "time_bucket": "2024-08-03 01:00:00+00",
+    "load_energy_sum": "8590467941"
+  },
+  {
+    "time_bucket": "2024-08-03 02:00:00+00",
+    "load_energy_sum": "2463865136"
+  },
+  {
+    "time_bucket": "2024-08-03 03:00:00+00",
+    "load_energy_sum": "1302343367"
+  },
+  {
+    "time_bucket": "2024-08-03 04:00:00+00",
+    "load_energy_sum": "587403515"
+  },
+  {
+    "time_bucket": "2024-08-03 05:00:00+00",
+    "load_energy_sum": "956374413"
+  },
+  {
+    "time_bucket": "2024-08-03 06:00:00+00",
+    "load_energy_sum": "1013393357"
+  },
+  {
+    "time_bucket": "2024-08-03 07:00:00+00",
+    "load_energy_sum": "846984423"
+  },
+  {
+    "time_bucket": "2024-08-03 08:00:00+00",
+    "load_energy_sum": "919558440"
+  },
+  {
+    "time_bucket": "2024-08-03 09:00:00+00",
+    "load_energy_sum": "929496854"
+  },
+  {
+    "time_bucket": "2024-08-03 10:00:00+00",
+    "load_energy_sum": "887020796"
+  },
+  {
+    "time_bucket": "2024-08-03 11:00:00+00",
+    "load_energy_sum": "987337376"
+  },
+  {
+    "time_bucket": "2024-08-03 12:00:00+00",
+    "load_energy_sum": "660591800"
+  },
+  {
+    "time_bucket": "2024-08-03 13:00:00+00",
+    "load_energy_sum": "979646628"
+  },
+  {
+    "time_bucket": "2024-08-03 14:00:00+00",
+    "load_energy_sum": "950070286"
+  },
+  {
+    "time_bucket": "2024-08-03 15:00:00+00",
+    "load_energy_sum": "915447182"
+  },
+  {
+    "time_bucket": "2024-08-03 16:00:00+00",
+    "load_energy_sum": "762131217"
+  },
+  {
+    "time_bucket": "2024-08-03 17:00:00+00",
+    "load_energy_sum": "703016899"
+  },
+  {
+    "time_bucket": "2024-08-03 18:00:00+00",
+    "load_energy_sum": "773124067"
+  },
+  {
+    "time_bucket": "2024-08-03 19:00:00+00",
+    "load_energy_sum": "749414841"
+  },
+  {
+    "time_bucket": "2024-08-03 20:00:00+00",
+    "load_energy_sum": "850923928"
+  },
+  {
+    "time_bucket": "2024-08-03 21:00:00+00",
+    "load_energy_sum": "846233615"
+  },
+  {
+    "time_bucket": "2024-08-03 22:00:00+00",
+    "load_energy_sum": "844841999"
+  },
+  {
+    "time_bucket": "2024-08-03 23:00:00+00",
+    "load_energy_sum": "807553745"
+  },
+  {
+    "time_bucket": "2024-08-04 00:00:00+00",
+    "load_energy_sum": "1481387277"
+  },
+  {
+    "time_bucket": "2024-08-04 01:00:00+00",
+    "load_energy_sum": "1614157606"
+  },
+  {
+    "time_bucket": "2024-08-04 02:00:00+00",
+    "load_energy_sum": "674468110"
+  },
+  {
+    "time_bucket": "2024-08-04 03:00:00+00",
+    "load_energy_sum": "1476598109"
+  },
+  {
+    "time_bucket": "2024-08-04 04:00:00+00",
+    "load_energy_sum": "744993678"
+  },
+  {
+    "time_bucket": "2024-08-04 05:00:00+00",
+    "load_energy_sum": "1361553625"
+  },
+  {
+    "time_bucket": "2024-08-04 06:00:00+00",
+    "load_energy_sum": "649135813"
+  },
+  {
+    "time_bucket": "2024-08-04 07:00:00+00",
+    "load_energy_sum": "1639841860"
+  },
+  {
+    "time_bucket": "2024-08-04 08:00:00+00",
+    "load_energy_sum": "1007150848"
+  },
+  {
+    "time_bucket": "2024-08-04 09:00:00+00",
+    "load_energy_sum": "1433832627"
+  },
+  {
+    "time_bucket": "2024-08-04 10:00:00+00",
+    "load_energy_sum": "1591679982"
+  },
+  {
+    "time_bucket": "2024-08-04 11:00:00+00",
+    "load_energy_sum": "774481094"
+  },
+  {
+    "time_bucket": "2024-08-04 12:00:00+00",
+    "load_energy_sum": "1452340312"
+  },
+  {
+    "time_bucket": "2024-08-04 13:00:00+00",
+    "load_energy_sum": "3130886428"
+  },
+  {
+    "time_bucket": "2024-08-04 14:00:00+00",
+    "load_energy_sum": "1969245907"
+  },
+  {
+    "time_bucket": "2024-08-04 15:00:00+00",
+    "load_energy_sum": "1350106307"
+  },
+  {
+    "time_bucket": "2024-08-04 16:00:00+00",
+    "load_energy_sum": "1153024409"
+  },
+  {
+    "time_bucket": "2024-08-04 17:00:00+00",
+    "load_energy_sum": "1436756503"
+  },
+  {
+    "time_bucket": "2024-08-04 18:00:00+00",
+    "load_energy_sum": "1045971307"
+  },
+  {
+    "time_bucket": "2024-08-04 19:00:00+00",
+    "load_energy_sum": "1450839459"
+  },
+  {
+    "time_bucket": "2024-08-04 20:00:00+00",
+    "load_energy_sum": "1433943698"
+  },
+  {
+    "time_bucket": "2024-08-04 21:00:00+00",
+    "load_energy_sum": "1255283976"
+  },
+  {
+    "time_bucket": "2024-08-04 22:00:00+00",
+    "load_energy_sum": "1158994092"
+  },
+  {
+    "time_bucket": "2024-08-04 23:00:00+00",
+    "load_energy_sum": "1157650537"
+  },
+  {
+    "time_bucket": "2024-08-05 00:00:00+00",
+    "load_energy_sum": "1102121598"
+  },
+  {
+    "time_bucket": "2024-08-05 01:00:00+00",
+    "load_energy_sum": "1059517224"
+  },
+  {
+    "time_bucket": "2024-08-05 02:00:00+00",
+    "load_energy_sum": "938542999"
+  },
+  {
+    "time_bucket": "2024-08-05 03:00:00+00",
+    "load_energy_sum": "963820504"
+  },
+  {
+    "time_bucket": "2024-08-05 04:00:00+00",
+    "load_energy_sum": "1033273188"
+  },
+  {
+    "time_bucket": "2024-08-05 05:00:00+00",
+    "load_energy_sum": "1091299169"
+  },
+  {
+    "time_bucket": "2024-08-05 06:00:00+00",
+    "load_energy_sum": "846838389"
+  },
+  {
+    "time_bucket": "2024-08-05 07:00:00+00",
+    "load_energy_sum": "772111330"
+  },
+  {
+    "time_bucket": "2024-08-05 08:00:00+00",
+    "load_energy_sum": "882316568"
+  },
+  {
+    "time_bucket": "2024-08-05 09:00:00+00",
+    "load_energy_sum": "3511245506"
+  },
+  {
+    "time_bucket": "2024-08-05 10:00:00+00",
+    "load_energy_sum": "1439112840"
+  },
+  {
+    "time_bucket": "2024-08-05 11:00:00+00",
+    "load_energy_sum": "2833349717"
+  },
+  {
+    "time_bucket": "2024-08-05 12:00:00+00",
+    "load_energy_sum": "1607955910"
+  },
+  {
+    "time_bucket": "2024-08-05 13:00:00+00",
+    "load_energy_sum": "2194326526"
+  },
+  {
+    "time_bucket": "2024-08-05 14:00:00+00",
+    "load_energy_sum": "1321725919"
+  },
+  {
+    "time_bucket": "2024-08-05 15:00:00+00",
+    "load_energy_sum": "1224689412"
+  },
+  {
+    "time_bucket": "2024-08-05 16:00:00+00",
+    "load_energy_sum": "1751301208"
+  },
+  {
+    "time_bucket": "2024-08-05 17:00:00+00",
+    "load_energy_sum": "1548383648"
+  },
+  {
+    "time_bucket": "2024-08-05 18:00:00+00",
+    "load_energy_sum": "989287494"
+  },
+  {
+    "time_bucket": "2024-08-05 19:00:00+00",
+    "load_energy_sum": "1557698096"
+  },
+  {
+    "time_bucket": "2024-08-05 20:00:00+00",
+    "load_energy_sum": "2479442955"
+  },
+  {
+    "time_bucket": "2024-08-05 21:00:00+00",
+    "load_energy_sum": "1490678904"
+  },
+  {
+    "time_bucket": "2024-08-05 22:00:00+00",
+    "load_energy_sum": "1751291934"
+  },
+  {
+    "time_bucket": "2024-08-05 23:00:00+00",
+    "load_energy_sum": "1328207490"
+  },
+  {
+    "time_bucket": "2024-08-06 00:00:00+00",
+    "load_energy_sum": "2310946083"
+  },
+  {
+    "time_bucket": "2024-08-06 01:00:00+00",
+    "load_energy_sum": "1802676921"
+  },
+  {
+    "time_bucket": "2024-08-06 02:00:00+00",
+    "load_energy_sum": "3797103314"
+  },
+  {
+    "time_bucket": "2024-08-06 03:00:00+00",
+    "load_energy_sum": "954724205"
+  },
+  {
+    "time_bucket": "2024-08-06 04:00:00+00",
+    "load_energy_sum": "1234752546"
+  },
+  {
+    "time_bucket": "2024-08-06 05:00:00+00",
+    "load_energy_sum": "1041546121"
+  },
+  {
+    "time_bucket": "2024-08-06 06:00:00+00",
+    "load_energy_sum": "1309554600"
+  },
+  {
+    "time_bucket": "2024-08-06 07:00:00+00",
+    "load_energy_sum": "1351628098"
+  },
+  {
+    "time_bucket": "2024-08-06 08:00:00+00",
+    "load_energy_sum": "1772177133"
+  },
+  {
+    "time_bucket": "2024-08-06 09:00:00+00",
+    "load_energy_sum": "3006847708"
+  },
+  {
+    "time_bucket": "2024-08-06 10:00:00+00",
+    "load_energy_sum": "1593471499"
+  },
+  {
+    "time_bucket": "2024-08-06 11:00:00+00",
+    "load_energy_sum": "1450642644"
+  },
+  {
+    "time_bucket": "2024-08-06 12:00:00+00",
+    "load_energy_sum": "869699066"
+  },
+  {
+    "time_bucket": "2024-08-06 13:00:00+00",
+    "load_energy_sum": "766482153"
+  },
+  {
+    "time_bucket": "2024-08-06 14:00:00+00",
+    "load_energy_sum": "788175814"
+  },
+  {
+    "time_bucket": "2024-08-06 15:00:00+00",
+    "load_energy_sum": "1016505191"
+  },
+  {
+    "time_bucket": "2024-08-06 16:00:00+00",
+    "load_energy_sum": "1020268677"
+  },
+  {
+    "time_bucket": "2024-08-06 17:00:00+00",
+    "load_energy_sum": "1319578799"
+  },
+  {
+    "time_bucket": "2024-08-06 18:00:00+00",
+    "load_energy_sum": "1702096508"
+  },
+  {
+    "time_bucket": "2024-08-06 19:00:00+00",
+    "load_energy_sum": "1738717670"
+  },
+  {
+    "time_bucket": "2024-08-06 20:00:00+00",
+    "load_energy_sum": "1637440012"
+  },
+  {
+    "time_bucket": "2024-08-06 21:00:00+00",
+    "load_energy_sum": "2945019023"
+  },
+  {
+    "time_bucket": "2024-08-06 22:00:00+00",
+    "load_energy_sum": "1385444175"
+  },
+  {
+    "time_bucket": "2024-08-06 23:00:00+00",
+    "load_energy_sum": "1579312568"
+  },
+  {
+    "time_bucket": "2024-08-07 00:00:00+00",
+    "load_energy_sum": "1296104939"
+  },
+  {
+    "time_bucket": "2024-08-07 01:00:00+00",
+    "load_energy_sum": "1434357109"
+  },
+  {
+    "time_bucket": "2024-08-07 02:00:00+00",
+    "load_energy_sum": "2740831679"
+  },
+  {
+    "time_bucket": "2024-08-07 03:00:00+00",
+    "load_energy_sum": "1099381883"
+  },
+  {
+    "time_bucket": "2024-08-07 04:00:00+00",
+    "load_energy_sum": "1092971552"
+  },
+  {
+    "time_bucket": "2024-08-07 05:00:00+00",
+    "load_energy_sum": "1102103938"
+  },
+  {
+    "time_bucket": "2024-08-07 06:00:00+00",
+    "load_energy_sum": "1631948272"
+  },
+  {
+    "time_bucket": "2024-08-07 07:00:00+00",
+    "load_energy_sum": "782742520"
+  },
+  {
+    "time_bucket": "2024-08-07 08:00:00+00",
+    "load_energy_sum": "1325168351"
+  },
+  {
+    "time_bucket": "2024-08-07 09:00:00+00",
+    "load_energy_sum": "1091813891"
+  },
+  {
+    "time_bucket": "2024-08-07 10:00:00+00",
+    "load_energy_sum": "3709100149"
+  },
+  {
+    "time_bucket": "2024-08-07 11:00:00+00",
+    "load_energy_sum": "2096338627"
+  },
+  {
+    "time_bucket": "2024-08-07 12:00:00+00",
+    "load_energy_sum": "2202505337"
+  },
+  {
+    "time_bucket": "2024-08-07 13:00:00+00",
+    "load_energy_sum": "1677643699"
+  },
+  {
+    "time_bucket": "2024-08-07 14:00:00+00",
+    "load_energy_sum": "1290323841"
+  },
+  {
+    "time_bucket": "2024-08-07 15:00:00+00",
+    "load_energy_sum": "1551361704"
+  },
+  {
+    "time_bucket": "2024-08-07 16:00:00+00",
+    "load_energy_sum": "1263507400"
+  },
+  {
+    "time_bucket": "2024-08-07 17:00:00+00",
+    "load_energy_sum": "1072618669"
+  },
+  {
+    "time_bucket": "2024-08-07 18:00:00+00",
+    "load_energy_sum": "1639013512"
+  },
+  {
+    "time_bucket": "2024-08-07 19:00:00+00",
+    "load_energy_sum": "1646219426"
+  },
+  {
+    "time_bucket": "2024-08-07 20:00:00+00",
+    "load_energy_sum": "1591323065"
+  },
+  {
+    "time_bucket": "2024-08-07 21:00:00+00",
+    "load_energy_sum": "2716568914"
+  },
+  {
+    "time_bucket": "2024-08-07 22:00:00+00",
+    "load_energy_sum": "1397059984"
+  },
+  {
+    "time_bucket": "2024-08-07 23:00:00+00",
+    "load_energy_sum": "1197552026"
+  },
+  {
+    "time_bucket": "2024-08-08 00:00:00+00",
+    "load_energy_sum": "1384671124"
+  },
+  {
+    "time_bucket": "2024-08-08 01:00:00+00",
+    "load_energy_sum": "1217733900"
+  },
+  {
+    "time_bucket": "2024-08-08 02:00:00+00",
+    "load_energy_sum": "2710191755"
+  },
+  {
+    "time_bucket": "2024-08-08 03:00:00+00",
+    "load_energy_sum": "833427691"
+  },
+  {
+    "time_bucket": "2024-08-08 04:00:00+00",
+    "load_energy_sum": "1081673565"
+  },
+  {
+    "time_bucket": "2024-08-08 05:00:00+00",
+    "load_energy_sum": "1016192149"
+  },
+  {
+    "time_bucket": "2024-08-08 06:00:00+00",
+    "load_energy_sum": "1239673055"
+  },
+  {
+    "time_bucket": "2024-08-08 07:00:00+00",
+    "load_energy_sum": "1424485976"
+  },
+  {
+    "time_bucket": "2024-08-08 08:00:00+00",
+    "load_energy_sum": "810597557"
+  },
+  {
+    "time_bucket": "2024-08-08 09:00:00+00",
+    "load_energy_sum": "2509099491"
+  },
+  {
+    "time_bucket": "2024-08-08 10:00:00+00",
+    "load_energy_sum": "1355683358"
+  },
+  {
+    "time_bucket": "2024-08-08 11:00:00+00",
+    "load_energy_sum": "1329768930"
+  },
+  {
+    "time_bucket": "2024-08-08 12:00:00+00",
+    "load_energy_sum": "1512779832"
+  },
+  {
+    "time_bucket": "2024-08-08 13:00:00+00",
+    "load_energy_sum": "952746831"
+  },
+  {
+    "time_bucket": "2024-08-08 14:00:00+00",
+    "load_energy_sum": "616045536"
+  },
+  {
+    "time_bucket": "2024-08-08 15:00:00+00",
+    "load_energy_sum": "698401530"
+  },
+  {
+    "time_bucket": "2024-08-08 16:00:00+00",
+    "load_energy_sum": "749669551"
+  },
+  {
+    "time_bucket": "2024-08-08 17:00:00+00",
+    "load_energy_sum": "678041802"
+  },
+  {
+    "time_bucket": "2024-08-08 18:00:00+00",
+    "load_energy_sum": "729995509"
+  },
+  {
+    "time_bucket": "2024-08-08 19:00:00+00",
+    "load_energy_sum": "843752363"
+  },
+  {
+    "time_bucket": "2024-08-08 20:00:00+00",
+    "load_energy_sum": "1674138150"
+  },
+  {
+    "time_bucket": "2024-08-08 21:00:00+00",
+    "load_energy_sum": "1144111476"
+  },
+  {
+    "time_bucket": "2024-08-08 22:00:00+00",
+    "load_energy_sum": "843625331"
+  },
+  {
+    "time_bucket": "2024-08-08 23:00:00+00",
+    "load_energy_sum": "1553907372"
+  },
+  {
+    "time_bucket": "2024-08-09 00:00:00+00",
+    "load_energy_sum": "893554411"
+  },
+  {
+    "time_bucket": "2024-08-09 01:00:00+00",
+    "load_energy_sum": "1215639292"
+  },
+  {
+    "time_bucket": "2024-08-09 02:00:00+00",
+    "load_energy_sum": "779550647"
+  },
+  {
+    "time_bucket": "2024-08-09 03:00:00+00",
+    "load_energy_sum": "378272742"
+  },
+  {
+    "time_bucket": "2024-08-09 04:00:00+00",
+    "load_energy_sum": "465888381"
+  },
+  {
+    "time_bucket": "2024-08-09 05:00:00+00",
+    "load_energy_sum": "641973861"
+  },
+  {
+    "time_bucket": "2024-08-09 06:00:00+00",
+    "load_energy_sum": "662347635"
+  },
+  {
+    "time_bucket": "2024-08-09 07:00:00+00",
+    "load_energy_sum": "651547988"
+  },
+  {
+    "time_bucket": "2024-08-09 08:00:00+00",
+    "load_energy_sum": "593357972"
+  },
+  {
+    "time_bucket": "2024-08-09 09:00:00+00",
+    "load_energy_sum": "2206205010"
+  },
+  {
+    "time_bucket": "2024-08-09 10:00:00+00",
+    "load_energy_sum": "1555348170"
+  },
+  {
+    "time_bucket": "2024-08-09 11:00:00+00",
+    "load_energy_sum": "1120932979"
+  },
+  {
+    "time_bucket": "2024-08-09 12:00:00+00",
+    "load_energy_sum": "1290903391"
+  },
+  {
+    "time_bucket": "2024-08-09 13:00:00+00",
+    "load_energy_sum": "1525653103"
+  },
+  {
+    "time_bucket": "2024-08-09 14:00:00+00",
+    "load_energy_sum": "1466359010"
+  },
+  {
+    "time_bucket": "2024-08-09 15:00:00+00",
+    "load_energy_sum": "1413072287"
+  },
+  {
+    "time_bucket": "2024-08-09 16:00:00+00",
+    "load_energy_sum": "1115825545"
+  },
+  {
+    "time_bucket": "2024-08-09 17:00:00+00",
+    "load_energy_sum": "1069663208"
+  },
+  {
+    "time_bucket": "2024-08-09 18:00:00+00",
+    "load_energy_sum": "1142173171"
+  },
+  {
+    "time_bucket": "2024-08-09 19:00:00+00",
+    "load_energy_sum": "1183721005"
+  },
+  {
+    "time_bucket": "2024-08-09 20:00:00+00",
+    "load_energy_sum": "1283969502"
+  },
+  {
+    "time_bucket": "2024-08-09 21:00:00+00",
+    "load_energy_sum": "1676328567"
+  },
+  {
+    "time_bucket": "2024-08-09 22:00:00+00",
+    "load_energy_sum": "1850048267"
+  },
+  {
+    "time_bucket": "2024-08-09 23:00:00+00",
+    "load_energy_sum": "1263794275"
+  },
+  {
+    "time_bucket": "2024-08-10 00:00:00+00",
+    "load_energy_sum": "1636305446"
+  },
+  {
+    "time_bucket": "2024-08-10 01:00:00+00",
+    "load_energy_sum": "1572549213"
+  },
+  {
+    "time_bucket": "2024-08-10 02:00:00+00",
+    "load_energy_sum": "1209242467"
+  },
+  {
+    "time_bucket": "2024-08-10 03:00:00+00",
+    "load_energy_sum": "1029561699"
+  },
+  {
+    "time_bucket": "2024-08-10 04:00:00+00",
+    "load_energy_sum": "1594003761"
+  },
+  {
+    "time_bucket": "2024-08-10 05:00:00+00",
+    "load_energy_sum": "1529531655"
+  },
+  {
+    "time_bucket": "2024-08-10 06:00:00+00",
+    "load_energy_sum": "1260856720"
+  },
+  {
+    "time_bucket": "2024-08-10 07:00:00+00",
+    "load_energy_sum": "1406728719"
+  },
+  {
+    "time_bucket": "2024-08-10 08:00:00+00",
+    "load_energy_sum": "782582192"
+  },
+  {
+    "time_bucket": "2024-08-10 09:00:00+00",
+    "load_energy_sum": "1284979902"
+  },
+  {
+    "time_bucket": "2024-08-10 10:00:00+00",
+    "load_energy_sum": "782386732"
+  },
+  {
+    "time_bucket": "2024-08-10 11:00:00+00",
+    "load_energy_sum": "1146263805"
+  },
+  {
+    "time_bucket": "2024-08-10 12:00:00+00",
+    "load_energy_sum": "1493503246"
+  },
+  {
+    "time_bucket": "2024-08-10 13:00:00+00",
+    "load_energy_sum": "818392733"
+  },
+  {
+    "time_bucket": "2024-08-10 14:00:00+00",
+    "load_energy_sum": "850433104"
+  },
+  {
+    "time_bucket": "2024-08-10 15:00:00+00",
+    "load_energy_sum": "1090074653"
+  },
+  {
+    "time_bucket": "2024-08-10 16:00:00+00",
+    "load_energy_sum": "661063042"
+  },
+  {
+    "time_bucket": "2024-08-10 17:00:00+00",
+    "load_energy_sum": "710668316"
+  },
+  {
+    "time_bucket": "2024-08-10 18:00:00+00",
+    "load_energy_sum": "817248102"
+  },
+  {
+    "time_bucket": "2024-08-10 19:00:00+00",
+    "load_energy_sum": "972854460"
+  },
+  {
+    "time_bucket": "2024-08-10 20:00:00+00",
+    "load_energy_sum": "887368174"
+  },
+  {
+    "time_bucket": "2024-08-10 21:00:00+00",
+    "load_energy_sum": "2287065526"
+  },
+  {
+    "time_bucket": "2024-08-10 22:00:00+00",
+    "load_energy_sum": "866565133"
+  },
+  {
+    "time_bucket": "2024-08-10 23:00:00+00",
+    "load_energy_sum": "889579541"
+  },
+  {
+    "time_bucket": "2024-08-11 00:00:00+00",
+    "load_energy_sum": "885893242"
+  },
+  {
+    "time_bucket": "2024-08-11 01:00:00+00",
+    "load_energy_sum": "1721501127"
+  },
+  {
+    "time_bucket": "2024-08-11 02:00:00+00",
+    "load_energy_sum": "881545871"
+  },
+  {
+    "time_bucket": "2024-08-11 03:00:00+00",
+    "load_energy_sum": "1080883265"
+  },
+  {
+    "time_bucket": "2024-08-11 04:00:00+00",
+    "load_energy_sum": "987618380"
+  },
+  {
+    "time_bucket": "2024-08-11 05:00:00+00",
+    "load_energy_sum": "760877269"
+  },
+  {
+    "time_bucket": "2024-08-11 06:00:00+00",
+    "load_energy_sum": "1303990460"
+  },
+  {
+    "time_bucket": "2024-08-11 07:00:00+00",
+    "load_energy_sum": "802570157"
+  },
+  {
+    "time_bucket": "2024-08-11 08:00:00+00",
+    "load_energy_sum": "875846527"
+  },
+  {
+    "time_bucket": "2024-08-11 09:00:00+00",
+    "load_energy_sum": "3326519099"
+  },
+  {
+    "time_bucket": "2024-08-11 10:00:00+00",
+    "load_energy_sum": "3503763539"
+  },
+  {
+    "time_bucket": "2024-08-11 11:00:00+00",
+    "load_energy_sum": "3179220900"
+  },
+  {
+    "time_bucket": "2024-08-11 12:00:00+00",
+    "load_energy_sum": "655701905"
+  },
+  {
+    "time_bucket": "2024-08-11 13:00:00+00",
+    "load_energy_sum": "826609731"
+  },
+  {
+    "time_bucket": "2024-08-11 14:00:00+00",
+    "load_energy_sum": "3068484805"
+  },
+  {
+    "time_bucket": "2024-08-11 15:00:00+00",
+    "load_energy_sum": "1593468420"
+  },
+  {
+    "time_bucket": "2024-08-11 16:00:00+00",
+    "load_energy_sum": "959820446"
+  },
+  {
+    "time_bucket": "2024-08-11 17:00:00+00",
+    "load_energy_sum": "1020669437"
+  },
+  {
+    "time_bucket": "2024-08-11 18:00:00+00",
+    "load_energy_sum": "1364825718"
+  },
+  {
+    "time_bucket": "2024-08-11 19:00:00+00",
+    "load_energy_sum": "1504261056"
+  },
+  {
+    "time_bucket": "2024-08-11 20:00:00+00",
+    "load_energy_sum": "1411790959"
+  },
+  {
+    "time_bucket": "2024-08-11 21:00:00+00",
+    "load_energy_sum": "2202157146"
+  },
+  {
+    "time_bucket": "2024-08-11 22:00:00+00",
+    "load_energy_sum": "1232772807"
+  },
+  {
+    "time_bucket": "2024-08-11 23:00:00+00",
+    "load_energy_sum": "1550524904"
+  },
+  {
+    "time_bucket": "2024-08-12 00:00:00+00",
+    "load_energy_sum": "1333074746"
+  },
+  {
+    "time_bucket": "2024-08-12 01:00:00+00",
+    "load_energy_sum": "1170554248"
+  },
+  {
+    "time_bucket": "2024-08-12 02:00:00+00",
+    "load_energy_sum": "2924115489"
+  },
+  {
+    "time_bucket": "2024-08-12 03:00:00+00",
+    "load_energy_sum": "1087699296"
+  },
+  {
+    "time_bucket": "2024-08-12 04:00:00+00",
+    "load_energy_sum": "1008595635"
+  },
+  {
+    "time_bucket": "2024-08-12 05:00:00+00",
+    "load_energy_sum": "1157512860"
+  },
+  {
+    "time_bucket": "2024-08-12 06:00:00+00",
+    "load_energy_sum": "1970945881"
+  },
+  {
+    "time_bucket": "2024-08-12 07:00:00+00",
+    "load_energy_sum": "845454366"
+  },
+  {
+    "time_bucket": "2024-08-12 08:00:00+00",
+    "load_energy_sum": "1385196032"
+  },
+  {
+    "time_bucket": "2024-08-12 09:00:00+00",
+    "load_energy_sum": "1429417984"
+  },
+  {
+    "time_bucket": "2024-08-12 10:00:00+00",
+    "load_energy_sum": "3156157616"
+  },
+  {
+    "time_bucket": "2024-08-12 11:00:00+00",
+    "load_energy_sum": "1255677580"
+  },
+  {
+    "time_bucket": "2024-08-12 12:00:00+00",
+    "load_energy_sum": "1257367067"
+  },
+  {
+    "time_bucket": "2024-08-12 13:00:00+00",
+    "load_energy_sum": "1784029060"
+  },
+  {
+    "time_bucket": "2024-08-12 14:00:00+00",
+    "load_energy_sum": "1092944672"
+  },
+  {
+    "time_bucket": "2024-08-12 15:00:00+00",
+    "load_energy_sum": "721228883"
+  },
+  {
+    "time_bucket": "2024-08-12 16:00:00+00",
+    "load_energy_sum": "687943695"
+  },
+  {
+    "time_bucket": "2024-08-12 17:00:00+00",
+    "load_energy_sum": "678070669"
+  },
+  {
+    "time_bucket": "2024-08-12 18:00:00+00",
+    "load_energy_sum": "776217472"
+  },
+  {
+    "time_bucket": "2024-08-12 19:00:00+00",
+    "load_energy_sum": "1466051223"
+  },
+  {
+    "time_bucket": "2024-08-12 20:00:00+00",
+    "load_energy_sum": "1473774801"
+  },
+  {
+    "time_bucket": "2024-08-12 21:00:00+00",
+    "load_energy_sum": "2833359116"
+  },
+  {
+    "time_bucket": "2024-08-12 22:00:00+00",
+    "load_energy_sum": "1654543399"
+  },
+  {
+    "time_bucket": "2024-08-12 23:00:00+00",
+    "load_energy_sum": "1240959297"
+  },
+  {
+    "time_bucket": "2024-08-13 00:00:00+00",
+    "load_energy_sum": "1806707252"
+  },
+  {
+    "time_bucket": "2024-08-13 01:00:00+00",
+    "load_energy_sum": "9277645417"
+  },
+  {
+    "time_bucket": "2024-08-13 02:00:00+00",
+    "load_energy_sum": "2581636230"
+  },
+  {
+    "time_bucket": "2024-08-13 03:00:00+00",
+    "load_energy_sum": "878347575"
+  },
+  {
+    "time_bucket": "2024-08-13 04:00:00+00",
+    "load_energy_sum": "879816478"
+  },
+  {
+    "time_bucket": "2024-08-13 05:00:00+00",
+    "load_energy_sum": "1007124104"
+  },
+  {
+    "time_bucket": "2024-08-13 06:00:00+00",
+    "load_energy_sum": "1729201389"
+  },
+  {
+    "time_bucket": "2024-08-13 07:00:00+00",
+    "load_energy_sum": "1270528112"
+  },
+  {
+    "time_bucket": "2024-08-13 08:00:00+00",
+    "load_energy_sum": "1496577235"
+  },
+  {
+    "time_bucket": "2024-08-13 09:00:00+00",
+    "load_energy_sum": "2306642030"
+  },
+  {
+    "time_bucket": "2024-08-13 10:00:00+00",
+    "load_energy_sum": "829609937"
+  },
+  {
+    "time_bucket": "2024-08-13 11:00:00+00",
+    "load_energy_sum": "1572415701"
+  },
+  {
+    "time_bucket": "2024-08-13 12:00:00+00",
+    "load_energy_sum": "1502031473"
+  },
+  {
+    "time_bucket": "2024-08-13 13:00:00+00",
+    "load_energy_sum": "1174328587"
+  },
+  {
+    "time_bucket": "2024-08-13 14:00:00+00",
+    "load_energy_sum": "1136880300"
+  },
+  {
+    "time_bucket": "2024-08-13 15:00:00+00",
+    "load_energy_sum": "835884567"
+  },
+  {
+    "time_bucket": "2024-08-13 16:00:00+00",
+    "load_energy_sum": "1799778482"
+  },
+  {
+    "time_bucket": "2024-08-13 17:00:00+00",
+    "load_energy_sum": "946055793"
+  },
+  {
+    "time_bucket": "2024-08-13 18:00:00+00",
+    "load_energy_sum": "1836564332"
+  },
+  {
+    "time_bucket": "2024-08-13 19:00:00+00",
+    "load_energy_sum": "1877346665"
+  },
+  {
+    "time_bucket": "2024-08-13 20:00:00+00",
+    "load_energy_sum": "2738402616"
+  },
+  {
+    "time_bucket": "2024-08-13 21:00:00+00",
+    "load_energy_sum": "1441037687"
+  },
+  {
+    "time_bucket": "2024-08-13 22:00:00+00",
+    "load_energy_sum": "1272345257"
+  },
+  {
+    "time_bucket": "2024-08-13 23:00:00+00",
+    "load_energy_sum": "1446831524"
+  },
+  {
+    "time_bucket": "2024-08-14 00:00:00+00",
+    "load_energy_sum": "3118931981"
+  },
+  {
+    "time_bucket": "2024-08-14 01:00:00+00",
+    "load_energy_sum": "2025196498"
+  },
+  {
+    "time_bucket": "2024-08-14 02:00:00+00",
+    "load_energy_sum": "1066193104"
+  },
+  {
+    "time_bucket": "2024-08-14 03:00:00+00",
+    "load_energy_sum": "992031433"
+  },
+  {
+    "time_bucket": "2024-08-14 04:00:00+00",
+    "load_energy_sum": "1079213724"
+  },
+  {
+    "time_bucket": "2024-08-14 05:00:00+00",
+    "load_energy_sum": "1489521323"
+  },
+  {
+    "time_bucket": "2024-08-14 06:00:00+00",
+    "load_energy_sum": "1547121838"
+  },
+  {
+    "time_bucket": "2024-08-14 07:00:00+00",
+    "load_energy_sum": "1277855024"
+  },
+  {
+    "time_bucket": "2024-08-14 08:00:00+00",
+    "load_energy_sum": "2125045030"
+  },
+  {
+    "time_bucket": "2024-08-14 09:00:00+00",
+    "load_energy_sum": "2508007001"
+  },
+  {
+    "time_bucket": "2024-08-14 10:00:00+00",
+    "load_energy_sum": "2140805219"
+  },
+  {
+    "time_bucket": "2024-08-14 11:00:00+00",
+    "load_energy_sum": "1075133643"
+  },
+  {
+    "time_bucket": "2024-08-14 12:00:00+00",
+    "load_energy_sum": "939126366"
+  },
+  {
+    "time_bucket": "2024-08-14 13:00:00+00",
+    "load_energy_sum": "839101694"
+  },
+  {
+    "time_bucket": "2024-08-14 14:00:00+00",
+    "load_energy_sum": "734898353"
+  },
+  {
+    "time_bucket": "2024-08-14 15:00:00+00",
+    "load_energy_sum": "688080652"
+  },
+  {
+    "time_bucket": "2024-08-14 16:00:00+00",
+    "load_energy_sum": "702143047"
+  },
+  {
+    "time_bucket": "2024-08-14 17:00:00+00",
+    "load_energy_sum": "768542247"
+  },
+  {
+    "time_bucket": "2024-08-14 18:00:00+00",
+    "load_energy_sum": "1053628002"
+  },
+  {
+    "time_bucket": "2024-08-14 19:00:00+00",
+    "load_energy_sum": "2093575103"
+  },
+  {
+    "time_bucket": "2024-08-14 20:00:00+00",
+    "load_energy_sum": "2525694006"
+  },
+  {
+    "time_bucket": "2024-08-14 21:00:00+00",
+    "load_energy_sum": "1936972745"
+  },
+  {
+    "time_bucket": "2024-08-14 22:00:00+00",
+    "load_energy_sum": "1166875501"
+  },
+  {
+    "time_bucket": "2024-08-14 23:00:00+00",
+    "load_energy_sum": "1844337619"
+  },
+  {
+    "time_bucket": "2024-08-15 00:00:00+00",
+    "load_energy_sum": "1200688216"
+  },
+  {
+    "time_bucket": "2024-08-15 01:00:00+00",
+    "load_energy_sum": "1437147626"
+  },
+  {
+    "time_bucket": "2024-08-15 02:00:00+00",
+    "load_energy_sum": "1242852874"
+  },
+  {
+    "time_bucket": "2024-08-15 03:00:00+00",
+    "load_energy_sum": "1065640896"
+  },
+  {
+    "time_bucket": "2024-08-15 04:00:00+00",
+    "load_energy_sum": "1415644383"
+  },
+  {
+    "time_bucket": "2024-08-15 05:00:00+00",
+    "load_energy_sum": "884833945"
+  },
+  {
+    "time_bucket": "2024-08-15 06:00:00+00",
+    "load_energy_sum": "2575991816"
+  },
+  {
+    "time_bucket": "2024-08-15 07:00:00+00",
+    "load_energy_sum": "842164186"
+  },
+  {
+    "time_bucket": "2024-08-15 08:00:00+00",
+    "load_energy_sum": "1217936956"
+  },
+  {
+    "time_bucket": "2024-08-15 09:00:00+00",
+    "load_energy_sum": "1067969710"
+  },
+  {
+    "time_bucket": "2024-08-15 10:00:00+00",
+    "load_energy_sum": "3519005540"
+  },
+  {
+    "time_bucket": "2024-08-15 11:00:00+00",
+    "load_energy_sum": "2185720066"
+  },
+  {
+    "time_bucket": "2024-08-15 12:00:00+00",
+    "load_energy_sum": "642742882"
+  },
+  {
+    "time_bucket": "2024-08-15 13:00:00+00",
+    "load_energy_sum": "680585535"
+  },
+  {
+    "time_bucket": "2024-08-15 14:00:00+00",
+    "load_energy_sum": "833372806"
+  },
+  {
+    "time_bucket": "2024-08-15 15:00:00+00",
+    "load_energy_sum": "1739040535"
+  },
+  {
+    "time_bucket": "2024-08-15 16:00:00+00",
+    "load_energy_sum": "1089529737"
+  },
+  {
+    "time_bucket": "2024-08-15 17:00:00+00",
+    "load_energy_sum": "733124839"
+  },
+  {
+    "time_bucket": "2024-08-15 18:00:00+00",
+    "load_energy_sum": "776579641"
+  },
+  {
+    "time_bucket": "2024-08-15 19:00:00+00",
+    "load_energy_sum": "874946317"
+  },
+  {
+    "time_bucket": "2024-08-15 20:00:00+00",
+    "load_energy_sum": "845884511"
+  },
+  {
+    "time_bucket": "2024-08-15 21:00:00+00",
+    "load_energy_sum": "1724222330"
+  },
+  {
+    "time_bucket": "2024-08-15 22:00:00+00",
+    "load_energy_sum": "1149823971"
+  },
+  {
+    "time_bucket": "2024-08-15 23:00:00+00",
+    "load_energy_sum": "1150044393"
+  },
+  {
+    "time_bucket": "2024-08-16 00:00:00+00",
+    "load_energy_sum": "1046752583"
+  },
+  {
+    "time_bucket": "2024-08-16 01:00:00+00",
+    "load_energy_sum": "914354004"
+  },
+  {
+    "time_bucket": "2024-08-16 02:00:00+00",
+    "load_energy_sum": "1346038318"
+  },
+  {
+    "time_bucket": "2024-08-16 03:00:00+00",
+    "load_energy_sum": "666921186"
+  },
+  {
+    "time_bucket": "2024-08-16 04:00:00+00",
+    "load_energy_sum": "667629785"
+  },
+  {
+    "time_bucket": "2024-08-16 05:00:00+00",
+    "load_energy_sum": "668549079"
+  },
+  {
+    "time_bucket": "2024-08-16 06:00:00+00",
+    "load_energy_sum": "1751109921"
+  },
+  {
+    "time_bucket": "2024-08-16 07:00:00+00",
+    "load_energy_sum": "1119894700"
+  },
+  {
+    "time_bucket": "2024-08-16 08:00:00+00",
+    "load_energy_sum": "897056062"
+  },
+  {
+    "time_bucket": "2024-08-16 09:00:00+00",
+    "load_energy_sum": "909604497"
+  },
+  {
+    "time_bucket": "2024-08-16 11:00:00+00",
+    "load_energy_sum": "1115924166"
+  },
+  {
+    "time_bucket": "2024-08-16 12:00:00+00",
+    "load_energy_sum": "712466223"
+  },
+  {
+    "time_bucket": "2024-08-16 13:00:00+00",
+    "load_energy_sum": "1027687493"
+  },
+  {
+    "time_bucket": "2024-08-16 14:00:00+00",
+    "load_energy_sum": "960641605"
+  },
+  {
+    "time_bucket": "2024-08-16 15:00:00+00",
+    "load_energy_sum": "1234678322"
+  },
+  {
+    "time_bucket": "2024-08-16 16:00:00+00",
+    "load_energy_sum": "640180272"
+  },
+  {
+    "time_bucket": "2024-08-16 17:00:00+00",
+    "load_energy_sum": "770637863"
+  },
+  {
+    "time_bucket": "2024-08-16 18:00:00+00",
+    "load_energy_sum": "818976647"
+  },
+  {
+    "time_bucket": "2024-08-16 19:00:00+00",
+    "load_energy_sum": "851456385"
+  },
+  {
+    "time_bucket": "2024-08-16 20:00:00+00",
+    "load_energy_sum": "838453280"
+  },
+  {
+    "time_bucket": "2024-08-16 21:00:00+00",
+    "load_energy_sum": "850024492"
+  },
+  {
+    "time_bucket": "2024-08-16 22:00:00+00",
+    "load_energy_sum": "1578197269"
+  },
+  {
+    "time_bucket": "2024-08-16 23:00:00+00",
+    "load_energy_sum": "1492882967"
+  },
+  {
+    "time_bucket": "2024-08-17 00:00:00+00",
+    "load_energy_sum": "899945132"
+  },
+  {
+    "time_bucket": "2024-08-17 01:00:00+00",
+    "load_energy_sum": "1434695497"
+  },
+  {
+    "time_bucket": "2024-08-17 02:00:00+00",
+    "load_energy_sum": "880380777"
+  },
+  {
+    "time_bucket": "2024-08-17 03:00:00+00",
+    "load_energy_sum": "948177621"
+  },
+  {
+    "time_bucket": "2024-08-17 04:00:00+00",
+    "load_energy_sum": "1694217868"
+  },
+  {
+    "time_bucket": "2024-08-17 05:00:00+00",
+    "load_energy_sum": "740153445"
+  },
+  {
+    "time_bucket": "2024-08-17 06:00:00+00",
+    "load_energy_sum": "1215037896"
+  },
+  {
+    "time_bucket": "2024-08-17 07:00:00+00",
+    "load_energy_sum": "740413802"
+  },
+  {
+    "time_bucket": "2024-08-17 08:00:00+00",
+    "load_energy_sum": "1277298972"
+  },
+  {
+    "time_bucket": "2024-08-17 09:00:00+00",
+    "load_energy_sum": "653843281"
+  },
+  {
+    "time_bucket": "2024-08-17 10:00:00+00",
+    "load_energy_sum": "1323508188"
+  },
+  {
+    "time_bucket": "2024-08-17 11:00:00+00",
+    "load_energy_sum": "2848881075"
+  },
+  {
+    "time_bucket": "2024-08-17 12:00:00+00",
+    "load_energy_sum": "1769539934"
+  },
+  {
+    "time_bucket": "2024-08-17 13:00:00+00",
+    "load_energy_sum": "1178468004"
+  },
+  {
+    "time_bucket": "2024-08-17 14:00:00+00",
+    "load_energy_sum": "932400674"
+  },
+  {
+    "time_bucket": "2024-08-17 15:00:00+00",
+    "load_energy_sum": "1280644346"
+  },
+  {
+    "time_bucket": "2024-08-17 16:00:00+00",
+    "load_energy_sum": "992849845"
+  },
+  {
+    "time_bucket": "2024-08-17 17:00:00+00",
+    "load_energy_sum": "955388914"
+  },
+  {
+    "time_bucket": "2024-08-17 18:00:00+00",
+    "load_energy_sum": "1607715063"
+  },
+  {
+    "time_bucket": "2024-08-17 19:00:00+00",
+    "load_energy_sum": "2717662094"
+  },
+  {
+    "time_bucket": "2024-08-17 20:00:00+00",
+    "load_energy_sum": "1393549598"
+  },
+  {
+    "time_bucket": "2024-08-17 21:00:00+00",
+    "load_energy_sum": "1929312673"
+  },
+  {
+    "time_bucket": "2024-08-17 22:00:00+00",
+    "load_energy_sum": "1208272393"
+  },
+  {
+    "time_bucket": "2024-08-17 23:00:00+00",
+    "load_energy_sum": "1316309443"
+  },
+  {
+    "time_bucket": "2024-08-18 00:00:00+00",
+    "load_energy_sum": "2092315290"
+  },
+  {
+    "time_bucket": "2024-08-18 01:00:00+00",
+    "load_energy_sum": "1244471663"
+  },
+  {
+    "time_bucket": "2024-08-18 02:00:00+00",
+    "load_energy_sum": "1346709049"
+  },
+  {
+    "time_bucket": "2024-08-18 03:00:00+00",
+    "load_energy_sum": "1592225993"
+  },
+  {
+    "time_bucket": "2024-08-18 04:00:00+00",
+    "load_energy_sum": "919001601"
+  },
+  {
+    "time_bucket": "2024-08-18 05:00:00+00",
+    "load_energy_sum": "2084306939"
+  },
+  {
+    "time_bucket": "2024-08-18 06:00:00+00",
+    "load_energy_sum": "1309598584"
+  },
+  {
+    "time_bucket": "2024-08-18 07:00:00+00",
+    "load_energy_sum": "2669957776"
+  },
+  {
+    "time_bucket": "2024-08-18 08:00:00+00",
+    "load_energy_sum": "1848839677"
+  },
+  {
+    "time_bucket": "2024-08-18 09:00:00+00",
+    "load_energy_sum": "1863472083"
+  },
+  {
+    "time_bucket": "2024-08-18 10:00:00+00",
+    "load_energy_sum": "1472261809"
+  },
+  {
+    "time_bucket": "2024-08-18 11:00:00+00",
+    "load_energy_sum": "2626059306"
+  },
+  {
+    "time_bucket": "2024-08-18 12:00:00+00",
+    "load_energy_sum": "2890555427"
+  },
+  {
+    "time_bucket": "2024-08-18 13:00:00+00",
+    "load_energy_sum": "3419612886"
+  },
+  {
+    "time_bucket": "2024-08-18 14:00:00+00",
+    "load_energy_sum": "793095328"
+  },
+  {
+    "time_bucket": "2024-08-18 15:00:00+00",
+    "load_energy_sum": "1762658380"
+  },
+  {
+    "time_bucket": "2024-08-18 16:00:00+00",
+    "load_energy_sum": "1579691568"
+  },
+  {
+    "time_bucket": "2024-08-18 17:00:00+00",
+    "load_energy_sum": "846884995"
+  },
+  {
+    "time_bucket": "2024-08-18 18:00:00+00",
+    "load_energy_sum": "1095695697"
+  },
+  {
+    "time_bucket": "2024-08-18 19:00:00+00",
+    "load_energy_sum": "1846072828"
+  },
+  {
+    "time_bucket": "2024-08-18 20:00:00+00",
+    "load_energy_sum": "1134290705"
+  },
+  {
+    "time_bucket": "2024-08-18 21:00:00+00",
+    "load_energy_sum": "1877325643"
+  },
+  {
+    "time_bucket": "2024-08-18 22:00:00+00",
+    "load_energy_sum": "1447780560"
+  },
+  {
+    "time_bucket": "2024-08-18 23:00:00+00",
+    "load_energy_sum": "1118614936"
+  },
+  {
+    "time_bucket": "2024-08-19 00:00:00+00",
+    "load_energy_sum": "1641938888"
+  },
+  {
+    "time_bucket": "2024-08-19 01:00:00+00",
+    "load_energy_sum": "3199793303"
+  },
+  {
+    "time_bucket": "2024-08-19 02:00:00+00",
+    "load_energy_sum": "1904619047"
+  },
+  {
+    "time_bucket": "2024-08-19 03:00:00+00",
+    "load_energy_sum": "1174739243"
+  },
+  {
+    "time_bucket": "2024-08-19 04:00:00+00",
+    "load_energy_sum": "878966936"
+  },
+  {
+    "time_bucket": "2024-08-19 05:00:00+00",
+    "load_energy_sum": "1459966519"
+  },
+  {
+    "time_bucket": "2024-08-19 06:00:00+00",
+    "load_energy_sum": "1065885841"
+  },
+  {
+    "time_bucket": "2024-08-19 07:00:00+00",
+    "load_energy_sum": "894831455"
+  },
+  {
+    "time_bucket": "2024-08-19 08:00:00+00",
+    "load_energy_sum": "1383118650"
+  },
+  {
+    "time_bucket": "2024-08-19 09:00:00+00",
+    "load_energy_sum": "1983146732"
+  },
+  {
+    "time_bucket": "2024-08-19 10:00:00+00",
+    "load_energy_sum": "2073960408"
+  },
+  {
+    "time_bucket": "2024-08-19 11:00:00+00",
+    "load_energy_sum": "3561603755"
+  },
+  {
+    "time_bucket": "2024-08-19 12:00:00+00",
+    "load_energy_sum": "883895074"
+  },
+  {
+    "time_bucket": "2024-08-19 13:00:00+00",
+    "load_energy_sum": "911150064"
+  },
+  {
+    "time_bucket": "2024-08-19 14:00:00+00",
+    "load_energy_sum": "2088049118"
+  },
+  {
+    "time_bucket": "2024-08-19 15:00:00+00",
+    "load_energy_sum": "1807478572"
+  },
+  {
+    "time_bucket": "2024-08-19 16:00:00+00",
+    "load_energy_sum": "807540785"
+  },
+  {
+    "time_bucket": "2024-08-19 17:00:00+00",
+    "load_energy_sum": "877112310"
+  },
+  {
+    "time_bucket": "2024-08-19 18:00:00+00",
+    "load_energy_sum": "1005365146"
+  },
+  {
+    "time_bucket": "2024-08-19 19:00:00+00",
+    "load_energy_sum": "1275631085"
+  },
+  {
+    "time_bucket": "2024-08-19 20:00:00+00",
+    "load_energy_sum": "1954972639"
+  },
+  {
+    "time_bucket": "2024-08-19 21:00:00+00",
+    "load_energy_sum": "1964534348"
+  },
+  {
+    "time_bucket": "2024-08-19 22:00:00+00",
+    "load_energy_sum": "2130340305"
+  },
+  {
+    "time_bucket": "2024-08-19 23:00:00+00",
+    "load_energy_sum": "2165355005"
+  }
+]
