@@ -12,4 +12,4 @@ I created a new Miniconda environment, installed [AutoGluon](https://auto.gluon.
 the answer to '[How do I install Python packages to use withing Spyder if I downloaded Spyder from the standalon installers?](https://docs.spyder-ide.org/5/faq.html#using-spyder)'.
 
 ## Tests
-I have covered data preprocessing with tests. To execute them, run the command `python -m shared.preprocessing_test` while being at the root directory of the project.
+I have covered data preprocessing with tests. To execute them, run the command `python -m shared.preprocessing_general_test` while being at the root directory of the project.
