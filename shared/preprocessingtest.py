@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import unittest
 import shared.shared_utility as shared_utility
-import preprocessing_general
+import shared.preprocessing_general as preprocessing_general
 
 class PreProcessingTest(unittest.TestCase):
 
