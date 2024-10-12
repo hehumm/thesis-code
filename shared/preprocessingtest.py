@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import unittest
-import utility
+import shared.shared_utility as shared_utility
 import preprocessing_general
 
 class PreProcessingTest(unittest.TestCase):
@@ -11,14 +11,14 @@ class PreProcessingTest(unittest.TestCase):
         cls.dfs = {}
         cls.sites_ids = [2, 4, 5, 6, 12]
         for site_id in cls.sites_ids:
-            load_df, price_df, weather_df = utility.load_one_sites_dataframes(site_id)
-            load_df = utility.add_missing_datetimes_to_load_df(load_df)
+            load_df, price_df, weather_df = shared_utility.load_one_sites_dataframes(site_id)
+            load_df = shared_utility.add_missing_datetimes_to_load_df(load_df)
             cls.dfs[site_id] = (load_df, price_df, weather_df)
 
     def test_that_merged_dataframes_data_is_consistent_with_original_load_dataframes(self):
         # Given
         load_dfs = [load_df for (load_df, _, _) in self.dfs.values()]
-        merged_dfs = [utility.merge_one_sites_dataframes(load_df, price_df, weather_df) for (load_df, price_df, weather_df) in self.dfs.values()]
+        merged_dfs = [shared_utility.merge_one_sites_dataframes(load_df, price_df, weather_df) for (load_df, price_df, weather_df) in self.dfs.values()]
         
         # When
         for i in range(len(load_dfs)):
@@ -35,7 +35,7 @@ class PreProcessingTest(unittest.TestCase):
     def test_that_merged_dataframes_data_is_consistent_with_original_prices_dataframes(self):
         # Given
         prices_dfs = [price_df for (_, price_df, _) in self.dfs.values()]
-        merged_dfs = [utility.merge_one_sites_dataframes(load_df, price_df, weather_df) for (load_df, price_df, weather_df) in self.dfs.values()]
+        merged_dfs = [shared_utility.merge_one_sites_dataframes(load_df, price_df, weather_df) for (load_df, price_df, weather_df) in self.dfs.values()]
         
         # When
         for i in range(len(prices_dfs)):
@@ -50,7 +50,7 @@ class PreProcessingTest(unittest.TestCase):
     def test_that_merged_dataframes_data_is_consistent_with_original_weather_dataframes(self):
         # Given
         weather_dfs = [weather_df for (_, _, weather_df) in self.dfs.values()]
-        merged_dfs = [utility.merge_one_sites_dataframes(load_df, price_df, weather_df) for (load_df, price_df, weather_df) in self.dfs.values()]
+        merged_dfs = [shared_utility.merge_one_sites_dataframes(load_df, price_df, weather_df) for (load_df, price_df, weather_df) in self.dfs.values()]
         
         # When
         for i in range(len(weather_dfs)):
@@ -64,7 +64,7 @@ class PreProcessingTest(unittest.TestCase):
 
     def test_that_merged_dataframe_has_no_missing_datetimes(self):
         # Given
-        merged_dfs = [utility.merge_one_sites_dataframes(load_df, price_df, weather_df) for (load_df, price_df, weather_df) in self.dfs.values()]
+        merged_dfs = [shared_utility.merge_one_sites_dataframes(load_df, price_df, weather_df) for (load_df, price_df, weather_df) in self.dfs.values()]
 
         # When
         for merged_df in merged_dfs:
