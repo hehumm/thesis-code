@@ -1,7 +1,5 @@
-import sys
-import os
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..', 'utils'))
-import preprocessing_general
+#from ...shared import preprocessing_general
+import shared.preprocessing_general as preprocessing_general
 import pandas as pd
 
 def _set_chronos_compatible_column_names(sites_dictionary):

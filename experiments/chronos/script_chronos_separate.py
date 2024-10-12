@@ -88,7 +88,7 @@ but found out later that they are not yet supported for Chronos.
 
 from autogluon.timeseries import TimeSeriesDataFrame, TimeSeriesPredictor
 from autogluon.timeseries.splitter import ExpandingWindowSplitter
-import preprocessing_chronos
+import experiments.chronos.preprocessing_chronos as preprocessing_chronos
 
 sites_ids = [2, 4, 5, 6, 12]
 sites_data = preprocessing_chronos.get_chronos_compatible_sites()
