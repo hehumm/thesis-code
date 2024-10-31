@@ -17,5 +17,11 @@ def get_autogluon_compatible_sites_independent_dfs():
     sites_with_timezone_removed_from_timestamp = {site_id: df.assign(timestamp=df['timestamp'].dt.tz_localize(None)) for site_id, df in sites_with_chronos_compatible_column_names.items()}
     return sites_with_timezone_removed_from_timestamp
 
+def get_autogluon_compatible_sites_independent_dfs_without_covariates():
+    return {site_id: df.drop(columns=['sun_percentage', 'buy_price_kwh', 'feels_like', 'sell_price_kwh', 'clouds', 'temp', 'pop']) for site_id, df in get_autogluon_compatible_sites_independent_dfs().items()}
+
 def get_autogluon_compatible_unified_df():
     return pd.concat(get_autogluon_compatible_sites_independent_dfs().values(), ignore_index=True)
+
+def get_autogluon_compatible_unified_df_without_covariates():
+    return get_autogluon_compatible_unified_df().drop(columns=['sun_percentage', 'buy_price_kwh', 'feels_like', 'sell_price_kwh', 'clouds', 'temp', 'pop'])
