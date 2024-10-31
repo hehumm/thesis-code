@@ -12,10 +12,16 @@ conda init
 # Clean up
 rm /tmp/$CONDA_INSTALLER
 
-
-conda create -n ag python=3.10
+# Create and activate the conda environment
+conda create -n ag python=3.10 -y
 conda activate ag
-conda install -c conda-forge mamba
-mamba install -c conda-forge autogluon "pytorch=*=cuda*"
-mamba install -c conda-forge "ray-tune >=2.6.3,<2.7" "ray-default >=2.6.3,<2.7"  # install ray for faster training
-mamba install -c conda-forge pandas
+
+# Install mamba for faster package management
+conda install -c conda-forge mamba -y
+
+# Install necessary packages
+mamba install -c conda-forge autogluon "pytorch=*=cuda*" -y
+mamba install -c conda-forge "ray-tune >=2.6.3,<2.7" "ray-default >=2.6.3,<2.7" -y
+mamba install -c conda-forge pandas -y
+
+# Additional steps (if any) can be added here
