@@ -18,7 +18,7 @@ from autogluon.timeseries import TimeSeriesDataFrame, TimeSeriesPredictor
 from autogluon.timeseries.splitter import ExpandingWindowSplitter
 import experiments.chronos.preprocessing_autogluon as preprocessing_autogluon
 
-combined_sites_data = preprocessing_autogluon.get_autogluon_compatible_unified_df()
+combined_sites_data = preprocessing_autogluon.get_unified_df_with_covariates()
 
 prediction_length = 36
 num_val_windows = 5

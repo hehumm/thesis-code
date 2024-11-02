@@ -91,7 +91,7 @@ from autogluon.timeseries.splitter import ExpandingWindowSplitter
 import experiments.chronos.preprocessing_autogluon as preprocessing_autogluon
 
 sites_ids = [2, 4, 5, 6, 12]
-sites_data = preprocessing_autogluon.get_autogluon_compatible_sites_independent_dfs()
+sites_data = preprocessing_autogluon.get_sites_independent_dfs_with_covariates()
 
 prediction_length = 36
 num_val_windows=5
