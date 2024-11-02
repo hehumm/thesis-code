@@ -16,12 +16,17 @@ rm /tmp/$CONDA_INSTALLER
 conda create -n ag python=3.10 -y
 conda activate ag
 
+# Install necessary packages
+conda install -c conda-forge autogluon "pytorch=*=cuda*" -y
+conda install -c conda-forge autogluon=1.1.1 "pytorch=2.0.*=cuda*" "cudatoolkit>=11.0"
+conda install -c conda-forge pandas -y
+
 # Install mamba for faster package management
-conda install -c conda-forge mamba -y
+#conda install -c conda-forge mamba -y
 
 # Install necessary packages
-mamba install -c conda-forge autogluon "pytorch=*=cuda*" -y
-mamba install -c conda-forge "ray-tune >=2.6.3,<2.7" "ray-default >=2.6.3,<2.7" -y
-mamba install -c conda-forge pandas -y
+#mamba install -c conda-forge autogluon "pytorch=*=cuda*" -y
+#mamba install -c conda-forge "ray-tune >=2.6.3,<2.7" "ray-default >=2.6.3,<2.7" -y
+#mamba install -c conda-forge pandas -y
 
 # Additional steps (if any) can be added here
