@@ -13,23 +13,22 @@ def train_and_predict_with_model(df, prediction_length, model_path, predictions_
         known_covariates_names=known_covariates_names,
     )
 
-    # predictor.fit(train_data, presets="fast_training", time_limit=600)
-    # predictions = predictor.predict(train_data)
-    # predictions.to_csv(predictions_path_1)
-
     print('\nFitting and predicting...\n')
     print(f'fitting started at {datetime.now()}')
     predictor.fit(train_data, presets="fast_training", time_limit=600)
-    ets_predictions = predictor.predict(data=test_data, known_covariates=known_covariates, model='ETS')
+
+    ets_predictions = predictor.predict(data=train_data, known_covariates=known_covariates, model='ETS')
     ets_predictions.to_csv(predictions_path_1)
-    theta_predictions = predictor.predict(data=test_data, known_covariates=known_covariates, model='Theta')
+
+    theta_predictions = predictor.predict(data=train_data, known_covariates=known_covariates, model='Theta')
     theta_predictions.to_csv(predictions_path_2)
-    print(f'predicting ended at {datetime.now()}')
 
     #predictor.fit(train_data, presets="best_quality", time_limit=3600)
 
-    #chronos_predictions = predictor.predict(data: test_data, known_covariates=known_covariates, model: 'Chronos[large]')
+    #chronos_predictions = predictor.predict(data: train_data, known_covariates=known_covariates, model: 'Chronos[large]')
     #chronos_predictions.to_csv(predictions_path_1)
 
-    #arima_predictions = predictor.predict(data: test_data, known_covariates=known_covariates, model: 'AutoARIMA')
+    #arima_predictions = predictor.predict(data: train_data, known_covariates=known_covariates, model: 'AutoARIMA')
     #arima_predictions.to_csv(predictions_path_2)
+
+    print(f'predicting ended at {datetime.now()}')
