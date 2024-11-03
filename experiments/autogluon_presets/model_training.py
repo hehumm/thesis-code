@@ -15,29 +15,29 @@ def train_and_predict_with_model(df, prediction_length, model_path, predictions_
 
     print('\nFitting and predicting...\n')
     print(f'fitting started at {datetime.now()}')
-    predictor.fit(train_data=train_data, presets="fast_training")
     # predictor.fit(
     #     train_data=train_data,
     #     time_limit=300,
     #     hyperparameters={
-    #         "Chronos": {
-    #             "model_path": "tiny",
+    #         'Chronos': {
+    #             'model_path': 'tiny',
     #         },
+    #         'Theta': {}
     #     }        
     # )
 
-    ets_predictions = predictor.predict(data=train_data, known_covariates=known_covariates, model='Chronos[tiny]')
-    ets_predictions.to_csv(predictions_path_1)
+    # ets_predictions = predictor.predict(data=train_data, known_covariates=known_covariates, model='Chronos[tiny]')
+    # ets_predictions.to_csv(predictions_path_1)
 
     # theta_predictions = predictor.predict(data=train_data, known_covariates=known_covariates, model='Theta')
     # theta_predictions.to_csv(predictions_path_2)
 
-    #predictor.fit(train_data=train_data, presets="best_quality", time_limit=3600)
+    predictor.fit(train_data=train_data, presets="best_quality", time_limit=3600)
 
-    #chronos_predictions = predictor.predict(data: train_data, known_covariates=known_covariates, model: 'Chronos[large]')
-    #chronos_predictions.to_csv(predictions_path_1)
+    chronos_predictions = predictor.predict(data=train_data, known_covariates=known_covariates, model='Chronos[large]')
+    chronos_predictions.to_csv(predictions_path_1)
 
-    #arima_predictions = predictor.predict(data: train_data, known_covariates=known_covariates, model: 'AutoARIMA')
-    #arima_predictions.to_csv(predictions_path_2)
+    arima_predictions = predictor.predict(data=train_data, known_covariates=known_covariates, model='AutoARIMA')
+    arima_predictions.to_csv(predictions_path_2)
 
     print(f'predicting ended at {datetime.now()}')
