@@ -26,8 +26,8 @@ def train_and_predict_with_model(df, prediction_length, model_path, predictions_
     #     }        
     # )
 
-    # ets_predictions = predictor.predict(data=train_data, known_covariates=known_covariates, model='Chronos[tiny]')
-    # ets_predictions.to_csv(predictions_path_1)
+    # chronos_predictions = predictor.predict(data=train_data, known_covariates=known_covariates, model='Chronos[tiny]')
+    # chronos_predictions.to_csv(predictions_path_1)
 
     # theta_predictions = predictor.predict(data=train_data, known_covariates=known_covariates, model='Theta')
     # theta_predictions.to_csv(predictions_path_2)
@@ -39,5 +39,7 @@ def train_and_predict_with_model(df, prediction_length, model_path, predictions_
 
     arima_predictions = predictor.predict(data=train_data, known_covariates=known_covariates, model='AutoARIMA')
     arima_predictions.to_csv(predictions_path_2)
+
+    predictor.leaderboard(test_data).to_csv(f'{model_path}/leaderboard.csv')
 
     print(f'predicting ended at {datetime.now()}')
