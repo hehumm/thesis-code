@@ -23,7 +23,6 @@ def load_data(file_path):
 
 # Function to plot data
 def plot_data(actual, chronos, weighted_ensemble, autoarima, metric, data_variation, site):
-    print(234)
     plt.figure(figsize=(12, 6))
     plt.plot(actual.index[-last_168_hours:], actual[-last_168_hours:]['target'], label='Actual Consumption')
     plt.plot(actual.index[-prediction_horizon:], chronos['mean'], label='Chronos Predictions')
@@ -63,8 +62,9 @@ for metric in metrics:
             weighted_ensemble_unified = load_data(weighted_ensemble_file)
             autoarima_unified = load_data(autoarima_file)
 
+            actual_list = [actual[actual['item_id'] == site] for site in sites]
             chronos_unified_list = [chronos_unified[chronos_unified.index == site] for site in sites]
             weighted_ensemble_unified_list = [weighted_ensemble_unified[weighted_ensemble_unified.index == site] for site in sites]
             autoarima_unified_list = [autoarima_unified[autoarima_unified.index == site] for site in sites]
             for i in range(len(sites)):
-                plot_data(actual, chronos_unified_list[i], weighted_ensemble_unified_list[i], autoarima_unified_list[i], metric, variation, sites[i])
+                plot_data(actual_list[i], chronos_unified_list[i], weighted_ensemble_unified_list[i], autoarima_unified_list[i], metric, variation, sites[i])
