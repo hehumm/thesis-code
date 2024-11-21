@@ -13,4 +13,7 @@ exog_columns = ['buy_price_kwh', 'sell_price_kwh', 'temp', 'feels_like', 'pop', 
 forecast_horizon = 36
 n_splits = 5
 
-metric_scores = rolling_cross_validation.validate_SARIMAX(df, target_column, exog_columns, forecast_horizon, n_splits)
+y = df[target_column]
+X = df[exog_columns]
+y_train, y_test = y[:-forecast_horizon], y[-forecast_horizon:]
+X_train, X_test = X[:-forecast_horizon], X[-forecast_horizon:]
