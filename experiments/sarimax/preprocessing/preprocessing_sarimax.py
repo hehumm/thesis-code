@@ -14,8 +14,7 @@ def find_spikes(spike_threshold=0.95):
         spikes[site_id] = spike
     return spikes
 
-def replace_spikes_with_interpolated_values():
-    dfs = 'load_energy_sum'
+def get_sites_with_data_without_spikes(dfs):
     for site_id, df in dfs.items():
         spikes = _find_spikes_for_one_site(df, 'load_energy_sum', threshold=0.95)
         for index, row in spikes.iterrows():
@@ -32,7 +31,6 @@ def test_sites_for_stationarity(dfs):
         result = adfuller(y_train)
         print(f'Site {site_id} p-value: {result[1]}')
 
-def get_sites_with_stationary_data():
-    dfs = preprocessing_general.get_sites_with_data_wide()
+def get_sites_with_stationary_data(dfs):
     dfs[5] = dfs[5].diff().dropna()
     return dfs
