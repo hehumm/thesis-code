@@ -15,8 +15,10 @@ for site_id, df in dfs.items():
     X_train = X[:-forecast_horizon]
     
     # Define parameter ranges
-    p = d = q = range(0, 3)  # ARIMA terms
-    P = D = Q = range(0, 3)  # Seasonal ARIMA terms
+    p = q = range(1, 3)
+    d = range(0, 1)
+    P = Q = range(0, 2)
+    D = range(0, 1)
     m = [24]  # Seasonal period (daily)
 
     # Generate all combinations of parameters
