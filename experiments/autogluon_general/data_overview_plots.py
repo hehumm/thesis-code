@@ -6,7 +6,6 @@ original_dfs = preprocessing_general.get_sites_with_data_wide()
 all_sites_spikes = spike_remover.find_spikes()
 
 def plot_vanilla_data():
-
     for site_id, df in original_dfs.items():
         plt.figure(figsize=(24, 12))
         plt.plot(df['load_energy_sum'])
@@ -24,5 +23,15 @@ def plot_spikes():
         plt.legend(loc='upper left')
         plt.show()
 
+def plot_interpolated_data():
+    interpolated_dfs = spike_remover.replace_spikes_with_interpolated_values()
+    for site_id, df in interpolated_dfs.items():
+        plt.figure(figsize=(24, 12))
+        plt.plot(df['load_energy_sum'])
+        plt.title(f'Site {site_id} without spikes')
+        plt.ylabel('Electricity Consumption (mWh)')
+    plt.show()
+
 plot_vanilla_data()
 plot_spikes()
+plot_interpolated_data()
