@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt
 import shared.preprocessing_general as preprocessing_general
-import experiments.sarimax.preprocessing.spike_remover as spike_remover
+import experiments.sarimax.preprocessing.preprocessing_sarimax as preprocessing_sarimax
 
 original_dfs = preprocessing_general.get_sites_with_data_wide()
-all_sites_spikes = spike_remover.find_spikes()
+all_sites_spikes = preprocessing_sarimax.find_spikes()
 
 def plot_vanilla_data():
     for site_id, df in original_dfs.items():
@@ -24,7 +24,7 @@ def plot_spikes():
         plt.show()
 
 def plot_interpolated_data():
-    interpolated_dfs = spike_remover.replace_spikes_with_interpolated_values()
+    interpolated_dfs = preprocessing_sarimax.replace_spikes_with_interpolated_values()
     for site_id, df in interpolated_dfs.items():
         plt.figure(figsize=(24, 12))
         plt.plot(df['load_energy_sum'])
