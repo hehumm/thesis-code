@@ -1,19 +1,13 @@
-"""
-Initial MAPE scores for site 2 with SARIMAX:
-[0.42172088724392065, 0.4211198717162883, 0.5788698955821633, 0.3390898691522347, 0.2839357863476988]
-
-
-"""
-import shared.rolling_cross_validation as rolling_cross_validation
 import shared.preprocessing_general as preprocessing_general
+import experiments.sarimax.preprocessing.preprocessing_sarimax as preprocessing_sarimax
 
-df = preprocessing_general.get_sites_with_data_wide().get(2)
-target_column = 'load_energy_sum'
-exog_columns = ['buy_price_kwh', 'sell_price_kwh', 'temp', 'feels_like', 'pop', 'clouds', 'sun_percentage']
-forecast_horizon = 36
-n_splits = 5
+dfs = preprocessing_general.get_sites_with_data_wide()
+dfs = preprocessing_sarimax.convert_target_to_megawatt_hours(dfs)
+dfs = preprocessing_sarimax.standardize_exog_data(dfs)
+train_dfs, test_dfs = preprocessing_sarimax.test_train_split(dfs)
+train_dfs = preprocessing_sarimax.get_sites_with_data_without_spikes(train_dfs)
 
-y = df[target_column]
-X = df[exog_columns]
-y_train, y_test = y[:-forecast_horizon], y[-forecast_horizon:]
-X_train, X_test = X[:-forecast_horizon], X[-forecast_horizon:]
+# import shared.data_overview_plots as data_overview_plots
+# data_overview_plots.plot_acf_pacf(train_dfs)
+
+preprocessing_sarimax.perform_grid_search(train_dfs)
