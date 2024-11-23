@@ -1,0 +1,5 @@
+Site 2 best params: {'trend': 't', 'seasonal_order': (2, 1, 1, 24), 'order': (2, 0, 0)}
+Site 4 best params: {'trend': 'n', 'seasonal_order': (2, 0, 1, 12), 'order': (3, 0, 2)}
+Site 5 best params: {'trend': 'c', 'seasonal_order': (0, 0, 1, 24), 'order': (1, 1, 2)}
+Site 6 best params: {'trend': 'c', 'seasonal_order': (0, 0, 0, 12), 'order': (2, 1, 2)}
+Site 12 best params: {'trend': 'ct', 'seasonal_order': (2, 1, 1, 24), 'order': (3, 1, 3)}

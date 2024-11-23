@@ -1,8 +1,11 @@
 import shared.preprocessing_general as preprocessing_general
+import experiments.sarimax.preprocessing.sk_wrapper as sk_wrapper
 from statsmodels.tsa.stattools import adfuller
 from sklearn.preprocessing import StandardScaler
 import itertools
 from statsmodels.tsa.statespace.sarimax import SARIMAX
+from sklearn.experimental import enable_halving_search_cv
+from sklearn.model_selection import RandomizedSearchCV, HalvingRandomSearchCV
 
 def _find_spikes_for_one_site(df, column, threshold=0.95):
     threshold_value = df[column].quantile(threshold)
@@ -99,3 +102,33 @@ def perform_grid_search(dfs):
         with open("best_orders.txt", "a") as file:
             file.write(f"Site {site_id} best order: {best_order}\n")
             file.write(f"Site {site_id} best seasonal order: {best_seasonal_order}\n")
+
+param_distributions = {
+    'order': [(p, d, q) for p in range(4) for d in range(2) for q in range(4)],
+    'seasonal_order': [(P, D, Q, m) for P in range(3) for D in range(2) for Q in range(3) for m in [12, 24]],
+    'trend': ['n', 'c', 't', 'ct']
+}
+
+def perform_random_search(dfs):
+    for site_id, df in dfs.items():
+        y = df['load_energy_sum']
+        X = df[['buy_price_kwh', 'sell_price_kwh', 'temp', 'feels_like', 'pop', 'clouds', 'sun_percentage']]
+        model = sk_wrapper.SARIMAXEstimator()
+        random_search = RandomizedSearchCV(model, param_distributions, n_iter=100, cv=3, n_jobs=-1)
+        random_search.fit(X, y)
+        best_params = random_search.best_params_
+        print(f"Site {site_id} best params: {best_params}")
+        with open("best_random_search_params.txt", "a") as file:
+            file.write(f"Site {site_id} best params: {best_params}\n")
+
+def perform_halving_random_search(dfs):
+    for site_id, df in dfs.items():
+        y = df['load_energy_sum']
+        X = df[['buy_price_kwh', 'sell_price_kwh', 'temp', 'feels_like', 'pop', 'clouds', 'sun_percentage']]
+        model = sk_wrapper.SARIMAXEstimator()
+        random_search = HalvingRandomSearchCV(model, param_distributions, cv=3, n_jobs=-1)
+        random_search.fit(X, y)
+        best_params = random_search.best_params_
+        print(f"Site {site_id} best params: {best_params}")
+        with open("best_halving_random_search_params.txt", "a") as file:
+            file.write(f"Site {site_id} best params: {best_params}\n")

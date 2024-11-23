@@ -10,4 +10,6 @@ train_dfs = preprocessing_sarimax.get_sites_with_data_without_spikes(train_dfs)
 # import shared.data_overview_plots as data_overview_plots
 # data_overview_plots.plot_acf_pacf(train_dfs)
 
-preprocessing_sarimax.perform_grid_search(train_dfs)
+#preprocessing_sarimax.perform_grid_search(train_dfs)
+preprocessing_sarimax.perform_random_search(train_dfs)
+preprocessing_sarimax.perform_halving_random_search(train_dfs)
