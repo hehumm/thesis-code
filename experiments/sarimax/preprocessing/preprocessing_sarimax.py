@@ -29,11 +29,6 @@ def get_sites_with_data_without_spikes(dfs):
         dfs[site_id] = df
     return dfs
 
-def convert_target_to_megawatt_hours(dfs):
-    for site_id, df in dfs.items():
-        df['load_energy_sum'] = df['load_energy_sum'] / 1000000000
-    return dfs
-
 def standardize_exog_data(dfs):
     for site_id, df in dfs.items():
         scaler = StandardScaler()
