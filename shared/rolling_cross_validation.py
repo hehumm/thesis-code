@@ -31,7 +31,7 @@ def validate_SARIMAX(df, target_column, exog_columns, forecast_horizon, splits_c
         y_test = test_df[target_column]
         X_test = test_df[exog_columns]
 
-        model = sm.tsa.statespace.SARIMAX(y_train, exog=X_train, order=utility.model_params.get('order'), seasonal_order=utility.model_params.get('seasonal_order'))
+        model = sm.tsa.statespace.SARIMAX(y_train, exog=X_train, order=utility.initial_model_params.get('order'), seasonal_order=utility.initial_model_params.get('seasonal_order'))
         results = model.fit(disp=False)
 
         forecast = results.get_forecast(steps=forecast_horizon, exog=X_test)
