@@ -4,7 +4,7 @@ import experiments.sarimax.utility as utility
 import experiments.sarimax.forecasting as forecasting
 
 dfs = preprocessing_general.get_sites_with_data_wide()
-dfs = preprocessing_general.convert_target_to_megawatt_hours(dfs, 'load_energy_sum')
+dfs = preprocessing_general.convert_all_dfs_targets_to_megawatt_hours(dfs, 'load_energy_sum')
 dfs = preprocessing_sarimax.standardize_exog_data(dfs)
 train_dfs, test_dfs = preprocessing_sarimax.test_train_split(dfs)
 train_dfs = preprocessing_sarimax.get_sites_with_data_without_spikes(train_dfs)

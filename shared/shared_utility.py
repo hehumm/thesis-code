@@ -52,3 +52,11 @@ def wide_to_long(sites_with_data_wide):
         df = df.rename(columns={'start_time': 'timestamp', 'variable': 'item_id', 'value': 'target'})
         sites_with_data_long[site_id] = df
     return sites_with_data_long
+
+def wape(y_test, forecast_values):
+    forecast_array = forecast_values.values
+    test_array = y_test.values
+    residuals_sum = 0
+    for i in range (0, len(forecast_array)):
+        residuals_sum += abs(test_array[i] - forecast_array[i])
+    return residuals_sum / sum(test_array)

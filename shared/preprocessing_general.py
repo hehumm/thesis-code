@@ -25,7 +25,11 @@ def get_sites_with_data_long():
         _import_data()
     return shared_utility.wide_to_long(sites_with_data_wide)
 
-def convert_target_to_megawatt_hours(dfs, column='load_energy_sum'):
+def convert_all_dfs_targets_to_megawatt_hours(dfs, column='load_energy_sum'):
     for site_id, df in dfs.items():
         df[column] = df[column] / 1000000000
     return dfs
+
+def convert_one_dfs_target_to_megawatt_hours(df, column='load_energy_sum'):
+    df[column] = df[column] / 1000000000
+    return df
