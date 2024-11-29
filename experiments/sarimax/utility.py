@@ -1,3 +1,5 @@
+variations = ['random_search', 'halving_random_search']
+
 exog_columns = ['buy_price_kwh', 'sell_price_kwh', 'temp', 'feels_like', 'pop', 'clouds', 'sun_percentage']
 
 # provided by an external party
