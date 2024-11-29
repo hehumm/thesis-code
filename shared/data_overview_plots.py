@@ -15,6 +15,15 @@ def plot_vanilla_data():
         plt.ylabel('Electricity Consumption (mWh)')
     plt.show()
 
+def plot_vanilla_data_in_mwh():
+    data = preprocessing_general.convert_all_dfs_targets_to_megawatt_hours(original_dfs, 'load_energy_sum')
+    for site_id, df in data.items():
+        plt.figure(figsize=(24, 12))
+        plt.plot(df['load_energy_sum'])
+        plt.title(f'Site {site_id}')
+        plt.ylabel('Electricity Consumption (mWh)')
+    plt.show()
+
 def plot_spikes():
     for site_id, spike in all_sites_spikes.items():
         plt.figure(figsize=(24, 12))
@@ -94,6 +103,8 @@ def plot_exog_data():
         plt.title(f'Site {site_id} sun percentage')
         plt.ylabel('Sun percentage (%)')
         plt.show()
+
+plot_vanilla_data_in_mwh()
 
 #plot_vanilla_data()
 #plot_spikes()
