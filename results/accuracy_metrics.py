@@ -50,9 +50,8 @@ def calculate_metrics_for_site(site_id):
 
     return metrics_df
 
-sites = [2, 4, 5, 6, 12]
 metrics_df = pd.DataFrame()
-for site in sites:
+for site in shared_utility.sites:
     metrics_df = pd.concat([metrics_df, calculate_metrics_for_site(site)])
 
 """

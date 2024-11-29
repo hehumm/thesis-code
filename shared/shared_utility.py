@@ -1,6 +1,8 @@
 import pandas as pd
 import os
 
+sites = [2, 4, 5, 6, 12]
+
 def add_missing_index(df, start_time, end_time):
     all_time_buckets = pd.date_range(start_time, end_time, freq='h')
     missing_timestamps = all_time_buckets.difference(df.index)
@@ -53,10 +55,23 @@ def wide_to_long(sites_with_data_wide):
         sites_with_data_long[site_id] = df
     return sites_with_data_long
 
-def wape(y_test, forecast_values):
-    forecast_array = forecast_values.values
-    test_array = y_test.values
-    residuals_sum = 0
-    for i in range (0, len(forecast_array)):
-        residuals_sum += abs(test_array[i] - forecast_array[i])
-    return residuals_sum / sum(test_array)
+# def wape(y_test, forecast_values):
+#     forecast_array = forecast_values.values
+#     test_array = y_test.values
+#     residuals_sum = 0
+#     for i in range (0, len(forecast_array)):
+#         residuals_sum += abs(test_array[i] - forecast_array[i])
+#     return residuals_sum / sum(test_array)
+
+def wape(input):
+    forecastDifferenceSum = sum([abs(row['forecast'] - row['actual']) for row in input if row['actual'] is not None])
+    actualSum = sum([row['actual'] for row in input if row['actual'] is not None])
+    return abs((forecastDifferenceSum / actualSum) * 100)
+
+# const calculateWAPE = (input: RowData[]): number => {
+#   const forecastDifferenceSum = input
+#     .map((row) => (row.actual == null ? 0 : Math.abs(row.forecast - row.actual)))
+#     .reduce((accumulator, a) => accumulator + a, 0);
+#   const actualSum = input.reduce((accumulator, a) => accumulator + (a.actual || 0), 0);
+#   return Math.abs((forecastDifferenceSum / actualSum) * 100);
+# };
