@@ -13,12 +13,12 @@ train_dfs = preprocessing_sarimax.get_sites_with_data_without_spikes(train_dfs)
 # data_overview_plots.plot_acf_pacf(train_dfs)
 
 #preprocessing_sarimax.perform_grid_search(train_dfs)
-#preprocessing_sarimax.perform_random_search(train_dfs)
-#preprocessing_sarimax.perform_halving_random_search(train_dfs)
+preprocessing_sarimax.perform_random_search(train_dfs)
+preprocessing_sarimax.perform_halving_random_search(train_dfs)
 
-for site_id in train_dfs.keys():
-    for params_version in utility.model_params[site_id].keys():
-        forecast_values, forecast_ci = forecasting.get_forecast(site_id, params_version, train_dfs, test_dfs)
+# for site_id in train_dfs.keys():
+#     for params_version in utility.model_params[site_id].keys():
+#         forecast_values, forecast_ci = forecasting.get_forecast(site_id, params_version, train_dfs, test_dfs)
 
 # import matplotlib.pyplot as plt
 # plt.figure(figsize=(24, 12))
