@@ -125,7 +125,7 @@ def perform_halving_random_search(dfs):
         X = df[['buy_price_kwh', 'sell_price_kwh', 'temp', 'feels_like', 'pop', 'clouds', 'sun_percentage']]
         model = sk_wrapper.SARIMAXEstimator()
         tscv = TimeSeriesSplit(n_splits=57)
-        random_search = HalvingRandomSearchCV(model, param_distributions, n_iter=10, cv=tscv, n_jobs=-1, scoring='neg_root_mean_squared_error')
+        random_search = HalvingRandomSearchCV(model, param_distributions, cv=tscv, n_jobs=-1, scoring='neg_root_mean_squared_error')
         random_search.fit(X, y)
         best_params = random_search.best_params_
         print(f"Site {site_id} best params: {best_params}")
