@@ -55,18 +55,18 @@ def wide_to_long(sites_with_data_wide):
         sites_with_data_long[site_id] = df
     return sites_with_data_long
 
-# def wape(y_test, forecast_values):
-#     forecast_array = forecast_values.values
-#     test_array = y_test.values
-#     residuals_sum = 0
-#     for i in range (0, len(forecast_array)):
-#         residuals_sum += abs(test_array[i] - forecast_array[i])
-#     return residuals_sum / sum(test_array)
+def wape(y_test, forecast_values):
+    forecast_array = forecast_values.values
+    test_array = y_test.values
+    residuals_sum = 0
+    for i in range (0, len(forecast_array)):
+        residuals_sum += abs(test_array[i] - forecast_array[i])
+    return residuals_sum / sum(test_array)
 
-def wape(input):
-    forecastDifferenceSum = sum([abs(row['forecast'] - row['actual']) for row in input if row['actual'] is not None])
-    actualSum = sum([row['actual'] for row in input if row['actual'] is not None])
-    return abs((forecastDifferenceSum / actualSum) * 100)
+# def wape(input):
+#     forecastDifferenceSum = sum([abs(row['forecast'] - row['actual']) for row in input if row['actual'] is not None])
+#     actualSum = sum([row['actual'] for row in input if row['actual'] is not None])
+#     return abs((forecastDifferenceSum / actualSum) * 100)
 
 # const calculateWAPE = (input: RowData[]): number => {
 #   const forecastDifferenceSum = input

@@ -12,62 +12,37 @@ initial_model_params = {
 model_params = {
     2: {
         'random_search': {
-            'trend': 't',
-            'seasonal_order': (2, 0, 2, 24),
-            'order': (0, 0, 1),
-        },
-        'halving_random_search': {
-            'trend': 't',
-            'seasonal_order': (2, 1, 1, 24),
-            'order': (2, 0, 0),
+            'trend': 'c',
+            'seasonal_order': (2, 1, 1, 12),
+            'order': (0, 0, 2),
         },
     },
     4: {
         'random_search': {
-            'trend': 'n',
-            'seasonal_order': (0, 1, 1, 24),
-            'order': (2, 0, 2),
-        },
-        'halving_random_search': {
-            'trend': 'n',
-            'seasonal_order': (2, 0, 1, 12),
-            'order': (3, 0, 2),
+            'trend': 'c',
+            'seasonal_order': (1, 1, 1, 12),
+            'order': (0, 0, 1),
         },
     },
     5: {
         'random_search': {
             'trend': 'c',
-            'seasonal_order': (1, 0, 2, 24),
-            'order': (1, 0, 0),
-        },
-        'halving_random_search': {
-            'trend': 'c',
-            'seasonal_order': (0, 0, 1, 24),
-            'order': (1, 1, 2),
+            'seasonal_order': (0, 0, 0, 12),
+            'order': (2, 1, 1),
         },
     },
     6: {
         'random_search': {
-            'trend': 'n',
-            'seasonal_order': (2, 0, 0, 24),
-            'order': (2, 0, 3),
-        },
-        'halving_random_search': {
             'trend': 'c',
-            'seasonal_order': (0, 0, 0, 12),
-            'order': (2, 1, 2),
+            'seasonal_order': (0, 1, 2, 12),
+            'order': (0, 0, 1),
         },
     },
     12: {
         'random_search': {
             'trend': 'c',
-            'seasonal_order': (1, 0, 1, 12),
-            'order': (0, 0, 0),
-        },
-        'halving_random_search': {
-            'trend': 'ct',
-            'seasonal_order': (2, 1, 1, 24),
-            'order': (3, 1, 3),
+            'seasonal_order': (0, 1, 2, 24),
+            'order': (1, 1, 2),
         },
     },
 }
