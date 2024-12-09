@@ -1,7 +1,7 @@
 import os
 
 import experiments.autogluon_presets.model_training as model_training
-import experiments.chronos.preprocessing_autogluon as preprocessing_autogluon
+import experiments.autogluon.preprocessing_autogluon as preprocessing_autogluon
 
 #common_path='/home/henri/Code/thesis-code/experiments/autogluon_presets'
 common_path='/root/code/thesis-code/experiments/autogluon_presets'
