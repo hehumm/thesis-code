@@ -1,6 +1,5 @@
 import os
 import pandas as pd
-import matplotlib.pyplot as plt
 import shared.preprocessing_general as preprocessing_general
 import experiments.final.final_shared as final_shared
 import experiments.final.ag_predictions_importer as ag_predictions_importer
@@ -11,9 +10,6 @@ if not os.path.exists(tables_dir):
     os.makedirs(tables_dir)
 
 def generate_table(site, actual_consumption, theta_pred, ets_pred, autoarima_pred, chronos_pred):
-    fig, ax = plt.subplots(figsize=(6, 2))
-    ax.axis("tight")
-    ax.axis("off")
     table_data = {
         "Time": actual_consumption.index,
         "Actual Consumption": actual_consumption['load_energy_sum'].values,
