@@ -1,5 +1,5 @@
 import shared.shared_utility as shared_utility
-import experiments.sarimax.utility as sarimax_utility
+import experiments.archive.sarimax.utility as sarimax_utility
 import pandas as pd
 
 def _get_sarimax_results_path(site_id, variation):

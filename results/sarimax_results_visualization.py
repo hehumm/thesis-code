@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import shared.shared_utility as shared_utility
-import experiments.sarimax.utility as sarimax_utility
+import experiments.archive.sarimax.utility as sarimax_utility
 import shared.preprocessing_general as preprocessing_general
 import results.utility as results_utility
 
