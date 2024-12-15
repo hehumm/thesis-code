@@ -9,8 +9,6 @@ def _set_autogluon_compatible_column_names(sites_dictionary):
         new_dictionary[site_id] = new_df
     return new_dictionary
 
-
-
 def get_sites_independent_dfs_with_covariates():
     sites_with_data_wide_general = preprocessing_general.get_sites_with_data_wide()
     sites_with_timestamp_not_as_index = {site_id: df.reset_index() for site_id, df in sites_with_data_wide_general.items()}

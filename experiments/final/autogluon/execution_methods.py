@@ -4,15 +4,31 @@ from datetime import datetime
 import experiments.final.autogluon.preprocessing_autogluon as preprocessing_autogluon
 import experiments.final.final_shared as final_shared
 
-
-
-
 hyperparameters = {
     'Theta':{'Theta': {}},
     'ETS': {'ETS': {}},
     'AutoARIMA': {'AutoARIMA': {}},
-    'Chronos[bolt_tiny]': {'Chronos': {
+    'ChronosZeroShot[bolt_tiny]': {'Chronos': {
         'model_path': 'bolt_tiny', ## bolt_base later on
+        'ag_args': {'name_suffix': 'ZeroShot'}
+    }},
+    'ChronosFineTuned[bolt_tiny]': {'Chronos': {
+        'model_path': 'bolt_tiny', ## bolt_base later on
+        'fine_tune': True,
+        'ag_args': {'name_suffix': 'FineTuned'}
+    }},
+    'ChronosWithRegressor[bolt_tiny]': {'Chronos': {
+        'model_path': 'bolt_tiny', ## bolt_base later on
+        'covariate_regressor': 'CAT',
+        'target_scaler': 'standard',
+        'ag_args': {'name_suffix': 'WithRegressor'}
+    }},
+    'ChronosFineTunedWithRegressor[bolt_tiny]': {'Chronos': {
+        'model_path': 'bolt_tiny', ## bolt_base later on
+        'covariate_regressor': 'CAT',
+        'target_scaler': 'standard',
+        'fine_tune': True,
+        'ag_args': {'name_suffix': 'FineTunedWithRegressor'}
     }},
 }
 
@@ -30,7 +46,8 @@ def fit_predict_for_one(model_name, site_id, df, known_covariates):
     predictor.fit(
         train_data=train_data,
         time_limit=final_shared.configuration['time_limit'],
-        hyperparameters=hyperparameters[model_name],     
+        hyperparameters=hyperparameters[model_name],
+        enable_ensemble=False,     
     )
     predictions = predictor.predict(data=train_data, known_covariates=known_covariates, model=f'{model_name}')
     predictions.to_csv(f'./autogluon_forecasts/{site_id}/{model_name}.csv')
