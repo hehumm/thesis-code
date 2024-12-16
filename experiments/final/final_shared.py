@@ -1,7 +1,7 @@
 configuration = {
     'prediction_length': 24,
     'known_covariates_names': ['buy_price_kwh', 'sell_price_kwh', 'temp', 'feels_like', 'pop', 'clouds', 'sun_percentage'],
-    'eval_metric': 'WAPE',
+    'eval_metric': 'MAPE',
     'time_limit': 300,
 }
 

@@ -56,7 +56,7 @@ def fit_predict():
 
     output_dir = '/home/henri/Code/thesis-code/autogluon_forecasts'
     os.makedirs(output_dir, exist_ok=True)
-    output_file = os.path.join(output_dir, 'time_logs.txt')
+    output_file = os.path.join(output_dir, 'autogluon_time_logs.txt')
 
     sites_ids = [2, 4, 5, 6, 12]
 
