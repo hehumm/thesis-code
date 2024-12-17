@@ -8,23 +8,8 @@ hyperparameters = {
     'Theta':{'Theta': {}},
     'ETS': {'ETS': {}},
     'AutoARIMA': {'AutoARIMA': {}},
-    'ChronosZeroShot[bolt_tiny]': {'Chronos': {
-        'model_path': 'bolt_tiny', ## bolt_base later on
-        'ag_args': {'name_suffix': 'ZeroShot'}
-    }},
-    'ChronosFineTuned[bolt_tiny]': {'Chronos': {
-        'model_path': 'bolt_tiny', ## bolt_base later on
-        'fine_tune': True,
-        'ag_args': {'name_suffix': 'FineTuned'}
-    }},
-    'ChronosWithRegressor[bolt_tiny]': {'Chronos': {
-        'model_path': 'bolt_tiny', ## bolt_base later on
-        'covariate_regressor': 'CAT',
-        'target_scaler': 'standard',
-        'ag_args': {'name_suffix': 'WithRegressor'}
-    }},
-    'ChronosFineTunedWithRegressor[bolt_tiny]': {'Chronos': {
-        'model_path': 'bolt_tiny', ## bolt_base later on
+    'ChronosFineTunedWithRegressor[bolt_base]': {'Chronos': {
+        'model_path': 'bolt_base',
         'covariate_regressor': 'CAT',
         'target_scaler': 'standard',
         'fine_tune': True,

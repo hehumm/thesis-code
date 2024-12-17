@@ -16,7 +16,7 @@ def _get_nixtla_main_dfs_with_covariates():
     return sites_main_with_covariates
 
 def fit_predict():
-    output_dir = '/home/henri/Code/thesis-code/nixtla_forecasts'
+    output_dir = final_shared.nixtla_forecasts_path
     os.makedirs(output_dir, exist_ok=True)
     output_file = os.path.join(output_dir, 'nixtla_time_logs.txt')
 
@@ -45,7 +45,7 @@ def fit_predict():
         exog_test = df[-pred_len:].drop(columns=['y'])
         y_pred = nf.predict(futr_df=exog_test)
 
-        y_pred.to_csv(f'/home/henri/Code/thesis-code/nixtla_forecasts/predictions_lstm_{site}.csv')
+        y_pred.to_csv(f'{output_dir}/predictions_lstm_{site}.csv')
 
         with open(output_file, 'a') as f:
             f.write(f'Fitting and predicting for site {site} ended at {datetime.now()}\n')

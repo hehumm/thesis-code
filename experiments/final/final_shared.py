@@ -5,8 +5,9 @@ configuration = {
     'time_limit': 300,
 }
 
-ag_model_names = ['Theta', 'ETS', 'AutoARIMA', 'ChronosZeroShot[bolt_tiny]',
-                  'ChronosFineTuned[bolt_tiny]', 'ChronosWithRegressor[bolt_tiny]',
-                  'ChronosFineTunedWithRegressor[bolt_tiny]']
+ag_model_names = ['Theta', 'ETS', 'AutoARIMA',
+                  'ChronosFineTunedWithRegressor[bolt_base]']
 
 ag_forecasts_path = '/home/henri/Code/thesis-code/autogluon_forecasts'
+
+nixtla_forecasts_path = '/home/henri/Code/thesis-code/nixtla_forecasts'
