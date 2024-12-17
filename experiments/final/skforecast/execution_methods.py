@@ -5,7 +5,7 @@ from skforecast.sarimax import Sarimax
 from skforecast.recursive import ForecasterSarimax
 import experiments.final.skforecast.hyperparams_tuner as tuner
 import experiments.final.skforecast.sarimax_config as config
-import experiments.final.autogluon.preprocessing_autogluon as preprocessing_autogluon
+import experiments.final.preprocessed_data as preprocessed_data
 import experiments.final.final_shared as final_shared
 import shared.shared_utility as shared_utility
 
@@ -36,8 +36,8 @@ def _transform_data_to_sk_format(sites_main, sites_covariates):
     return data
 
 def fit_predict():
-    sites_main = preprocessing_autogluon.get_sites_independent_dfs_only_main()
-    sites_covariates = preprocessing_autogluon.get_sites_independent_dfs_only_covariates()
+    sites_main = preprocessed_data.get_sites_independent_dfs_only_main()
+    sites_covariates = preprocessed_data.get_sites_independent_dfs_only_covariates()
     data = _transform_data_to_sk_format(sites_main, sites_covariates)
 
     for site in shared_utility.sites:

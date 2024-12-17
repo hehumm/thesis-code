@@ -1,7 +1,7 @@
 import os
 from autogluon.timeseries import TimeSeriesDataFrame, TimeSeriesPredictor
 from datetime import datetime
-import experiments.final.autogluon.preprocessing_autogluon as preprocessing_autogluon
+import experiments.final.preprocessed_data as preprocessed_data
 import experiments.final.final_shared as final_shared
 
 hyperparameters = {
@@ -60,8 +60,8 @@ def fit_predict():
 
     sites_ids = [2, 4, 5, 6, 12]
 
-    sites_main_with_covariates = preprocessing_autogluon.get_sites_independent_dfs_with_covariates()
-    sites_only_covariates = preprocessing_autogluon.get_sites_independent_dfs_only_covariates()
+    sites_main_with_covariates = preprocessed_data.get_sites_independent_dfs_with_covariates()
+    sites_only_covariates = preprocessed_data.get_sites_independent_dfs_only_covariates()
     for site_id in sites_ids:
         for model_name in final_shared.ag_model_names:
             with open(output_file, 'a') as f:
