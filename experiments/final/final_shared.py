@@ -7,7 +7,8 @@ configuration = {
 
 ag_model_names = ['Theta', 'ETS', 'AutoARIMA',
                   'ChronosFineTunedWithRegressor[bolt_base]']
+ag_forecasts_path = '/home/henri/Code/thesis-code/final_results/autogluon'
 
-ag_forecasts_path = '/home/henri/Code/thesis-code/autogluon_forecasts'
+skforecast_forecasts_path = '/home/henri/Code/thesis-code/final_results/skforecast'
 
-nixtla_forecasts_path = '/home/henri/Code/thesis-code/nixtla_forecasts'
+nixtla_forecasts_path = '/home/henri/Code/thesis-code/final_results/nixtla'
