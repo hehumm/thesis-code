@@ -1,39 +1,57 @@
-
+import os
 import matplotlib.pyplot as plt
 from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
-import experiments.final.general.data_importer as data_importer
-import experiments.final.common_preprocessing.spikes_handler as spikes_handler
-import experiments.final.common_preprocessing.preprocessed_data_provider as preprocessed_data_provider
+import src.main.general.data_importer as data_importer
+import src.main.common_preprocessing.spikes_handler as spikes_handler
+import src.main.common_preprocessing.preprocessed_data_provider as preprocessed_data_provider
+import src.main.general.shared_variables as shared_variables
 
 original_dfs = data_importer.get_imported_data()
 all_sites_spikes = spikes_handler.find_spikes()
+
+plots_dir = f'{shared_variables.repo_path}/plots'
+def _create_plots_folder_if_needed():
+    if not os.path.exists(plots_dir):
+        os.makedirs(plots_dir)
 
 def plot_vanilla_data():
     for site_id, df in original_dfs.items():
         plt.figure(figsize=(24, 12))
         plt.plot(df['load_energy_sum'])
-        plt.title(f'Asukoht {site_id}')
+        plt.title(f'Asukoha {site_id} elektritarbimine')
         plt.ylabel('Elektritarbimine (MWh)')
-    plt.show()
+        plt.xlabel('Aeg')
+        #plt.show()
+        plot_filename = f'plot_site_{site_id}.png'
+        plt.savefig(os.path.join(plots_dir, plot_filename), bbox_inches='tight')
+        plt.close()
 
 def plot_spikes():
     for site_id, spike in all_sites_spikes.items():
         plt.figure(figsize=(24, 12))
         plt.plot(original_dfs[site_id]['load_energy_sum'], label='Algandmed')
-        plt.scatter(spike.index, spike['load_energy_sum'], c='tab:orange', label='Tuvastatud jõnksud')
-        plt.title(f'Asukoht {site_id}')
+        plt.scatter(spike.index, spike['load_energy_sum'], c='tab:orange', label='Tuvastatud tipud')
+        plt.title(f'Asukoha {site_id} elektritarbimine')
         plt.ylabel('Elektritarbimine (MWh)')
+        plt.xlabel('Aeg')
         plt.legend(loc='upper left')
-        plt.show()
+        # plt.show()
+        plot_filename = f'plot_site_{site_id}_spikes.png'
+        plt.savefig(os.path.join(plots_dir, plot_filename), bbox_inches='tight')
+        plt.close()
 
 def plot_preprocessed_data():
     interpolated_dfs = preprocessed_data_provider.get_preprocessed_data()
     for site_id, df in interpolated_dfs.items():
         plt.figure(figsize=(24, 12))
         plt.plot(df['load_energy_sum'])
-        plt.title(f'Asukoht {site_id} jõnksudeta')
+        plt.title(f'Asukoha {site_id} elektritarbimine pärast tippude eemaldamist')
         plt.ylabel('Elektritarbimine (MWh)')
-    plt.show()
+        plt.xlabel('Aeg')
+        # plt.show()
+        plot_filename = f'plot_site_{site_id}_preprocessed.png'
+        plt.savefig(os.path.join(plots_dir, plot_filename), bbox_inches='tight')
+        plt.close()
 
 def plot_acf_pacf(dfs):
     for site_id, df in dfs.items():
@@ -53,8 +71,8 @@ def plot_acf_pacf(dfs):
 
 
 # plot_vanilla_data()
-plot_spikes()
-# plot_preprocessed_data()
+# plot_spikes()
+plot_preprocessed_data()
 
 #training_dfs, _ = preprocessing_sarimax.test_train_split(sites_wo_spikes)
 #plot_acf_pacf(training_dfs)
