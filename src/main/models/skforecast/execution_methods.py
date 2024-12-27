@@ -10,12 +10,14 @@ import src.main.general.shared_variables as shared_variables
 import src.main.general.data_importer as data_importer
 
 def test_sites_for_stationarity(dfs):
-    forecast_horizon = 36
+    forecast_horizon = shared_variables.configuration.get('prediction_length')
+    results = {}
     for site_id, df in dfs.items():
         y = df['load_energy_sum']
         y_train = y[:-forecast_horizon]
         result = adfuller(y_train)
-        print(f'Site {site_id} p-value: {result[1]}')
+        results[site_id] = result
+    return results
 
 def _get_params_file_path():
     output_dir = f'{shared_variables.repo_path}sk_forecast_forecasts'
