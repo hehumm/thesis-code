@@ -1,6 +1,6 @@
-import experiments.final.general.data_importer as data_importer
-import experiments.final.common_preprocessing.spikes_handler as spikes_handler
-import experiments.final.models.skforecast.execution_methods as skf
+import src.main.general.data_importer as data_importer
+import src.main.common_preprocessing.spikes_handler as spikes_handler
+import src.main.models.skforecast.execution_methods as skf
 
 vanilla_dfs = data_importer.get_imported_data()
 skf.test_sites_for_stationarity(vanilla_dfs)

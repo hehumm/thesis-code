@@ -1,5 +1,5 @@
 import pandas as pd
-import experiments.final.general.shared_variables as shared_variables
+import src.main.general.shared_variables as shared_variables
 
 def add_missing_index(df, start_time, end_time):
     all_time_buckets = pd.date_range(start_time, end_time, freq='h')
@@ -53,8 +53,9 @@ def _get_data():
 
 def get_imported_data():
     sites_with_data_wide_general = _get_data()
-    sites_with_start_time_not_as_index = {site_id: df.reset_index() for site_id, df in sites_with_data_wide_general.items()}
-    sites_with_added_site_id_column = {site_id: df.assign(site_id=site_id) for site_id, df in sites_with_start_time_not_as_index.items()}
-    sites_with_timezone_removed_from_start_time = {site_id: df.assign(start_time=df['start_time'].dt.tz_localize(None)) for site_id, df in sites_with_added_site_id_column.items()}
-    sites_with_load_energy_sum_in_mwh = {site_id: df.assign(load_energy_sum=df['load_energy_sum'] / 1000000000) for site_id, df in sites_with_timezone_removed_from_start_time.items()}
+    sites_with_added_site_id_column = {site_id: df.assign(site_id=site_id) for site_id, df in sites_with_data_wide_general.items()}
+    sites_with_start_time_not_as_index = {site_id: df.reset_index() for site_id, df in sites_with_added_site_id_column.items()}
+    sites_with_timezone_removed_from_start_time = {site_id: df.assign(start_time=df['start_time'].dt.tz_localize(None)) for site_id, df in sites_with_start_time_not_as_index.items()}
+    sites_with_correct_start_time_as_index = {site_id: df.set_index('start_time') for site_id, df in sites_with_timezone_removed_from_start_time.items()}
+    sites_with_load_energy_sum_in_mwh = {site_id: df.assign(load_energy_sum=df['load_energy_sum'] / 1000000000) for site_id, df in sites_with_correct_start_time_as_index.items()}
     return sites_with_load_energy_sum_in_mwh

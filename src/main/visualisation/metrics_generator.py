@@ -1,8 +1,8 @@
 import os
 import pandas as pd
 from sklearn.metrics import mean_absolute_percentage_error, mean_absolute_error, root_mean_squared_error
-import experiments.final.general.results_dataset_generator as results_dataset_generator
-import experiments.final.general.shared_variables as shared_variables
+import src.main.general.results_dataset_generator as results_dataset_generator
+import src.main.general.shared_variables as shared_variables
 
 def generate_metrics():
     metrics_dir = f'{shared_variables.repo_path}/metrics'

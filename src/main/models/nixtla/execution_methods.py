@@ -3,8 +3,8 @@ from datetime import datetime
 from neuralforecast import NeuralForecast
 from neuralforecast.models import LSTM
 from neuralforecast.losses.pytorch import MAPE
-import experiments.final.general.data_importer as data_importer
-import experiments.final.general.shared_variables as shared_variables
+import src.main.general.data_importer as data_importer
+import src.main.general.shared_variables as shared_variables
 
 def _get_nixtla_main_dfs_with_covariates():
     default_main_with_covariates = data_importer.get_imported_data()

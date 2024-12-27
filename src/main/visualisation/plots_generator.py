@@ -1,7 +1,7 @@
 import os
 import matplotlib.pyplot as plt
-import experiments.final.general.results_dataset_generator as results_dataset_generator
-import experiments.final.general.shared_variables as shared_variables
+import src.main.general.results_dataset_generator as results_dataset_generator
+import src.main.general.shared_variables as shared_variables
 
 def plot_results():
     plots_dir = f'{shared_variables.repo_path}/plots'

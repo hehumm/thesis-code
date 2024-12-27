@@ -1,4 +1,4 @@
-import experiments.final.general.data_importer as data_importer
+import src.main.general.data_importer as data_importer
 
 def _find_spikes_for_one_site(df, column, threshold=0.95):
     threshold_value = df[column].quantile(threshold)

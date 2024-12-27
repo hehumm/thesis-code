@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import unittest
-import experiments.final.general.data_importer as data_importer
+import src.main.general.data_importer as data_importer
 
 class PreProcessingTest(unittest.TestCase):
 

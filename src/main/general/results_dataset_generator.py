@@ -1,7 +1,7 @@
 import pandas as pd
 import shared.shared_utility as shared_utility
-import experiments.final.shared_variables as shared_variables
-import experiments.final.preprocessed_data as preprocessed_data
+import src.main.shared_variables as shared_variables
+import src.main.preprocessed_data as preprocessed_data
 
 def _import_raw_ag_predictions():
     predictions = {}

@@ -2,9 +2,9 @@
 
 import os
 import pandas as pd
-import experiments.final.preprocessing_general as preprocessing_general
-import experiments.final.general.shared_variables as shared_variables
-import experiments.final.ag_predictions_importer as ag_predictions_importer
+import src.main.preprocessing_general as preprocessing_general
+import src.main.general.shared_variables as shared_variables
+import src.main.ag_predictions_importer as ag_predictions_importer
 import shared.shared_utility as shared_utility
 
 tables_dir = f'{shared_variables.repo_path}autogluon_tables'

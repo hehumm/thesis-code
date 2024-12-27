@@ -4,10 +4,10 @@ import pandas as pd
 from skforecast.sarimax import Sarimax
 from skforecast.recursive import ForecasterSarimax
 from statsmodels.tsa.stattools import adfuller
-import experiments.final.models.skforecast.hyperparams_tuner as tuner
-import experiments.final.models.skforecast.sarimax_config as config
-import experiments.final.general.shared_variables as shared_variables
-import experiments.final.general.data_importer as data_importer
+import src.main.models.skforecast.hyperparams_tuner as tuner
+import src.main.models.skforecast.sarimax_config as config
+import src.main.general.shared_variables as shared_variables
+import src.main.general.data_importer as data_importer
 
 def test_sites_for_stationarity(dfs):
     forecast_horizon = 36

@@ -1,8 +1,8 @@
 import os
 from autogluon.timeseries import TimeSeriesDataFrame, TimeSeriesPredictor
 from datetime import datetime
-import experiments.final.general.shared_variables as shared_variables
-import experiments.final.general.data_importer as data_importer
+import src.main.general.shared_variables as shared_variables
+import src.main.general.data_importer as data_importer
 
 hyperparameters = {
     'Theta':{'Theta': {}},
