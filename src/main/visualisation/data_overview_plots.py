@@ -10,9 +10,6 @@ original_dfs = data_importer.get_imported_data()
 all_sites_spikes = spikes_handler.find_spikes()
 
 plots_dir = f'{shared_variables.repo_path}/plots'
-def _create_plots_folder_if_needed():
-    if not os.path.exists(plots_dir):
-        os.makedirs(plots_dir)
 
 def plot_vanilla_data():
     for site_id, df in original_dfs.items():
@@ -72,7 +69,7 @@ def plot_acf_pacf(dfs):
 
 # plot_vanilla_data()
 # plot_spikes()
-plot_preprocessed_data()
+# plot_preprocessed_data()
 
 #training_dfs, _ = preprocessing_sarimax.test_train_split(sites_wo_spikes)
 #plot_acf_pacf(training_dfs)
