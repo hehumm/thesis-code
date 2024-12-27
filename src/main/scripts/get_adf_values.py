@@ -10,3 +10,7 @@ adf_values = skf.test_sites_for_stationarity(dfs_without_spikes)
 with open(f'{shared_variables.repo_path}adf_values.txt', 'w') as file:
     for key, value in adf_values.items():
         file.write(f'{key} p-value: {value[1]}\n')
+
+site_5_adf_after_differencing = skf.test_sites_for_stationarity({'5': dfs_without_spikes.get(5).diff().dropna()})['5'][1]
+with open(f'{shared_variables.repo_path}site_5_differenced_adf_value.txt', 'w') as file:
+    file.write(f'p-value: {site_5_adf_after_differencing}\n')
