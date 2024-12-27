@@ -165,7 +165,3 @@ cython_debug/
 .vscode/
 
 .python-version
-
-models
-batch1_rmse_vanillachronos
-batch2_wape
