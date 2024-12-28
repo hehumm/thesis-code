@@ -24,7 +24,7 @@ def _get_params_file_path():
     os.makedirs(output_dir, exist_ok=True)
     return os.path.join(output_dir, 'sarimax_params_finding_time_logs.txt')
 
-def _generate_sarimax_orders(site, y, exog):
+def _generate_sarimax_orders_for_one_site(site, y, exog):
     output_file = _get_params_file_path()
     with open(output_file, 'a') as f:
         f.write(f'Best params search for site {site} started at {datetime.now()}\n')
@@ -37,16 +37,25 @@ def _generate_sarimax_orders(site, y, exog):
 
 def _get_sk_formatted_data():
     preprocessed_data = data_importer.get_imported_data()
-    sites_main = {site: df[['start_time', 'site_id', 'load_energy_sum']] for site, df in preprocessed_data.items()}
-    sites_covariates = {site: df[['start_time', 'site_id', 'sun_percentage', 'buy_price_kwh', 'feels_like', 'sell_price_kwh', 'clouds', 'temp', 'pop']] for site, df in preprocessed_data.items()}
+    sites_main = {site: df[['site_id', 'load_energy_sum']] for site, df in preprocessed_data.items()}
+    sites_covariates = {site: df[['site_id', 'sun_percentage', 'buy_price_kwh', 'feels_like', 'sell_price_kwh', 'clouds', 'temp', 'pop']] for site, df in preprocessed_data.items()}
     data = {}
     for site in shared_variables.sites_ids:
         site_main = sites_main[site]
         site_covariates = sites_covariates[site]
-        y = pd.Series(data=site_main.set_index('start_time')['load_energy_sum']).asfreq('h')
-        exog = site_covariates.set_index('start_time').drop(columns=['item_id']).asfreq('h')
+        y = pd.Series(data=site_main['load_energy_sum']).asfreq('h')
+        exog = site_covariates.drop(columns=['site_id']).asfreq('h')
         data[site] = (y, exog)
     return data
+
+def generate_sarimax_orders():
+    data = _get_sk_formatted_data()
+    for site in shared_variables.sites_ids:
+        pred_len = shared_variables.configuration.get('prediction_length')
+        y, exog = data.get(site)
+        y_train = y[:-pred_len]
+        exog_train = exog[:-pred_len]
+        _generate_sarimax_orders_for_one_site(site, y_train, exog_train)
 
 def fit_predict():
     data = _get_sk_formatted_data()
@@ -57,7 +66,6 @@ def fit_predict():
         y_train = y[:-pred_len]
         exog_train = exog[:-pred_len]
 
-        # _generate_sarimax_orders(site, y_train, exog_train)
         params = config.best_params.get(site)
         forecaster = ForecasterSarimax(
             regressor=Sarimax(order=params.get('order'), seasonal_order=params.get('seasonal_order'), maxiter=200)
