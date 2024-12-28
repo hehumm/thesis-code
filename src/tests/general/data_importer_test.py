@@ -3,7 +3,7 @@ import numpy as np
 import unittest
 import src.main.general.data_importer as data_importer
 
-class PreProcessingTest(unittest.TestCase):
+class DataImporterTest(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
