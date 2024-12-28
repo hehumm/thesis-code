@@ -54,22 +54,21 @@ def plot_acf_pacf(dfs):
     for site_id, df in dfs.items():
         y = df['load_energy_sum']
 
-        plt.figure(figsize=(12, 6))
+        plt.figure(figsize=(24, 12))
         plt.subplot(121)
         plot_acf(y, lags=50, ax=plt.gca())
-        plt.title(f'Site {site_id} ACF')
+        plt.title(f'Asukoha {site_id} ACF')
+        plt.ylabel('Autokorrelatsiooni tugevus')
+        plt.xlabel('Viide')
 
         plt.subplot(122)
         plot_pacf(y, lags=50, ax=plt.gca(), method='ywm')
         plt.title(f'Site {site_id} PACF')
+        plt.ylabel('Osalise autokorrelatsiooni tugevus')
+        plt.xlabel('Viide')
 
         plt.tight_layout()
-        plt.show()
-
-
-# plot_vanilla_data()
-# plot_spikes()
-# plot_preprocessed_data()
-
-#training_dfs, _ = preprocessing_sarimax.test_train_split(sites_wo_spikes)
-#plot_acf_pacf(training_dfs)
+        # plt.show()
+        plot_filename = f'plot_site_{site_id}_acf_pacf.png'
+        plt.savefig(os.path.join(plots_dir, plot_filename), bbox_inches='tight')
+        plt.close()
