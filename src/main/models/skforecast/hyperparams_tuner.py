@@ -11,7 +11,7 @@ def perform_grid_search(param_grid, y, exog):
 
     cv = TimeSeriesFold(
         steps = 24,
-        initial_train_size = 24,
+        initial_train_size = 120,
     )
 
     return grid_search_sarimax(
