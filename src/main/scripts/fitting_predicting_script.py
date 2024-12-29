@@ -2,10 +2,10 @@ import src.main.models.autogluon.execution_methods as autogluon
 
 autogluon.fit_predict()
 
-# import src.main.models.skforecast.execution_methods as skforecast
+import src.main.models.skforecast.execution_methods as skforecast
 
-# skforecast.fit_predict()
+skforecast.fit_predict()
 
-import src.main.models.skforecast.execution_methods as nixtla
+import src.main.models.mlforecast.execution_methods as mlforecast
 
-nixtla.fit_predict()
+mlforecast.fit_predict()

@@ -2,14 +2,19 @@
 
 This is the repository containing my thesis' code
 
-The files containing my experiments come with the `script_` prefix. Each one contains a brief summary of the experiment
-together with accuracy metrics of the trained model(s).
+## Environment setup
+It's recommended to use a separate Python environment. For that I used [Miniconda](https://docs.anaconda.com/miniconda/).
+Using Miniconda/Anaconda is not required but in that case some additional packages might have to be downloaded manually.
 
+Running the scripts requires the installation of
+* [Autogluon](https://auto.gluon.ai/stable/install.html)
+* [MLForecast](https://nixtlaverse.nixtla.io/mlforecast/index.html)
+* [SKForecast](https://skforecast.org/0.14.0/index.html)
 
-## IDE setup
-I installed [Spyder](https://www.spyder-ide.org/). Then I used [PyEnv](https://github.com/pyenv/pyenv) to install [Miniconda](https://docs.anaconda.com/miniconda/).
-I created a new Miniconda environment, installed [AutoGluon](https://auto.gluon.ai/stable/index.html) and configured Spyder to work with my Miniconda environment by following
+P.s: I downloaded Autogluon (version 1.2.0) and MLForecast (version 1.0.0) from [Conda-forge](https://conda-forge.org/) and SKForecast (version 0.14.0)
+from [Pip](https://pypi.org/project/pip/). While it is generally not recommended to download packages from different sources, unfortunately SKForecast 
+was not available in Conda-forge as of December 2024. But fortunately it seemed to work without any noticeable issues.
+
+## IDE setup (optional)
+I installed [Spyder](https://www.spyder-ide.org/). I configured Spyder to work with my Miniconda environment by following
 the answer to '[How do I install Python packages to use withing Spyder if I downloaded Spyder from the standalon installers?](https://docs.spyder-ide.org/5/faq.html#using-spyder)'.
-
-## Tests
-I have covered data preprocessing with tests. To execute them, run the command `python -m shared.preprocessing_general_test` while being at the root directory of the project.
