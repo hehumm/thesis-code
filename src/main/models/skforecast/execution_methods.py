@@ -51,7 +51,7 @@ def _get_sk_formatted_data():
 def generate_sarimax_orders():
     data = _get_sk_formatted_data()
     for site in shared_variables.sites_ids:
-        pred_len = shared_variables.configuration.get('prediction_length')
+        pred_len = config.time_steps_for_parameter_finding
         y, exog = data.get(site)
         y_train = y[:-pred_len]
         exog_train = exog[:-pred_len]

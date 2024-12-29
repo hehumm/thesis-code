@@ -1,3 +1,5 @@
+time_steps_for_parameter_finding = 24
+
 param_grids = {
     2: {
         'order': [(0, 0, 0), (0, 0, 1), (0, 0, 2), (1, 0, 0), (1, 0, 1), (1, 0, 2)],

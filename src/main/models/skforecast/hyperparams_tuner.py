@@ -2,6 +2,7 @@ from skforecast.sarimax import Sarimax
 from skforecast.recursive import ForecasterSarimax
 from skforecast.model_selection import TimeSeriesFold
 from skforecast.model_selection import grid_search_sarimax
+import src.main.models.skforecast.sarimax_config as config
 
 def perform_grid_search(param_grid, y, exog):
 
@@ -10,7 +11,7 @@ def perform_grid_search(param_grid, y, exog):
     )
 
     cv = TimeSeriesFold(
-        steps = 24,
+        steps = config.time_steps_for_parameter_finding,
         initial_train_size = 120,
     )
 
