@@ -1,0 +1,10 @@
+Best params search for site 2 started at 2024-12-28 17:49:37.259061
+Best params search for site 2 ended at 2024-12-28 17:49:42.175315
+Best params search for site 4 started at 2024-12-28 17:49:42.175522
+Best params search for site 4 ended at 2024-12-28 18:04:39.338847
+Best params search for site 5 started at 2024-12-28 18:04:39.339374
+Best params search for site 5 ended at 2024-12-28 18:04:49.922578
+Best params search for site 6 started at 2024-12-28 18:04:49.922864
+Best params search for site 6 ended at 2024-12-28 18:04:53.550545
+Best params search for site 12 started at 2024-12-28 18:04:53.550973
+Best params search for site 12 ended at 2024-12-28 18:20:41.066739

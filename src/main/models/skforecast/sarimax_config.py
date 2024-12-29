@@ -23,26 +23,25 @@ param_grids = {
     }
 }
 
-# old best params
-# best_params = {
-#     2: {
-#         'order': (0, 1, 1),
-#         'seasonal_order': (0, 0, 0, 0)
-#     },
-#     4: {
-#         'order': (2, 1, 0),
-#         'seasonal_order': (0, 0, 0, 0)
-#     },
-#     5: {
-#         'order': (1, 1, 1),
-#         'seasonal_order': (0, 0, 0, 0)
-#     },
-#     6: {
-#         'order': (1, 0, 0),
-#         'seasonal_order': (0, 0, 0, 0)
-#     },
-#     12: {
-#         'order': (2, 1, 0),
-#         'seasonal_order': (2, 0, 1, 12)
-#     }
-# }
+best_params = {
+    2: {
+        'order': (1, 0, 0),
+        'seasonal_order': (0, 0, 0, 0)
+    },
+    4: {
+        'order': (1, 0, 2),
+        'seasonal_order': (1, 0, 0, 24)
+    },
+    5: {
+        'order': (1, 0, 2),
+        'seasonal_order': (0, 0, 0, 0)
+    },
+    6: {
+        'order': (1, 0, 1),
+        'seasonal_order': (0, 0, 0, 0)
+    },
+    12: {
+        'order': (1, 0, 0),
+        'seasonal_order': (2, 1, 0, 24)
+    }
+}
