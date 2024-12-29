@@ -10,7 +10,7 @@ def _get_nixtla_main_dfs_with_covariates():
     default_main_with_covariates = data_importer.get_imported_data()
     sites_main_with_covariates = {}
     for site, df in default_main_with_covariates.items():
-        sites_main_with_covariates[site] = df.rename(columns={'start_time': 'ds', 'load_energy_sum': 'y', 'site_id': 'unique_id'})
+        sites_main_with_covariates[site] = df.reset_index().rename(columns={'start_time': 'ds', 'load_energy_sum': 'y', 'site_id': 'unique_id'})
     return sites_main_with_covariates
 
 def fit_predict():
