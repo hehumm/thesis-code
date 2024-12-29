@@ -6,6 +6,6 @@ autogluon.fit_predict()
 
 # skforecast.fit_predict()
 
-import src.main.models.nixtla.execution_methods as nixtla
+import src.main.models.skforecast.execution_methods as nixtla
 
 nixtla.fit_predict()

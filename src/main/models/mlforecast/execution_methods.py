@@ -33,7 +33,7 @@ def fit_predict():
                     h=shared_variables.configuration['prediction_length'],
                     loss=MAPE(),
                     futr_exog_list=shared_variables.configuration['known_covariates_names'],
-                    scaler_type='standard', # maybe standardize the data earlier in the pipeline
+                    scaler_type='standard',
                 )
             ],
             freq='h'
