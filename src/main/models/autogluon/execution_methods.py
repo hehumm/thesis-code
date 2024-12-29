@@ -20,7 +20,7 @@ def _get_ag_main_dfs_with_covariates():
     sites_main_with_covariates = data_importer.get_imported_data()
     new_dictionary = {}
     for site_id, df in sites_main_with_covariates.items():
-        new_df = df.rename(columns={'load_energy_sum': 'target', 'start_time': 'timestamp', 'site_id': 'item_id'})
+        new_df = df.reset_index().rename(columns={'load_energy_sum': 'target', 'start_time': 'timestamp', 'site_id': 'item_id'})
         new_dictionary[site_id] = new_df
     return new_dictionary
 
@@ -28,7 +28,7 @@ def _get_ag_only_covariates_dfs():
     sites_main_with_covariates = data_importer.get_imported_data()
     new_dictionary = {}
     for site_id, df in sites_main_with_covariates.items():
-        new_df = df.drop(columns=['target'])
+        new_df = df.reset_index().drop(columns=['load_energy_sum']).rename(columns={'start_time': 'timestamp', 'site_id': 'item_id'})
         new_dictionary[site_id] = new_df
     return new_dictionary
 
