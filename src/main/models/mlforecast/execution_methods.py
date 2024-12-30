@@ -14,7 +14,7 @@ def _get_nixtla_main_dfs_with_covariates():
     return sites_main_with_covariates
 
 def fit_predict():
-    output_dir = shared_variables.nixtla_forecasts_path
+    output_dir = shared_variables.mlforecast_forecasts_path
     os.makedirs(output_dir, exist_ok=True)
     output_file = os.path.join(output_dir, 'nixtla_time_logs.txt')
 

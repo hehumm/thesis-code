@@ -15,4 +15,4 @@ ag_forecasts_path = f'{repo_path}final_results/autogluon'
 
 skforecast_forecasts_path = f'{repo_path}final_results/skforecast'
 
-nixtla_forecasts_path = f'{repo_path}final_results/nixtla'
+mlforecast_forecasts_path = f'{repo_path}final_results/mlforecast'

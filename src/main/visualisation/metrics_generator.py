@@ -5,14 +5,14 @@ import src.main.general.results_dataset_generator as results_dataset_generator
 import src.main.general.shared_variables as shared_variables
 
 def generate_metrics():
-    metrics_dir = f'{shared_variables.repo_path}/metrics'
+    metrics_dir = f'{shared_variables.repo_path}final_results/metrics'
     if not os.path.exists(metrics_dir):
         os.makedirs(metrics_dir)
 
     data = results_dataset_generator.get_summary()
     for site in shared_variables.sites_ids:
         values = data[site]
-        measured_data = values['actual']['target'][-(shared_variables.configuration.get('prediction_length')):]
+        measured_data = values['actual']['load_energy_sum'][-(shared_variables.configuration.get('prediction_length')):]
         metrics_data = {
             "Model": ["Theta", "AutoARIMA", "Chronos", "SARIMAX", "LSTM"],
             "MAPE": [
