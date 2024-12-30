@@ -14,9 +14,10 @@ def plot_results():
         plt.figure(figsize=(24, 12))
         plt.plot(values['actual'].index[-(shared_variables.configuration.get('prediction_length')*2):],
                  values['actual']['load_energy_sum'][-(shared_variables.configuration.get('prediction_length')*2):], label='Päriselt mõõdetud tarbimine')
+        plt.plot(values['Chronos Zero Shot'].index, values['Chronos Zero Shot']['mean'], label='Chronos eeltreenitud')
+        plt.plot(values['Chronos Fine Tuned'].index, values['Chronos Fine Tuned']['mean'], label='Chronos kohandatud')
         plt.plot(values['Theta'].index, values['Theta']['mean'], label='Theta')
         plt.plot(values['AutoARIMA'].index, values['AutoARIMA']['mean'], label='AutoARIMA')
-        plt.plot(values['Chronos'].index, values['Chronos']['mean'], label='Chronos')
         plt.plot(values['SARIMAX'].index, values['SARIMAX']['mean'], label='SARIMAX')
         plt.plot(values['LSTM'].index, values['LSTM']['mean'], label='LSTM')
         plt.title(f'Asukoha {site} elektritarbimise prognoosid')

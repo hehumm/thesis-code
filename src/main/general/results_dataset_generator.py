@@ -46,7 +46,8 @@ def get_summary():
             'actual': actual_dfs[site],
             'Theta': ag_predictions[site]['Theta'],
             'AutoARIMA': ag_predictions[site]['AutoARIMA'],
-            'Chronos': ag_predictions[site]['ChronosFineTunedWithRegressor[bolt_base]'],
+            'Chronos Zero Shot': ag_predictions[site]['ChronosZeroShotWithRegressor[bolt_base]'],
+            'Chronos Fine Tuned': ag_predictions[site]['ChronosFineTunedWithRegressor[bolt_base]'],
             'SARIMAX': skforecast_predictions[site],
             'LSTM': nixtla_predictions[site],
         }

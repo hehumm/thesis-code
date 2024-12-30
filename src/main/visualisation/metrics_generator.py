@@ -14,25 +14,28 @@ def generate_metrics():
         values = data[site]
         measured_data = values['actual']['load_energy_sum'][-(shared_variables.configuration.get('prediction_length')):]
         metrics_data = {
-            "Model": ["Theta", "AutoARIMA", "Chronos", "SARIMAX", "LSTM"],
+            "Model": ["Chronos Zero Shot", "Chronos Fine Tuned", "Theta", "AutoARIMA", "SARIMAX", "LSTM"],
             "MAPE": [
+                mean_absolute_percentage_error(measured_data, values['Chronos Zero Shot']['mean']),
+                mean_absolute_percentage_error(measured_data, values['Chronos Fine Tuned']['mean']),
                 mean_absolute_percentage_error(measured_data, values['Theta']['mean']),
                 mean_absolute_percentage_error(measured_data, values['AutoARIMA']['mean']),
-                mean_absolute_percentage_error(measured_data, values['Chronos']['mean']),
                 mean_absolute_percentage_error(measured_data, values['SARIMAX']['mean']),
                 mean_absolute_percentage_error(measured_data, values['LSTM']['mean']),
             ],
             "MAE": [
+                mean_absolute_error(measured_data, values['Chronos Zero Shot']['mean']),
+                mean_absolute_error(measured_data, values['Chronos Fine Tuned']['mean']),
                 mean_absolute_error(measured_data, values['Theta']['mean']),
                 mean_absolute_error(measured_data, values['AutoARIMA']['mean']),
-                mean_absolute_error(measured_data, values['Chronos']['mean']),
                 mean_absolute_error(measured_data, values['SARIMAX']['mean']),
                 mean_absolute_error(measured_data, values['LSTM']['mean']),
             ],
             "RMSE": [
+                root_mean_squared_error(measured_data, values['Chronos Zero Shot']['mean']),
+                root_mean_squared_error(measured_data, values['Chronos Fine Tuned']['mean']),
                 root_mean_squared_error(measured_data, values['Theta']['mean']),
                 root_mean_squared_error(measured_data, values['AutoARIMA']['mean']),
-                root_mean_squared_error(measured_data, values['Chronos']['mean']),
                 root_mean_squared_error(measured_data, values['SARIMAX']['mean']),
                 root_mean_squared_error(measured_data, values['LSTM']['mean']),
             ],
