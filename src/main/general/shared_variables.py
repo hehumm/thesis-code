@@ -1,4 +1,4 @@
-repo_path = '/home/henri/Code/thesis-code/'
+repo_path = ''
 
 sites_ids = [2, 4, 5, 6, 12]
 

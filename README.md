@@ -22,3 +22,15 @@ was not available in Conda-forge as of December 2024. But fortunately it seemed 
 ## IDE setup (optional)
 I installed [Spyder](https://www.spyder-ide.org/). I configured Spyder to work with my Miniconda environment by following
 the answer to '[How do I install Python packages to use withing Spyder if I downloaded Spyder from the standalon installers?](https://docs.spyder-ide.org/5/faq.html#using-spyder)'.
+Using Spyder made it subjectively easier to debug any issues.
+
+## Environment setup
+To get the scripts working properly, update the value of `repo_path` inside src/main/general/shared_variables.py to the directory the repository is located in.
+
+## Running the scripts
+The scripts can be found in src/main/scripts
+
+The process from importing the data to generating final accuracy metrics entailed a lot of steps. To keep the code readable it was organized into many modules. 
+As a consequence, running the scripts must be done using Python's option 'run library module as a script'.
+
+Example: instead of typing the command `python src/main/scripts_fitting_predicting_script.py` one should use `python -m src.main.scripts.fitting_predicting_script`.
