@@ -7,10 +7,14 @@ import src.main.general.data_importer as data_importer
 hyperparameters = {
     'Theta':{'Theta': {}},
     'AutoARIMA': {'AutoARIMA': {}},
+    'ChronosZeroShotWithRegressor[bolt_base]': {'Chronos': {
+        'model_path': 'bolt_base',
+        'covariate_regressor': 'CAT',
+        'ag_args': {'name_suffix': 'ZeroShotWithRegressor'}
+    }},
     'ChronosFineTunedWithRegressor[bolt_base]': {'Chronos': {
         'model_path': 'bolt_base',
         'covariate_regressor': 'CAT',
-        'target_scaler': 'standard',
         'fine_tune': True,
         'ag_args': {'name_suffix': 'FineTunedWithRegressor'}
     }},

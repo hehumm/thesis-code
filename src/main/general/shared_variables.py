@@ -10,6 +10,7 @@ configuration = {
 }
 
 ag_model_names = ['Theta', 'AutoARIMA',
+                  'ChronosZeroShotWithRegressor[bolt_base]',
                   'ChronosFineTunedWithRegressor[bolt_base]']
 ag_forecasts_path = f'{repo_path}final_results/autogluon'
 
