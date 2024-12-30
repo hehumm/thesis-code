@@ -11,6 +11,10 @@ Running the scripts requires the installation of
 * [MLForecast](https://nixtlaverse.nixtla.io/mlforecast/index.html)
 * [SKForecast](https://skforecast.org/0.14.0/index.html)
 
+Generating the results also requires
+* [Matplotlib](https://matplotlib.org/stable/) for plotting (it gets installed already when installing Autogluon)
+* [Openpyxl](https://anaconda.org/conda-forge/openpyxl) for generating Excel tables with accuracy metrics' scores
+
 P.s: I downloaded Autogluon (version 1.2.0) and MLForecast (version 1.0.0) from [Conda-forge](https://conda-forge.org/) and SKForecast (version 0.14.0)
 from [Pip](https://pypi.org/project/pip/). While it is generally not recommended to download packages from different sources, unfortunately SKForecast 
 was not available in Conda-forge as of December 2024. But fortunately it seemed to work without any noticeable issues.
