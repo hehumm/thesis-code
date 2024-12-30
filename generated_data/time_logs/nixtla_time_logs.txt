@@ -1,0 +1,10 @@
+Fitting and predicting for site 2 started at 2024-12-30 00:23:18.597952
+Fitting and predicting for site 2 ended at 2024-12-30 00:24:45.614497
+Fitting and predicting for site 4 started at 2024-12-30 00:24:45.614545
+Fitting and predicting for site 4 ended at 2024-12-30 00:26:09.521865
+Fitting and predicting for site 5 started at 2024-12-30 00:26:09.521921
+Fitting and predicting for site 5 ended at 2024-12-30 00:27:33.417154
+Fitting and predicting for site 6 started at 2024-12-30 00:27:33.417209
+Fitting and predicting for site 6 ended at 2024-12-30 00:28:59.943726
+Fitting and predicting for site 12 started at 2024-12-30 00:28:59.943777
+Fitting and predicting for site 12 ended at 2024-12-30 00:30:25.612736
